@@ -7,8 +7,9 @@ keywords:
 lang: en-US
 date-meta: '2024-09-10'
 author-meta:
-- John Doe
-- Jane Roe
+- Ayyan Iqbal
+- Shayan Ali Khan
+- Dhatrika Varma Borukati
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,31 +24,29 @@ header-includes: |
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-10T17:23:25+00:00" />
-  <meta property="article:modified_time" content="2024-09-10T17:23:25+00:00" />
+  <meta name="dc.modified" content="2024-09-10T17:55:23+00:00" />
+  <meta property="article:modified_time" content="2024-09-10T17:55:23+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Ayyan Iqbal" />
+  <meta name="citation_author_institution" content="University of Illinois" />
+  <meta name="citation_author" content="Shayan Ali Khan" />
+  <meta name="citation_author_institution" content="University of Illinois" />
+  <meta name="citation_author" content="Dhatrika Varma Borukati" />
+  <meta name="citation_author_institution" content="University of Illinois" />
   <link rel="canonical" href="https://uiceds.github.io/project-team-ads/" />
   <meta property="og:url" content="https://uiceds.github.io/project-team-ads/" />
   <meta property="twitter:url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/d6fdf9122bfc6d13ba807aeff13fd4d6ea57fcbd/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/d6fdf9122bfc6d13ba807aeff13fd4d6ea57fcbd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/d6fdf9122bfc6d13ba807aeff13fd4d6ea57fcbd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/0707b2a03a04071ebfa7c8e5e643afb92277e7eb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/0707b2a03a04071ebfa7c8e5e643afb92277e7eb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/0707b2a03a04071ebfa7c8e5e643afb92277e7eb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-ads/v/d6fdf9122bfc6d13ba807aeff13fd4d6ea57fcbd/))
+([permalink](https://uiceds.github.io/project-team-ads/v/0707b2a03a04071ebfa7c8e5e643afb92277e7eb/))
 was automatically generated
-from [uiceds/project-team-ads@d6fdf91](https://github.com/uiceds/project-team-ads/tree/d6fdf9122bfc6d13ba807aeff13fd4d6ea57fcbd)
+from [uiceds/project-team-ads@0707b2a](https://github.com/uiceds/project-team-ads/tree/0707b2a03a04071ebfa7c8e5e643afb92277e7eb)
 on September 10, 2024.
 </em></small>
 
@@ -81,39 +80,36 @@ on September 10, 2024.
 
 
 
-+ **John Doe**
++ **Ayyan Iqbal**
   <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [johndoe](https://github.com/johndoe)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [johndoe](https://twitter.com/johndoe)
-    · ![Mastodon icon](images/mastodon.svg){.inline_icon width=16 height=16}
-    [\@johndoe@mastodon.social](https://mastodon.social/@johndoe)
+    [maiqbal2](https://github.com/maiqbal2)
     <br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
+     University of Illinois
   </small>
 
-+ **Jane Roe**
-  ^[✉](#correspondence)^<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
++ **Shayan Ali Khan**
+  <br>
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)
+    [shayank491](https://github.com/shayank491)
     <br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     University of Illinois
+  </small>
+
++ **Dhatrika Varma Borukati**
+  <br>
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [DeeVarma24](https://github.com/DeeVarma24)
+    <br>
+  <small>
+     University of Illinois
   </small>
 
 
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/uiceds/project-team-ads/issues)
-or email to
-Jane Roe \<jane.roe@whatever.edu\>.
-
 
 :::
 
