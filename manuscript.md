@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T08:27:25+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T08:27:25+00:00" />
+  <meta name="dc.modified" content="2024-09-27T08:29:26+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T08:29:26+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/0e9f2b1942c4b3f2b3edb40be3dc3fc6ea36e080/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/0e9f2b1942c4b3f2b3edb40be3dc3fc6ea36e080/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/0e9f2b1942c4b3f2b3edb40be3dc3fc6ea36e080/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/7755bc8cc2a2b3157f674ad0fb1bbcfed1656da0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7755bc8cc2a2b3157f674ad0fb1bbcfed1656da0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7755bc8cc2a2b3157f674ad0fb1bbcfed1656da0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -115,7 +115,6 @@ Table 1. Mathematical formulation of the statistical performance indicators used
 A longstanding controversy surrounds the efficacy and reliability of Machine Learning (ML) and Artificial Intelligence (AI)--based models, with critics labeling them as "black boxes" that merely identify patterns without providing meaningful insights. To address concerns regarding overfitting and model interpretability, we aim to explain or results by employing local explanation techniques, specifically Partial Dependence Plots (PDP) and Shapley Additive Explanations (SHAP). These methods decipher the relationships between individual input parameters and the model's output, demystifying the "black box" nature of ML models, validating their reliability and accuracy, and identifying potential biases. In the figure, a complete overview of the whole project is depicted pictorially.
 </p>
 
-
 ![Flowchart](content/images/Picture1.png)
 
 <p align="center">
@@ -148,13 +147,14 @@ Table 2. Input and output parameters of the dataset along with their units.
 | Split Tensile Strength of LW concrete (MPa) | O |
 | Density of LW concrete (kg/m3) | O |
 
+<p align="justify">
 * I = Input
 * O = Output
 * LW = Lightweight
 * NW = Normal weight
 * w/b = water to binder ratio
 * HRWR = High range water reducer
-
+</p>
 
 ### References {.page_break_before}
 
