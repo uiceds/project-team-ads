@@ -3,10 +3,11 @@ Ayyan
 Borukati
 CEE
 Compressive
-Dataset
+dataset
 DeeVarma
 Dhatrika
 EDA
+Eqs
 GPR
 HRWR
 hyperparameters

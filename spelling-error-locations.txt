@@ -31,6 +31,8 @@ content/01.abstract.md:8:preprocessing
 content/01.abstract.md:9:GPR
 content/01.abstract.md:9:hyperparameters
 content/01.abstract.md:9:MSE
+content/01.abstract.md:15:Eqs
+content/01.abstract.md:15:Eqs
 content/01.abstract.md:19:interpretability
 content/01.abstract.md:19:overfitting
 content/01.abstract.md:19:PDP
