@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T04:50:51+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T04:50:51+00:00" />
+  <meta name="dc.modified" content="2024-09-27T04:55:40+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T04:55:40+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/d8eaeac370a9b13ba980e434e40e5b8a1163a84c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/d8eaeac370a9b13ba980e434e40e5b8a1163a84c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/d8eaeac370a9b13ba980e434e40e5b8a1163a84c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/d4974d909cb5f8b44019034c38238335e92e240b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/d4974d909cb5f8b44019034c38238335e92e240b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/d4974d909cb5f8b44019034c38238335e92e240b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-ads/v/d8eaeac370a9b13ba980e434e40e5b8a1163a84c/))
+([permalink](https://uiceds.github.io/project-team-ads/v/d4974d909cb5f8b44019034c38238335e92e240b/))
 was automatically generated
-from [uiceds/project-team-ads@d8eaeac](https://github.com/uiceds/project-team-ads/tree/d8eaeac370a9b13ba980e434e40e5b8a1163a84c)
+from [uiceds/project-team-ads@d4974d9](https://github.com/uiceds/project-team-ads/tree/d4974d909cb5f8b44019034c38238335e92e240b)
 on September 27, 2024.
 </em></small>
 
@@ -149,7 +149,10 @@ Figure 1. A flowchart explaining the sequence of tasks in the project.
 The data set attached has been collected by the team members from all the scholarly articles from Scopus. The search query used for finding articles was “{Lightweight} AND {concrete} AND {aggregate} AND {strength} AND {density}AND{ML}”. The authors have collected 500 data points from over 50 articles. The data set has the quantities of Cement, sand, fly ash (FA), the density of lightweight aggregate, water absorption of lightweight aggregate, superplasticizer, curing time, and the amount of normal aggregate (normal agg.), as input parameters while the compressive strength, split tensile strength, and density of the concrete were taken as output parameters. The first test columns of the dataset correspond to inputs while the last three correspond to output. All the quantities were normalized by the cement quantity before the start of the analysis. The input and output parameters along with their units have been mentioned below in Table 2 as well.
 
 <p align="center">
-  Table 2. Input and output parameters of the dataset along with their units.         |
+Table 2. Input and output parameters of the dataset along with their units.
+</p>
+
+| Parameters | Categories |
 |:-----------------|:-------------:|
 | Binder (kg/m3) | I |
 | Fine agg. (kg/m3) | I |
@@ -164,8 +167,9 @@ The data set attached has been collected by the team members from all the schola
 | Compressive Strength of LW concrete (MPa) | O |
 | Split Tensile Strength of LW concrete (MPa) | O |
 | Density of LW concrete (kg/m3) | O |
-</p>
 
+* I = Input
+* O = Output
 * LW = Lightweight 
 * NW = Normal weight
 * w/b = water to binder ratio
