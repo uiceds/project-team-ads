@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T08:54:48+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T08:54:48+00:00" />
+  <meta name="dc.modified" content="2024-09-27T17:27:21+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T17:27:21+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/926dfb8200c7abe85f503e743eca58921e3f6b53/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/926dfb8200c7abe85f503e743eca58921e3f6b53/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/926dfb8200c7abe85f503e743eca58921e3f6b53/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/fa8f19d6fca13017b88c92ca10b93dec16673ba8/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/fa8f19d6fca13017b88c92ca10b93dec16673ba8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/fa8f19d6fca13017b88c92ca10b93dec16673ba8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -110,7 +110,7 @@ Table 1. Mathematical formulation of the statistical performance indicators used
 </p>
 
 <div style="text-align: center;">
-  <img src="https://github.com/uiceds/project-team-ads/blob/7755bc8cc2a2b3157f674ad0fb1bbcfed1656da0/content/images/Screenshot%202024-09-27%20at%203.12.22%E2%80%AFAM.png" alt="Equation" style="max-width: 100%; height: auto;">
+  <img src="https://github.com/uiceds/project-team-ads/blob/7755bc8cc2a2b3157f674ad0fb1bbcfed1656da0/content/images/Screenshot%202024-09-27%20at%203.12.22%E2%80%AFAM.png" alt="Equation" style="max-width: 50%; height: auto;">
 </div>
 
 <p align="justify">
@@ -119,7 +119,7 @@ A longstanding controversy surrounds the efficacy and reliability of Machine Lea
 
 
 <div style="text-align: center;">
-  <img src="https://github.com/uiceds/project-team-ads/blob/7755bc8cc2a2b3157f674ad0fb1bbcfed1656da0/content/images/Picture1.png" alt="Flowchart" style="max-width: 100%; height: auto;">
+  <img src="https://github.com/uiceds/project-team-ads/blob/7755bc8cc2a2b3157f674ad0fb1bbcfed1656da0/content/images/Picture1.png" alt="Flowchart" style="max-width: 50%; height: auto;">
 </div>
 
 <p align="center">
