@@ -3,7 +3,7 @@ Ayyan
 Borukati
 CEE
 compressive
-dataset
+Dataset
 DeeVarma
 Dhatrika
 EDA
