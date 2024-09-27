@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T04:59:54+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T04:59:54+00:00" />
+  <meta name="dc.modified" content="2024-09-27T05:07:37+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T05:07:37+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/dae87aa63961db8ab75b93c00939ecfc62f72f4b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/dae87aa63961db8ab75b93c00939ecfc62f72f4b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/dae87aa63961db8ab75b93c00939ecfc62f72f4b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/7800c35dc05905e01f289a3644a8a754cd9bf46b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7800c35dc05905e01f289a3644a8a754cd9bf46b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7800c35dc05905e01f289a3644a8a754cd9bf46b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-ads/v/dae87aa63961db8ab75b93c00939ecfc62f72f4b/))
+([permalink](https://uiceds.github.io/project-team-ads/v/7800c35dc05905e01f289a3644a8a754cd9bf46b/))
 was automatically generated
-from [uiceds/project-team-ads@dae87aa](https://github.com/uiceds/project-team-ads/tree/dae87aa63961db8ab75b93c00939ecfc62f72f4b)
+from [uiceds/project-team-ads@7800c35](https://github.com/uiceds/project-team-ads/tree/7800c35dc05905e01f289a3644a8a754cd9bf46b)
 on September 27, 2024.
 </em></small>
 
@@ -126,7 +126,7 @@ Shayan Khan (shayank491)
 
 ### Proposal
 
-The escalating global population drives the increasing demand for concrete, thereby fostering the development and adoption of Lightweight Aggregate (LWA)-based Lightweight Concrete (LWC). The widespread availability of LWAs, coupled with straightforward and conventional casting techniques, has facilitated industry-wide acceptance [1]. LWC has found extensive applications in lightweight infill panels, structural concrete, and precast concrete. Notably, LWC achieves comparable compressive strength to traditional concrete in specific scenarios, albeit with a 25-35% reduction in density [2]. This reduction yields additional benefits, including minimized foundation steel requirements, lower transportation costs, and decreased construction expenditures, rendering LWC a promising solution for sustainable and cost-effective infrastructure development.
+The escalating global population drives the increasing demand for concrete, thereby fostering the development and adoption of Lightweight Aggregate (LWA)-based Lightweight Concrete (LWC). The widespread availability of LWAs, coupled with straightforward and conventional casting techniques, has facilitated industry-wide acceptance [https://doi.org/10.3390/su15010641]. LWC has found extensive applications in lightweight infill panels, structural concrete, and precast concrete. Notably, LWC achieves comparable compressive strength to traditional concrete in specific scenarios, albeit with a 25-35% reduction in density [https://doi.org/10.3390/app11020800]. This reduction yields additional benefits, including minimized foundation steel requirements, lower transportation costs, and decreased construction expenditures, rendering LWC a promising solution for sustainable and cost-effective infrastructure development.
 A significant obstacle in the widespread adoption of Lightweight Concrete (LWC) lies in its intricate mix design process. Unlike Normal-Weight Concrete (NWC), which relies on established codes and iterative fine-tuning, LWC lacks standardized design guidelines. Furthermore, optimizing LWC's density while maintaining compressive and tensile strength poses a substantial challenge due to its sensitive nature, where minor mix design adjustments drastically impact mechanical properties. The complexity is compounded by the varied shapes, sizes, and densities of LWAs, which significantly influence the mix design. In contrast, NWC aggregates exhibit relatively consistent properties.
 To address this challenge, a machine learning (ML) framework can be employed to predict LWA concrete's mechanical properties, including compressive strength, tensile strength, and density. The development of user-friendly tools, leveraging these ML models, would facilitate iterative design optimization and trial-and-error experimentation for researchers working on specialized LWC mix designs.
 This predictive tool would not only streamline LWC mix design hence enhancing accuracy in mechanical property prediction but expedite the development of tailored LWC solutions for specific applications. By integrating ML and materials science, this innovative approach would overcome existing design complexities and unlock LWC's full potential.
@@ -174,9 +174,6 @@ Table 2. Input and output parameters of the dataset along with their units.
 * NW = Normal weight
 * w/b = water to binder ratio
 * HRWR = High range water reducer
-
-### References
-
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
 Use this template as a starting point for your manuscript.
@@ -475,9 +472,6 @@ useful for *warnings* - [manubot.org](https://manubot.org/)
 ]{.banner .lightred}
 
 
-## References {.page_break_before}
+### References {.page_break_before}
 
-[1]	F. Hussain, S. Ali Khan, R.A. Khushnood, A. Hamza, F. Rehman, Machine Learning-Based Predictive Modeling of Sustainable Lightweight Aggregate Concrete, Sustain. 15 (2023). https://doi.org/10.3390/su15010641.
-[2]	C. Martínez-García, F. Andreola, I. Lancellotti, R.D. Farías, M.T. Cotes-Palomino, L. Barbieri, Cleaner design and production of lightweight aggregates (LWAs) to use in agronomic application, Appl. Sci. 11 (2021) 1–18. https://doi.org/10.3390/app11020800.
 <div id="refs"></div>
-
