@@ -28,7 +28,6 @@ enim
 esse
 Excepteur
 exercitation
-Fc
 fugiat
 GPR
 HRWR
@@ -60,7 +59,6 @@ overfitting
 Pandoc’s
 pariatur
 PDP
-png
 preprocessed
 preprocessing
 proident

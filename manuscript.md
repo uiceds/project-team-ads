@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T06:39:57+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T06:39:57+00:00" />
+  <meta name="dc.modified" content="2024-09-27T06:46:18+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T06:46:18+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/fc08d7c65275d1bd67246e70b1d40c679c360d47/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/fc08d7c65275d1bd67246e70b1d40c679c360d47/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/fc08d7c65275d1bd67246e70b1d40c679c360d47/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/1b3b118d9dd682dd30794def32e6cd2e6dff9187/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/1b3b118d9dd682dd30794def32e6cd2e6dff9187/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/1b3b118d9dd682dd30794def32e6cd2e6dff9187/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-ads/v/fc08d7c65275d1bd67246e70b1d40c679c360d47/))
+([permalink](https://uiceds.github.io/project-team-ads/v/1b3b118d9dd682dd30794def32e6cd2e6dff9187/))
 was automatically generated
-from [uiceds/project-team-ads@fc08d7c](https://github.com/uiceds/project-team-ads/tree/fc08d7c65275d1bd67246e70b1d40c679c360d47)
+from [uiceds/project-team-ads@1b3b118](https://github.com/uiceds/project-team-ads/tree/1b3b118d9dd682dd30794def32e6cd2e6dff9187)
 on September 27, 2024.
 </em></small>
 
@@ -141,7 +141,7 @@ Table 1. Mathematical formulation of the statistical performance indicators used
 
 A longstanding controversy surrounds the efficacy and reliability of Machine Learning (ML) and Artificial Intelligence (AI)--based models, with critics labeling them as "black boxes" that merely identify patterns without providing meaningful insights. To address concerns regarding overfitting and model interpretability, we aim to explain or results by employing local explanation techniques, specifically Partial Dependence Plots (PDP) and Shapley Additive Explanations (SHAP). These methods decipher the relationships between individual input parameters and the model's output, demystifying the "black box" nature of ML models, validating their reliability and accuracy, and identifying potential biases. In the figure, a complete overview of the whole project is depicted pictorially.
 
-(https://github.com/uiceds/project-team-ads/blob/2a98874527713e85004b85271e1885919a5ee534/content/images/Flow Chart.png){#fig:Fc}
+1[A flowchart explaining the sequence of tasks in the project](https://github.com/uiceds/project-team-ads/blob/2a98874527713e85004b85271e1885919a5ee534/content/images/Flow Chart.png){#fig:Fc}
 
 <p align="center">
 Figure 1. A flowchart explaining the sequence of tasks in the project.
