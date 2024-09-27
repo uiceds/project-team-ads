@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T03:58:19+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T03:58:19+00:00" />
+  <meta name="dc.modified" content="2024-09-27T04:10:05+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T04:10:05+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/19988936069967838daf3554d9053e897b1e0876/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/19988936069967838daf3554d9053e897b1e0876/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/19988936069967838daf3554d9053e897b1e0876/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/e9d5bc9cb4da2fad9a073f3bbe5e34d883939133/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/e9d5bc9cb4da2fad9a073f3bbe5e34d883939133/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/e9d5bc9cb4da2fad9a073f3bbe5e34d883939133/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-ads/v/19988936069967838daf3554d9053e897b1e0876/))
+([permalink](https://uiceds.github.io/project-team-ads/v/e9d5bc9cb4da2fad9a073f3bbe5e34d883939133/))
 was automatically generated
-from [uiceds/project-team-ads@1998893](https://github.com/uiceds/project-team-ads/tree/19988936069967838daf3554d9053e897b1e0876)
+from [uiceds/project-team-ads@e9d5bc9](https://github.com/uiceds/project-team-ads/tree/e9d5bc9cb4da2fad9a073f3bbe5e34d883939133)
 on September 27, 2024.
 </em></small>
 
@@ -454,9 +454,7 @@ useful for *warnings* - [manubot.org](https://manubot.org/)
 
 ## References {.page_break_before}
 
-<!-- Explicitly insert bibliography here -->
-<div id="refs"></div>
-
 [1]	F. Hussain, S. Ali Khan, R.A. Khushnood, A. Hamza, F. Rehman, Machine Learning-Based Predictive Modeling of Sustainable Lightweight Aggregate Concrete, Sustain. 15 (2023). https://doi.org/10.3390/su15010641.
 [2]	C. Martínez-García, F. Andreola, I. Lancellotti, R.D. Farías, M.T. Cotes-Palomino, L. Barbieri, Cleaner design and production of lightweight aggregates (LWAs) to use in agronomic application, Appl. Sci. 11 (2021) 1–18. https://doi.org/10.3390/app11020800.
+<div id="refs"></div>
 
