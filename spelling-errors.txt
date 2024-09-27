@@ -3,7 +3,7 @@ Ayyan
 Borukati
 CEE
 Compressive
-dataset
+Dataset
 DeeVarma
 Dhatrika
 EDA
@@ -22,15 +22,12 @@ MSE
 NWC
 overfitting
 PDP
-pre
 preprocessed
 preprocessing
-RMSE
 Scopus
 SHAP
 Shapley
 Shayan
 shayank
 superplasticizer
-VAF
 Varma

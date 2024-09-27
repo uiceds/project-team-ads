@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T17:59:42+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T17:59:42+00:00" />
+  <meta name="dc.modified" content="2024-09-27T18:01:13+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T18:01:13+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/4b38c5b6a7a91fe4866cbf6b2307c4b4c403ff7c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/4b38c5b6a7a91fe4866cbf6b2307c4b4c403ff7c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/4b38c5b6a7a91fe4866cbf6b2307c4b4c403ff7c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/7b519d5bab1892c1d8ef817fd5cd363ef7fb9f69/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7b519d5bab1892c1d8ef817fd5cd363ef7fb9f69/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7b519d5bab1892c1d8ef817fd5cd363ef7fb9f69/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -109,13 +109,13 @@ Then the team aims to train the ANN, GPR, and Decision Tree models on the traini
 Table 1. Mathematical formulation of the statistical performance indicators used in the report.
 </p>
 
-| |
+| Equations |
 |:-----------------:|
-| RMSE = \sqrt{\frac{1}{m} \sum_{i=1}^{m} \left( k_{act} - k_{pre} \right)^2} |
-| R^2 = 1 - \frac{\sum \left( k_{act} - k_{pre} \right)^2}{\sum \left( k_{act} - \bar{k_{pre}} \right)^2} |
-| MAE = \frac{1}{m} \sum_{i=1}^{m} \left| k_{act} - k_{pre} \right| |
-| MSE = \frac{1}{m} \sum_{i=1}^{m} \left( k_{act} - k_{pre} \right)^2 |
-| VAF = \left( 1 - \frac{\text{var}(k_{act} - k_{pre})^2}{\text{var}(k_{act})} \right) \times 100 |
+| $$RMSE = \sqrt{\frac{1}{m} \sum_{i=1}^{m} \left( k_{act} - k_{pre} \right)^2}$$ |
+| $$R^2 = 1 - \frac{\sum \left( k_{act} - k_{pre} \right)^2}{\sum \left( k_{act} - \bar{k_{pre}} \right)^2}$$ |
+| $$MAE = \frac{1}{m} \sum_{i=1}^{m} \left\| k_{act} - k_{pre} \right\|$$ |
+| $$MSE = \frac{1}{m} \sum_{i=1}^{m} \left( k_{act} - k_{pre} \right)^2$$ |
+| $$VAF = \left( 1 - \frac{\text{var}(k_{act} - k_{pre})^2}{\text{var}(k_{act})} \right) \times 100$$ |
 
 <p align="justify">
 A longstanding controversy surrounds the efficacy and reliability of Machine Learning (ML) and Artificial Intelligence (AI)--based models, with critics labeling them as "black boxes" that merely identify patterns without providing meaningful insights. To address concerns regarding overfitting and model interpretability, we aim to explain or results by employing local explanation techniques, specifically Partial Dependence Plots (PDP) and Shapley Additive Explanations (SHAP). These methods decipher the relationships between individual input parameters and the model's output, demystifying the "black box" nature of ML models, validating their reliability and accuracy, and identifying potential biases.
