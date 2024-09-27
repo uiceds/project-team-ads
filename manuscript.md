@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T04:10:05+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T04:10:05+00:00" />
+  <meta name="dc.modified" content="2024-09-27T04:12:17+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T04:12:17+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/e9d5bc9cb4da2fad9a073f3bbe5e34d883939133/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/e9d5bc9cb4da2fad9a073f3bbe5e34d883939133/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/e9d5bc9cb4da2fad9a073f3bbe5e34d883939133/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/b7e03440b298fef83260b816f44ac14c2c05e2cf/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/b7e03440b298fef83260b816f44ac14c2c05e2cf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/b7e03440b298fef83260b816f44ac14c2c05e2cf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-ads/v/e9d5bc9cb4da2fad9a073f3bbe5e34d883939133/))
+([permalink](https://uiceds.github.io/project-team-ads/v/b7e03440b298fef83260b816f44ac14c2c05e2cf/))
 was automatically generated
-from [uiceds/project-team-ads@e9d5bc9](https://github.com/uiceds/project-team-ads/tree/e9d5bc9cb4da2fad9a073f3bbe5e34d883939133)
+from [uiceds/project-team-ads@b7e0344](https://github.com/uiceds/project-team-ads/tree/b7e03440b298fef83260b816f44ac14c2c05e2cf)
 on September 27, 2024.
 </em></small>
 
@@ -116,9 +116,12 @@ on September 27, 2024.
 
 ## Project Proposal {.page_break_before}
 
-Machine Learning-Based Optimization Of The Mix Design Of Lightweight Concrete For Enhanced Mechanical Properties
-Ayyan Iqbal (maiqbal2) 
-Dhatrika Varma Borukati (DeeVarma24)
+<p align="center">
+   **Machine Learning-Based Optimization Of The Mix Design Of Lightweight Concrete For Enhanced Mechanical Properties**
+</p>
+
+Ayyan Iqbal (maiqbal2)  
+Dhatrika Varma Borukati (DeeVarma24)  
 Shayan Khan (shayank491)
 
 Proposal
