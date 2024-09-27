@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T08:14:57+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T08:14:57+00:00" />
+  <meta name="dc.modified" content="2024-09-27T08:16:47+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T08:16:47+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/80f767a3f47d8fb331a9a627a18380f50feefc96/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/80f767a3f47d8fb331a9a627a18380f50feefc96/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/80f767a3f47d8fb331a9a627a18380f50feefc96/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/6527d28e36c71d4fffbbae3cdcf6b6d80ef26331/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/6527d28e36c71d4fffbbae3cdcf6b6d80ef26331/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/6527d28e36c71d4fffbbae3cdcf6b6d80ef26331/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -147,12 +147,12 @@ Table 2. Input and output parameters of the dataset along with their units.
 | Split Tensile Strength of LW concrete (MPa) | O |
 | Density of LW concrete (kg/m3) | O |
 
-* I = Input
-* O = Output
-* LW = Lightweight 
-* NW = Normal weight
-* w/b = water to binder ratio
-* HRWR = High range water reducer
+<small>* I = Input<small>
+<small>* O = Output<small>
+<small>* LW = Lightweight<small>
+<small>* NW = Normal weight<small>
+<small>* w/b = water to binder ratio<small>
+<small>* HRWR = High range water reducer<small>
 
 
 ### References {.page_break_before}
