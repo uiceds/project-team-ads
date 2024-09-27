@@ -11,12 +11,10 @@ authors:
     name: Ayyan Iqbal
     initials: AI
     affiliations: University of Illinois
-    corresponding: true
   - github: shayank491
     name: Shayan Khan
     initials: SAK
     affiliations: University of Illinois
-    corresponding: true
   - github: DeeVarma24
     email: dvb3@illinois.edu
     name: Dhatrika Varma Borukati
