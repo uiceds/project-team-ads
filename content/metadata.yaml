@@ -8,13 +8,11 @@ keywords:
 lang: en-US
 authors:
   - github: maiqbal2
-    email: maiqbal2@illinois.edu
     name: Ayyan Iqbal
     initials: AI
     affiliations: University of Illinois
     corresponding: true
   - github: shayank491
-    email: shayank2@illinois.edu
     name: Shayan Khan
     initials: SAK
     affiliations: University of Illinois
@@ -24,4 +22,3 @@ authors:
     name: Dhatrika Varma Borukati
     initials: DVB
     affiliations: University of Illinois
-    corresponding: true
