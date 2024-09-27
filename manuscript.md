@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T08:10:56+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T08:10:56+00:00" />
+  <meta name="dc.modified" content="2024-09-27T08:14:57+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T08:14:57+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/9eabfe3500eef99e3d172b5d092b080c82a788af/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/9eabfe3500eef99e3d172b5d092b080c82a788af/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/9eabfe3500eef99e3d172b5d092b080c82a788af/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/80f767a3f47d8fb331a9a627a18380f50feefc96/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/80f767a3f47d8fb331a9a627a18380f50feefc96/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/80f767a3f47d8fb331a9a627a18380f50feefc96/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -108,7 +108,7 @@ Then the team aims to train the ANN, GPR, and Decision Tree models on the traini
 <p align="center">
 Table 1. Mathematical formulation of the statistical performance indicators used in the report.
 
-![Eqs](content/images/Eqs.png)
+![Eqs](content/images/Eqss.png)
 </p>
 
 <p align="justify">
