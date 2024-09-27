@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T07:03:23+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T07:03:23+00:00" />
+  <meta name="dc.modified" content="2024-09-27T07:12:04+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T07:12:04+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/15babd79388df699244c68490c7b0e70652f5664/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/15babd79388df699244c68490c7b0e70652f5664/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/15babd79388df699244c68490c7b0e70652f5664/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/00ad041d069f64bc1339e743a640a55fe281a454/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/00ad041d069f64bc1339e743a640a55fe281a454/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/00ad041d069f64bc1339e743a640a55fe281a454/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-ads/v/15babd79388df699244c68490c7b0e70652f5664/))
+([permalink](https://uiceds.github.io/project-team-ads/v/00ad041d069f64bc1339e743a640a55fe281a454/))
 was automatically generated
-from [uiceds/project-team-ads@15babd7](https://github.com/uiceds/project-team-ads/tree/15babd79388df699244c68490c7b0e70652f5664)
+from [uiceds/project-team-ads@00ad041](https://github.com/uiceds/project-team-ads/tree/00ad041d069f64bc1339e743a640a55fe281a454)
 on September 27, 2024.
 </em></small>
 
@@ -99,7 +99,7 @@ on September 27, 2024.
   </small>
 
 + **Dhatrika Varma Borukati**
-  ^[✉](#correspondence)^<br>
+  <br>
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [DeeVarma24](https://github.com/DeeVarma24)
     <br>
@@ -111,9 +111,8 @@ on September 27, 2024.
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/uiceds/project-team-ads/issues)
 or email to
-Ayyan Iqbal \<maiqbal2@illinois.edu\>, 
-Shayan Khan \<shayank2@illinois.edu\>, 
-Dhatrika Varma Borukati \<dvb3@illinois.edu\>.
+Ayyan Iqbal \<\>, 
+Shayan Khan \<\>.
 
 
 :::
