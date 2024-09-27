@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-09-26'
+date-meta: '2024-09-27'
 author-meta:
 - Ayyan Iqbal
 - Shayan Khan
@@ -21,11 +21,11 @@ header-includes: |
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2024-09-26" />
-  <meta name="citation_publication_date" content="2024-09-26" />
-  <meta property="article:published_time" content="2024-09-26" />
-  <meta name="dc.modified" content="2024-09-26T19:21:19+00:00" />
-  <meta property="article:modified_time" content="2024-09-26T19:21:19+00:00" />
+  <meta name="dc.date" content="2024-09-27" />
+  <meta name="citation_publication_date" content="2024-09-27" />
+  <meta property="article:published_time" content="2024-09-27" />
+  <meta name="dc.modified" content="2024-09-27T03:58:19+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T03:58:19+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/6a906a20007b9863f8c1cfaaa53e9de6b211323a/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/6a906a20007b9863f8c1cfaaa53e9de6b211323a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/6a906a20007b9863f8c1cfaaa53e9de6b211323a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/19988936069967838daf3554d9053e897b1e0876/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/19988936069967838daf3554d9053e897b1e0876/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/19988936069967838daf3554d9053e897b1e0876/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,10 +68,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-ads/v/6a906a20007b9863f8c1cfaaa53e9de6b211323a/))
+([permalink](https://uiceds.github.io/project-team-ads/v/19988936069967838daf3554d9053e897b1e0876/))
 was automatically generated
-from [uiceds/project-team-ads@6a906a2](https://github.com/uiceds/project-team-ads/tree/6a906a20007b9863f8c1cfaaa53e9de6b211323a)
-on September 26, 2024.
+from [uiceds/project-team-ads@1998893](https://github.com/uiceds/project-team-ads/tree/19988936069967838daf3554d9053e897b1e0876)
+on September 27, 2024.
 </em></small>
 
 
@@ -120,6 +120,7 @@ Machine Learning-Based Optimization Of The Mix Design Of Lightweight Concrete Fo
 Ayyan Iqbal (maiqbal2) 
 Dhatrika Varma Borukati (DeeVarma24)
 Shayan Khan (shayank491)
+
 Proposal
 The escalating global population drives the increasing demand for concrete, thereby fostering the development and adoption of Lightweight Aggregate (LWA)-based Lightweight Concrete (LWC). The widespread availability of LWAs, coupled with straightforward and conventional casting techniques, has facilitated industry-wide acceptance [1]. LWC has found extensive applications in lightweight infill panels, structural concrete, and precast concrete. Notably, LWC achieves comparable compressive strength to traditional concrete in specific scenarios, albeit with a 25-35% reduction in density [2]. This reduction yields additional benefits, including minimized foundation steel requirements, lower transportation costs, and decreased construction expenditures, rendering LWC a promising solution for sustainable and cost-effective infrastructure development.
 A significant obstacle in the widespread adoption of Lightweight Concrete (LWC) lies in its intricate mix design process. Unlike Normal-Weight Concrete (NWC), which relies on established codes and iterative fine-tuning, LWC lacks standardized design guidelines. Furthermore, optimizing LWC's density while maintaining compressive and tensile strength poses a substantial challenge due to its sensitive nature, where minor mix design adjustments drastically impact mechanical properties. The complexity is compounded by the varied shapes, sizes, and densities of LWAs, which significantly influence the mix design. In contrast, NWC aggregates exhibit relatively consistent properties.
@@ -128,46 +129,30 @@ This predictive tool would not only streamline LWC mix design hence enhancing ac
 For the CEE-492 semester project, our team objectives are to develop and compare the performance of Artificial Neural Networks (ANN), Gaussian Process Regression (GPR), and Decision Trees in predicting the mechanical properties of Lightweight Concrete (LWC), specifically density, compressive strength, and tensile strength. Initially, relevant data from published online articles would be collected, followed by data preprocessing to ensure consistency and quality. Next, we identify 10 influential input parameters governing LWC mix design through a comprehensive literature review of the latest published review articles. An exploratory data analysis (EDA) is then conducted to uncover trends and relationships within the data. Subsequently, the preprocessed data is divided into training (~70-80%) and testing sets (~20-30%). The training data is then normalized and scaled to optimize model performance.
 Then the team aims to train the ANN, GPR, and Decision Tree models on the training data, fine-tuning hyperparameters through cross-validation and grid search. Model evaluation is performed on the testing data using the statistical performance indicators i.e., such as mean squared error (MSE), R-squared (R²), and mean absolute error (MAE). Finally, we compare the performance of the trained models and select the best-performing algorithm. The formulas for the performance metrics are mentioned below in Table 1.
 Table 1. Mathematical formulation of the statistical performance indicators used in the report.
- 
-
- 
-
- 
-
- 
-
- 
+<p align="center">
+  <img src="project-team-ads/content/Eqs.png" alt="Image description" width="400"/>
+</p>
 
 A longstanding controversy surrounds the efficacy and reliability of Machine Learning (ML) and Artificial Intelligence (AI)--based models, with critics labeling them as "black boxes" that merely identify patterns without providing meaningful insights. To address concerns regarding overfitting and model interpretability, we aim to explain or results by employing local explanation techniques, specifically Partial Dependence Plots (PDP) and Shapley Additive Explanations (SHAP). These methods decipher the relationships between individual input parameters and the model's output, demystifying the "black box" nature of ML models, validating their reliability and accuracy, and identifying potential biases. In the figure, a complete overview of the whole project is depicted pictorially.
- 
+
+<p align="center">
+  <img src="project-team-ads/content/Flow chart.png" alt="Image description" width="400"/>
+</p>
 Figure 1. A flowchart explaining the sequence of tasks in the project.
+
 Dataset description
 The data set attached has been collected by the team members from all the scholarly articles from Scopus. The search query used for finding articles was “{Lightweight} AND {concrete} AND {aggregate} AND {strength} AND {density}AND{ML}”. The authors have collected 500 data points from over 50 articles. The data set has the quantities of Cement, sand, fly ash (FA), the density of lightweight aggregate, water absorption of lightweight aggregate, superplasticizer, curing time, and the amount of normal aggregate (normal agg.), as input parameters while the compressive strength, split tensile strength, and density of the concrete were taken as output parameters. The first test columns of the dataset correspond to inputs while the last three correspond to output. All the quantities were normalized by the cement quantity before the start of the analysis. The input and output parameters along with their units have been mentioned below in Table 2 as well.
 Table 2. Input and output parameters of the dataset along with their units.
-Parameters	Categories
-(I input, O output)
-Binder (kg/m3)	I
-Fine agg. (kg/m3)	I
-w/b	I
-LW agg. (kg/m3)	I
-LW agg. density (kg/m3)	I
-LW agg. water absorption (%)	I
-NW agg. (kg/m3)	I
-HRWR (% of binder)	I
-Curing Time (days)	I
-Fly Ash (kg/m3)	I
-Compressive Strength of LW concrete (MPa)	O
-Split Tensile Strength of LW concrete (MPa)	O
-Density of LW concrete (kg/m3)	O
+<p align="center">
+  <img src="project-team-ads/content/Input.png" alt="Image description" width="400"/>
+</p>
+
 * LW = Lightweight 
 * NW = Normal weight
 * w/b = water to binder ratio
 * HRWR = High range water reducer
 
 References
-[1]	F. Hussain, S. Ali Khan, R.A. Khushnood, A. Hamza, F. Rehman, Machine Learning-Based Predictive Modeling of Sustainable Lightweight Aggregate Concrete, Sustain. 15 (2023). https://doi.org/10.3390/su15010641.
-[2]	C. Martínez-García, F. Andreola, I. Lancellotti, R.D. Farías, M.T. Cotes-Palomino, L. Barbieri, Cleaner design and production of lightweight aggregates (LWAs) to use in agronomic application, Appl. Sci. 11 (2021) 1–18. https://doi.org/10.3390/app11020800.
-
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
