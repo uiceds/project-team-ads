@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T04:40:56+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T04:40:56+00:00" />
+  <meta name="dc.modified" content="2024-09-27T04:50:51+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T04:50:51+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/754c76512a84575f5f2e6e50ec61f41e04e6a17e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/754c76512a84575f5f2e6e50ec61f41e04e6a17e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/754c76512a84575f5f2e6e50ec61f41e04e6a17e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/d8eaeac370a9b13ba980e434e40e5b8a1163a84c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/d8eaeac370a9b13ba980e434e40e5b8a1163a84c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/d8eaeac370a9b13ba980e434e40e5b8a1163a84c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-ads/v/754c76512a84575f5f2e6e50ec61f41e04e6a17e/))
+([permalink](https://uiceds.github.io/project-team-ads/v/d8eaeac370a9b13ba980e434e40e5b8a1163a84c/))
 was automatically generated
-from [uiceds/project-team-ads@754c765](https://github.com/uiceds/project-team-ads/tree/754c76512a84575f5f2e6e50ec61f41e04e6a17e)
+from [uiceds/project-team-ads@d8eaeac](https://github.com/uiceds/project-team-ads/tree/d8eaeac370a9b13ba980e434e40e5b8a1163a84c)
 on September 27, 2024.
 </em></small>
 
@@ -134,14 +134,14 @@ For the CEE-492 semester project, our team objectives are to develop and compare
 Then the team aims to train the ANN, GPR, and Decision Tree models on the training data, fine-tuning hyperparameters through cross-validation and grid search. Model evaluation is performed on the testing data using the statistical performance indicators i.e., such as mean squared error (MSE), R-squared (R²), and mean absolute error (MAE). Finally, we compare the performance of the trained models and select the best-performing algorithm. The formulas for the performance metrics are mentioned below in Table 1.
 
 <p align="center">
-Table 1. Mathematical formulation of the statistical performance indicators used in the report.{.center .page_center}
+Table 1. Mathematical formulation of the statistical performance indicators used in the report.
 </p>
 
 A longstanding controversy surrounds the efficacy and reliability of Machine Learning (ML) and Artificial Intelligence (AI)--based models, with critics labeling them as "black boxes" that merely identify patterns without providing meaningful insights. To address concerns regarding overfitting and model interpretability, we aim to explain or results by employing local explanation techniques, specifically Partial Dependence Plots (PDP) and Shapley Additive Explanations (SHAP). These methods decipher the relationships between individual input parameters and the model's output, demystifying the "black box" nature of ML models, validating their reliability and accuracy, and identifying potential biases. In the figure, a complete overview of the whole project is depicted pictorially.
 
 
 <p align="center">
-Figure 1. A flowchart explaining the sequence of tasks in the project.{.center .page_center}
+Figure 1. A flowchart explaining the sequence of tasks in the project.
 </p>
 
 ### Dataset description
@@ -149,10 +149,22 @@ Figure 1. A flowchart explaining the sequence of tasks in the project.{.center .
 The data set attached has been collected by the team members from all the scholarly articles from Scopus. The search query used for finding articles was “{Lightweight} AND {concrete} AND {aggregate} AND {strength} AND {density}AND{ML}”. The authors have collected 500 data points from over 50 articles. The data set has the quantities of Cement, sand, fly ash (FA), the density of lightweight aggregate, water absorption of lightweight aggregate, superplasticizer, curing time, and the amount of normal aggregate (normal agg.), as input parameters while the compressive strength, split tensile strength, and density of the concrete were taken as output parameters. The first test columns of the dataset correspond to inputs while the last three correspond to output. All the quantities were normalized by the cement quantity before the start of the analysis. The input and output parameters along with their units have been mentioned below in Table 2 as well.
 
 <p align="center">
-  Table 2. Input and output parameters of the dataset along with their units.{.center .page_center}
+  Table 2. Input and output parameters of the dataset along with their units.         |
+|:-----------------|:-------------:|
+| Binder (kg/m3) | I |
+| Fine agg. (kg/m3) | I |
+| w/b | I |
+| LW agg. (kg/m3) | I |
+| LW agg. density (kg/m3) | I |
+| LW agg. water absorption (%) | I |
+| NW agg. (kg/m3) | I |
+| HRWR (% of binder) | I |
+| Curing Time (days) | I |
+| Fly Ash (kg/m3) | I |
+| Compressive Strength of LW concrete (MPa) | O |
+| Split Tensile Strength of LW concrete (MPa) | O |
+| Density of LW concrete (kg/m3) | O |
 </p>
-
-
 
 * LW = Lightweight 
 * NW = Normal weight
