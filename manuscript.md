@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T04:55:40+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T04:55:40+00:00" />
+  <meta name="dc.modified" content="2024-09-27T04:59:54+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T04:59:54+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/d4974d909cb5f8b44019034c38238335e92e240b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/d4974d909cb5f8b44019034c38238335e92e240b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/d4974d909cb5f8b44019034c38238335e92e240b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/dae87aa63961db8ab75b93c00939ecfc62f72f4b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/dae87aa63961db8ab75b93c00939ecfc62f72f4b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/dae87aa63961db8ab75b93c00939ecfc62f72f4b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-ads/v/d4974d909cb5f8b44019034c38238335e92e240b/))
+([permalink](https://uiceds.github.io/project-team-ads/v/dae87aa63961db8ab75b93c00939ecfc62f72f4b/))
 was automatically generated
-from [uiceds/project-team-ads@d4974d9](https://github.com/uiceds/project-team-ads/tree/d4974d909cb5f8b44019034c38238335e92e240b)
+from [uiceds/project-team-ads@dae87aa](https://github.com/uiceds/project-team-ads/tree/dae87aa63961db8ab75b93c00939ecfc62f72f4b)
 on September 27, 2024.
 </em></small>
 
@@ -152,8 +152,8 @@ The data set attached has been collected by the team members from all the schola
 Table 2. Input and output parameters of the dataset along with their units.
 </p>
 
-| Parameters | Categories |
-|:-----------------|:-------------:|
+| Parameters | Categories (I/O) |
+|:-----------------:|:-------------:|
 | Binder (kg/m3) | I |
 | Fine agg. (kg/m3) | I |
 | w/b | I |
