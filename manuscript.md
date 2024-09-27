@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T05:13:08+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T05:13:08+00:00" />
+  <meta name="dc.modified" content="2024-09-27T06:28:01+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T06:28:01+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/4e988902cbfce8aa11a6d57e086396bc6b0fd13f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/4e988902cbfce8aa11a6d57e086396bc6b0fd13f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/4e988902cbfce8aa11a6d57e086396bc6b0fd13f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/2a98874527713e85004b85271e1885919a5ee534/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/2a98874527713e85004b85271e1885919a5ee534/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/2a98874527713e85004b85271e1885919a5ee534/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-ads/v/4e988902cbfce8aa11a6d57e086396bc6b0fd13f/))
+([permalink](https://uiceds.github.io/project-team-ads/v/2a98874527713e85004b85271e1885919a5ee534/))
 was automatically generated
-from [uiceds/project-team-ads@4e98890](https://github.com/uiceds/project-team-ads/tree/4e988902cbfce8aa11a6d57e086396bc6b0fd13f)
+from [uiceds/project-team-ads@2a98874](https://github.com/uiceds/project-team-ads/tree/2a98874527713e85004b85271e1885919a5ee534)
 on September 27, 2024.
 </em></small>
 
@@ -271,29 +271,6 @@ Bare URL link: <https://manubot.org>
 [Link by reference][manubot homepage]
 
 [Manubot Homepage]: https://manubot.org
-
-## Citations
-
-Citation by DOI [@doi:10.7554/eLife.32822].
-
-Citation by PubMed Central ID [@pmc:PMC6103790].
-
-Citation by PubMed ID [@pubmed:30718888].
-
-Citation by Wikidata ID [@wikidata:Q56458321].
-
-Citation by ISBN [@isbn:9780262517638].
-
-Citation by URL [@{https://greenelab.github.io/meta-review/}].
-
-Citation by alias [@deep-review].
-
-Multiple citations can be put inside the same set of brackets [@doi:10.7554/eLife.32822; @deep-review; @isbn:9780262517638].
-Manubot plugins provide easier, more convenient visualization of and navigation between citations [@doi:10.1371/journal.pcbi.1007128; @pubmed:30718888; @pmc:PMC6103790; @deep-review].
-
-Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown's reference link syntax:
-
-[@deep-review]: doi:10.1098/rsif.2017.0387
 
 ## Referencing figures, tables, equations
 
