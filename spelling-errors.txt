@@ -2,7 +2,7 @@ agg
 Ayyan
 Borukati
 CEE
-Compressive
+compressive
 Dataset
 DeeVarma
 Dhatrika
