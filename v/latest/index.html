@@ -55,8 +55,8 @@
   <meta name="dc.date" content="2024-10-24" />
   <meta name="citation_publication_date" content="2024-10-24" />
   <meta property="article:published_time" content="2024-10-24" />
-  <meta name="dc.modified" content="2024-10-24T07:38:11+00:00" />
-  <meta property="article:modified_time" content="2024-10-24T07:38:11+00:00" />
+  <meta name="dc.modified" content="2024-10-24T08:05:32+00:00" />
+  <meta property="article:modified_time" content="2024-10-24T08:05:32+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -75,9 +75,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/7ed45848f9f1ca91cafe141cbc96e7b0210f3e5e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7ed45848f9f1ca91cafe141cbc96e7b0210f3e5e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7ed45848f9f1ca91cafe141cbc96e7b0210f3e5e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/105a53520463c5671153224438cfb085666201ca/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/105a53520463c5671153224438cfb085666201ca/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/105a53520463c5671153224438cfb085666201ca/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -119,7 +119,7 @@ University of Illinois
 University of Illinois
 </small></p></li>
 </ul>
-<h2 class="page_break_before" id="project-proposal">Project Proposal</h2>
+<h2 class="page_break_before" id="project-proposal">1. Project Proposal</h2>
 <p align="justify">
 The escalating global population drives the increasing demand for concrete, thereby fostering the development and adoption of Lightweight Aggregate (LWA)-based Lightweight Concrete (LWC). The widespread availability of LWAs, coupled with straightforward and conventional casting techniques, has facilitated industry-wide acceptance <span class="citation" data-cites="C5rC54cy">[<a href="#ref-C5rC54cy" role="doc-biblioref">1</a>]</span>. LWC has found extensive applications in lightweight infill panels, structural concrete, and precast concrete. Notably, LWC achieves comparable compressive strength to traditional concrete in specific scenarios, albeit with a 25-35% reduction in density <span class="citation" data-cites="7q2VNk94">[<a href="#ref-7q2VNk94" role="doc-biblioref">2</a>]</span>. This reduction yields additional benefits, including minimized foundation steel requirements, lower transportation costs, and decreased construction expenditures, rendering LWC a promising solution for sustainable and cost-effective infrastructure development.
 A significant obstacle in the widespread adoption of Lightweight Concrete (LWC) lies in its intricate mix design process. Unlike Normal-Weight Concrete (NWC), which relies on established codes and iterative fine-tuning, LWC lacks standardized design guidelines. Furthermore, optimizing LWC’s density while maintaining compressive and tensile strength poses a substantial challenge due to its sensitive nature, where minor mix design adjustments drastically impact mechanical properties. The complexity is compounded by the varied shapes, sizes, and densities of LWAs, which significantly influence the mix design. In contrast, NWC aggregates exhibit relatively consistent properties.
@@ -161,7 +161,7 @@ Table 1. Mathematical formulation of the statistical performance indicators used
 <p align="justify">
 A longstanding controversy surrounds the efficacy and reliability of Machine Learning (ML) and Artificial Intelligence (AI)–based models, with critics labeling them as “black boxes” that merely identify patterns without providing meaningful insights. To address concerns regarding overfitting and model interpretability, we aim to explain or results by employing local explanation techniques, specifically Partial Dependence Plots (PDP) and Shapley Additive Explanations (SHAP). These methods decipher the relationships between individual input parameters and the model’s output, demystifying the “black box” nature of ML models, validating their reliability and accuracy, and identifying potential biases.
 </p>
-<h3 id="dataset-description">Dataset description</h3>
+<h3 id="dataset-description">1.1. Dataset description</h3>
 <p align="justify">
 The data set attached has been collected by the team members from all the scholarly articles from Scopus. The search query used for finding articles was “{Lightweight} AND {concrete} AND {aggregate} AND {strength} AND {density} AND {ML}”. The authors have collected 500 data points from over 50 articles. The data set has the quantities of Cement, sand, fly ash (FA), the density of lightweight aggregate, water absorption of lightweight aggregate, superplasticizer, curing time, and the amount of normal aggregate (normal agg.), as input parameters while the compressive strength, split tensile strength, and density of the concrete were taken as output parameters. The first test columns of the dataset correspond to inputs while the last three correspond to output. All the quantities were normalized by the cement quantity before the start of the analysis. The input and output parameters along with their units have been mentioned below in Table 2 as well.
 </p>
@@ -240,11 +240,67 @@ Table 2. Input and output parameters of the dataset along with their units.
 <li>HRWR = High range water reducer</li>
 </ul>
 </p>
-<h3 id="statistical-distribution-of-dataset">Statistical distribution of dataset</h3>
+<h2 class="page_break_before" id="statistical-distribution-of-dataset">2. Statistical distribution of dataset</h2>
 <p align="justify">
-Concrete is widely regarded as the most complex composite material, comprising various ingredients and exhibiting diverse properties that make its behavior challenging to predict. Its composition can vary significantly depending on application, environmental conditions, and performance requirements. Figure 1 illustrates the statistical distribution of input parameters for concrete compositions, revealing diverse applications and formulations contributing to complex datasets. Certain parameters, such as water-to-cement (W/C) ratio (0.35-0.5), superplasticizer content (typically ≤1% of binder weight), water absorption of aggregates (∼2% of aggregate weight), and curing time (predominantly 28 days), exhibit narrow interquartile ranges, indicating relatively fixed proportions in typical cement-based mixtures <span class="citation" data-cites="1GKECWcka">[<a href="#ref-doi:10.1016/S0141-0296" role="doc-biblioref"><strong>doi:10.1016/S0141-0296?</strong></a>]</span>. In contrast, lightweight aggregate types and corresponding variations in concrete compositions display larger interquartile ranges, reflecting the broad range of available materials, underscoring the complexity of concrete’s widespread use as the world’s most utilized composite material <span class="citation" data-cites="NiCgdmvt">[<a href="#ref-NiCgdmvt" role="doc-biblioref">4</a>]</span>
+Concrete is widely regarded as the most complex composite material, comprising various ingredients and exhibiting diverse properties that make its behavior challenging to predict. Its composition can vary significantly depending on application, environmental conditions, and performance requirements. Figure 1 illustrates the statistical distribution of input parameters for concrete compositions, revealing diverse applications and formulations contributing to complex datasets. Certain parameters, such as water-to-cement (W/C) ratio (0.35-0.5), superplasticizer content (typically ≤1% of binder weight), water absorption of aggregates (∼2% of aggregate weight), and curing time (predominantly 28 days), exhibit narrow interquartile ranges, indicating relatively fixed proportions in typical cement-based mixtures <span class="citation" data-cites="1GKECWcka">[<a href="#ref-doi:10.1016/S0141-0296" role="doc-biblioref"><strong>doi:10.1016/S0141-0296?</strong></a>]</span>. In contrast, lightweight aggregate types and corresponding variations in concrete compositions display larger interquartile ranges, reflecting the broad range of available materials, underscoring the complexity of concrete’s widespread use as the world’s most utilized composite material <span class="citation" data-cites="vilarinho2009incorporation">[<a href="#ref-vilarinho2009incorporation" role="doc-biblioref"><strong>vilarinho2009incorporation?</strong></a>]</span>
 .
 </p>
+<p>Add figure 1</p>
+<p align="justify">
+The authors have comprehensively compiled a dataset encompassing a wide range of lightweight aggregates from existing literature. These aggregates, derived from industrial waste materials or naturally occurring sources, exhibit spatial variability due to regional differences in availability. Consequently, a diverse array of lightweight aggregates is utilized globally. Figure 2 illustrates the various types of aggregates incorporated in this study. Notably, the dataset reveals that clay-based Lightweight Expanded Clay Aggregate (LECA) predominates, reflecting clay’s abundance as a raw material for artificial aggregate production <span class="citation" data-cites="nH3dDgd7">[<a href="#ref-nH3dDgd7" role="doc-biblioref">4</a>]</span>. Furthermore, polystyrene, a prevalent waste material, emerges as a primary source of artificial lightweight aggregates in the dataset <span class="citation" data-cites="Igpyn5mh">[<a href="#ref-Igpyn5mh" role="doc-biblioref">5</a>]</span>.
+</p>
+<p>Add figure 2</p>
+<p align="justify">
+Figure 3 illustrates the statistical distribution of compressive strength, tensile strength, and concrete density. The results show that the mean tensile strength is approximately one-tenth of the mean compressive strength (∼30 MPa), aligning with established conventions (e.g., ACI codes) <span class="citation" data-cites="nxx9rDSq">[<a href="#ref-nxx9rDSq" role="doc-biblioref">6</a>]</span>. The average density of 1700 kg/m³ reflects the prevalence of expanded clay aggregate and polystyrene-based concretes since their density lies in this range, validating the dataset’s accuracy and reliability for further analysis <span class="citation" data-cites="u8bURMeN">[<a href="#ref-ZvZXLiEd" role="doc-biblioref">8</a>]</span>.
+</p>
+<p>Add figure 3</p>
+<h3 id="dataset-cleaning-and-splitting">2.1. Dataset cleaning and splitting</h3>
+<p align="justify">
+To maintain accuracy, completeness, consistency, relevance, and validity, the dataset underwent a rigorous cleaning process, a crucial step before applying any machine learning algorithm. This process ensures that the data is processable and enables effective learning for accurate output. Given that the dataset was compiled from X diverse articles sourced from online libraries, there was a high likelihood of human error. However, since most of the dataset was collected by our team, missing values were nonexistent, eliminating the need for removal or imputation. Data cleaning addressed potential issues such as data entry errors, equipment malfunctions, or incomplete surveys. Outliers were identified, and upon examination, most were found to originate from articles published by sources with questionable academic reputations <span class="citation" data-cites="JFqEuzXI">[<a href="#ref-FiOLHRUz" role="doc-biblioref">15</a>]</span>. These outliers were subsequently trimmed to prevent biased analysis and ensure data integrity.
+Following data cleaning, the refined dataset was split into training (80%) and testing sets (20%). Summary statistics for both are presented in Tables 1 and 2, providing a comprehensive foundation for reliable model development and evaluation.
+</p>
+<p>Add table 1,2</p>
+<h3 id="dataset-cleaning-and-splitting-1">2.2. Dataset cleaning and splitting</h3>
+<p align="justify">
+Data normalization is a standardization technique for transforming variables to have a common scale. When working with data from different sources or formats, there can be variations in how it is represented, such as differences in units of measurement, data formats, and data structures, making it difficult to compare variables or perform statistical analysis. Data standardization is a crucial step in such cases. The major challenge faced after data collection is processing the raw data to make it compatible with the ML models used. For instance, there was a considerable difference in our dataset between the numerical values of cement, w/c, and normal aggregate used. This difference adversely affected the accuracy of our model. This issue was tackled using the data normalization technique. Data normalization means transforming data into the unit sphere or scaling down the actual values to numerical indexes between 0 and 1. It leads to data cleansing and convergence and significantly enhances the model’s efficiency. It also improves data execution by reducing the data set’s redundancy. The governing equation taken into consideration for data normalization is mentioned below, where the normalized value of a certain input variable is a function of the actual, minimum, and maximum values of that variable in the data set. The normalized dataset has been plotted in figure 4 below
+</p>
+<p>Add EQ1 and Fig 4</p>
+<h3 id="correlation-of-input-parameters-with-output-parameters">2.3. Correlation of input parameters with output parameters</h3>
+<p align="justify">
+The preprocessing phase proceeded with the plotting of Pearson correlation matrices (Figure 5) to elucidate relationships between dependent and independent variables. This comprehensive graph displays pairwise correlations through Pearson correlation coefficients, ranging from -1 to +1. Diagonal entries show perfect correlation (1), while non-diagonal entries exhibit coefficients between -1 and +1, indicating varying degrees of correlation. In the graph template used for this article, blue the color shows the direction of the correlation, and the size of the circle shows magnitude/extent of correlation. Positive coefficients signify direct relationships, and negative coefficients indicate inverse relationships. This analysis, mathematically expressed through the Pearson correlation coefficient (r) equation (1), provides valuable insights into variable interactions, informing the development of a robust ML model.
+</p>
+<p>Add equation 2</p>
+<p align="justify">
+The correlation matrix of each input with a particular output has been shown separately for a deeper understanding. Keeping the number of input and output parameters in consideration in a single correlation matrix made the visualization difficult. From the correlation matrices, it is evident that the LWA density was the primary factor controlling compressive strength. As per S.A.Khan et al. <span class="citation" data-cites="eyUFmQR5">[<a href="#ref-eyUFmQR5" role="doc-biblioref">16</a>]</span>, the difference between normal-weight concrete and lightweight concrete is that lightweight concrete fails due to the failure of aggregates, not matrix so failure concrete with increased lightweight aggregate density had increased compressive strengths as well. Also, an increase in the water-cement ratio causes a decrease in compressive strength, which can also be seen in the graph. Similarly the total fines content or total normal weight aggregate content has a good positive correlation with split tensile strength and concrete density which is also supported by the literature.
+</p>
+<p>Add figure 5</p>
+<p align="justify">
+Apart from the data cleaning standardization and visualization discussed above, the authors of the report did not require any data augmentation since the number of data points seemed enough for the types of models they intended to train. However, the authors might perform some feature engineering by combining some of the highly correlated input parameters if the statistical performance indicators do not meet their expectations upon training of the model hence changes will be made in the subsequent report
+</p>
+<h2 class="page_break_before" id="methodology">1. Methodology</h2>
+<p align="justify">
+<p>This report aims to train, validate, and fine-tune Artificial Neural Networks (ANN), Gaussian Process Regression (GPR), and Decision Tree models on the training data for predicting concrete properties. The objectives are to leverage the unique strengths of each model, with ANN capturing non-linear relationships and patterns, Decision Trees providing interpretable results and feature selection, and GPR quantifying uncertainty and handling sparse data. By combining these models, the challenges in concrete property prediction, including non-linear relationships, variability, and limited data, can be effectively addressed.</p>
+Additionally, this report addresses the longstanding controversy surrounding the efficacy and reliability of Machine Learning (ML) and Artificial Intelligence (AI) based models, often labeled as “black boxes” that merely identify patterns without providing meaningful insights. To alleviate concerns regarding overfitting and model interpretability, local explanation techniques, specifically Partial Dependence Plots (PDP) and Shapley Additive Explanations (SHAP), will be employed to decipher the relationships between individual input parameters and the model’s output. This approach ensures model interpretability, validity, reliability, and identification of potential biases, ultimately demonstrating the efficacy of ML models in concrete property prediction.
+</p>
+<h3 id="artificial-neural-network">3.1. Artificial neural network</h3>
+<p align="justify">
+Artificial Neural Networks (ANNs) are complex computational models inspired by biological neural networks. They process input data, generate output, and adapt through backpropagation training. Proven effective in various domains, ANNs excel in classification, regression, forecasting, and clustering tasks. The implemented ANN model architecture has been depicted in figure 6 below.
+</p>
+<p>Add Figure 6</p>
+<h3 id="decision-tree">3.2. Decision Tree</h3>
+<p align="justify">
+Decision Trees, a supervised machine learning approach, effectively predicts concrete’s mechanical characteristics by modeling complex relationships between input data and output labels. The tree-like structure of Decision Trees provides transparency into prediction outcomes. As a valuable alternative to traditional methods, Decision Trees are a helpful tool for forecasting concrete’s mechanical properties, as illustrated in Figure 7.
+</p>
+<p>Add Figure 7</p>
+<h3 id="gaussian-process-of-regression">3.3. Gaussian Process of Regression</h3>
+<p align="justify">
+Gaussian Process Regression (GPR) is a supervised machine learning technique using Bayesian inference for predictions. As a non-parametric method [60, 61], GPR excels with limited data, modeling complex relationships between inputs and outputs. Ideal for predicting concrete’s mechanical properties, GPR offers accuracy and versatility, making it suitable for diverse applications, as shown in Figure 8.
+</p>
+<p>Add Figure 8</p>
+<p align="justify">
+In the figure 9, a complete overview of the whole project is depicted pictorially.
+</p>
+<p>Add Figure 9</p>
 <h3 class="page_break_before" id="references">References</h3>
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
 <div id="ref-C5rC54cy" class="csl-entry" role="doc-biblioentry">
@@ -256,8 +312,44 @@ Concrete is widely regarded as the most complex composite material, comprising v
 <div id="ref-1GKECWcka" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>Concrete strength for fire safety design</strong> <div class="csl-block">KD Hertz</div> <em>Magazine of Concrete Research</em> (2005-10) <a href="https://doi.org/drrzkq">https://doi.org/drrzkq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1680/macr.2005.57.8.445">10.1680/macr.2005.57.8.445</a></div></div>
 </div>
-<div id="ref-NiCgdmvt" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>Incorporation of Wastes in Lightweight Aggregate of Expanded Clay for Construction Applications</strong> <div class="csl-block">C Vilarinho, F Castro, B Mendonça, C Coelho</div> <em>ISWA World Congress 2009</em> (2009)</div>
+<div id="ref-nH3dDgd7" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>Using Mn based on lightweight expanded clay aggregate (LECA) as an original catalyst for the removal of NO2 pollutant in aqueous environment</strong> <div class="csl-block">Aref Shokri</div> <em>Surfaces and Interfaces</em> (2020-12) <a href="https://doi.org/g8nzzp">https://doi.org/g8nzzp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.surfin.2020.100705">10.1016/j.surfin.2020.100705</a></div></div>
+</div>
+<div id="ref-Igpyn5mh" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>Experimental Study on the Properties of Green Concrete by Replacement of E-Plastic Waste as Aggregate</strong> <div class="csl-block">Arivalagan S</div> <em>Procedia Computer Science</em> (2020) <a href="https://doi.org/g8nzzn">https://doi.org/g8nzzn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.procs.2020.05.145">10.1016/j.procs.2020.05.145</a></div></div>
+</div>
+<div id="ref-nxx9rDSq" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Lightweight aggregates for concrete, mortar and grout</strong> <div class="csl-block">European Committee for Standardization</div> <em>EN 13055-1</em> (2016)</div>
+</div>
+<div id="ref-u8bURMeN" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>Manufacturing of sintered lightweight aggregate using high-carbon fly ash and its effect on the mechanical properties and microstructure of concrete</strong> <div class="csl-block">Tommy Yiu Lo, Hongzhi Cui, Shazim Ali Memon, Takafumi Noguchi</div> <em>Journal of Cleaner Production</em> (2016-01) <a href="https://doi.org/f77cck">https://doi.org/f77cck</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.jclepro.2015.07.001">10.1016/j.jclepro.2015.07.001</a></div></div>
+</div>
+<div id="ref-ZvZXLiEd" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>Influence of fly ash and LYTAG lightweight aggregate on concrete</strong> <div class="csl-block">S Sivakumar, B Kameshwari</div> <em>International Journal of Applied Engineering Research</em> (2015)</div>
+</div>
+<div id="ref-JFqEuzXI" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>An evaluation of the increased expansion of clay aggregates fired at 1300 °C to maximize lightness for non-structural concrete</strong> <div class="csl-block">Adalberto Viana Rodrigues, Saulo Roca Bragança</div> <em>Boletín de la Sociedad Española de Cerámica y Vidrio</em> (2023-01) <a href="https://doi.org/g8nzzm">https://doi.org/g8nzzm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.bsecv.2021.11.003">10.1016/j.bsecv.2021.11.003</a></div></div>
+</div>
+<div id="ref-81Cz4XDP" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>Artificial Lightweight Aggregates Made from Pozzolanic Material: A Review on the Method, Physical and Mechanical Properties, Thermal and Microstructure</strong> <div class="csl-block">Dickson Ling Chuan Hao, Rafiza Abd Razak, Marwan Kheimi, Zarina Yahya, Mohd Mustafa Al Bakri Abdullah, Dumitru Doru Burduhos Nergis, Hamzah Fansuri, Ratna Ediati, Rosnita Mohamed, Alida Abdullah</div> <em>Materials</em> (2022-05-31) <a href="https://doi.org/grxsg6">https://doi.org/grxsg6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3390/ma15113929">10.3390/ma15113929</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/35683229">35683229</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9181883">PMC9181883</a></div></div>
+</div>
+<div id="ref-vGFdVmWU" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>Compressive Strength and Durability Properties of Structural Lightweight Concrete with Fine Expanded Glass and/or Clay Aggregates</strong> <div class="csl-block">Deividas Rumsys, Edmundas Spudulis, Darius Bacinskas, Gintaris Kaklauskas</div> <em>Materials</em> (2018-11-30) <a href="https://doi.org/g8nzzr">https://doi.org/g8nzzr</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3390/ma11122434">10.3390/ma11122434</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30513643">30513643</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6317013">PMC6317013</a></div></div>
+</div>
+<div id="ref-157O3X0aW" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>Possibilities of determination of thermal conductivity of lightweight concrete with utilization of non stationary hot-wire method</strong> <div class="csl-block">10th Int. Conf. Slov. Soc. Non-Destructive Test. Appl. Contemp. Non-Destructive Test. Eng.</div></div>
+</div>
+<div id="ref-EI8Ba5X" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>Influence of mineral additions and different compositional parameters on the shrinkage of structural expanded clay lightweight concrete</strong> <div class="csl-block">JAlexandre Bogas, Rita Nogueira, Nuno G Almeida</div> <em>Materials &amp;amp; Design (1980-2015)</em> (2014-04) <a href="https://doi.org/gpptkk">https://doi.org/gpptkk</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.matdes.2013.12.013">10.1016/j.matdes.2013.12.013</a></div></div>
+</div>
+<div id="ref-rCm0JXFJ" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>The Physical and Mechanical Properties of Autoclaved Aerated Concrete (AAC) with Recycled AAC as a Partial Replacement for Sand</strong> <div class="csl-block">Abdul Rahman Rafiza, Ahmad Fazlizan, Atthakorn Thongtha, Nilofar Asim, Md Saleh Noorashikin</div> <em>Buildings</em> (2022-01-07) <a href="https://doi.org/g6b6hh">https://doi.org/g6b6hh</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3390/buildings12010060">10.3390/buildings12010060</a></div></div>
+</div>
+<div id="ref-FiOLHRUz" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>Optimum Bloating-Activation Zone of Artificial Lightweight Aggregate by Dynamic Parameters</strong> <div class="csl-block">Young Min Wie, Ki Gang Lee</div> <em>Materials</em> (2019-01-15) <a href="https://doi.org/g8nzzs">https://doi.org/g8nzzs</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3390/ma12020267">10.3390/ma12020267</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30650611">30650611</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6356517">PMC6356517</a></div></div>
+</div>
+<div id="ref-eyUFmQR5" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>Feasibility Study of Expanded Clay Aggregate Lightweight Concrete for Nonstructural Applications</strong> <div class="csl-block">Shayan Ali Khan, Fazal Hussain, Rao Arsalan Khushnood, Hassan Amjad, Farhan Ahmad</div> <em>Advances in Civil Engineering</em> (2024-02-29) <a href="https://doi.org/g8nzzq">https://doi.org/g8nzzq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1155/2024/8263261">10.1155/2024/8263261</a></div></div>
 </div>
 </div>
 <!-- default theme -->
