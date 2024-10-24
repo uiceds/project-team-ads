@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-24" />
   <meta name="citation_publication_date" content="2024-10-24" />
   <meta property="article:published_time" content="2024-10-24" />
-  <meta name="dc.modified" content="2024-10-24T19:40:13+00:00" />
-  <meta property="article:modified_time" content="2024-10-24T19:40:13+00:00" />
+  <meta name="dc.modified" content="2024-10-24T19:47:59+00:00" />
+  <meta property="article:modified_time" content="2024-10-24T19:47:59+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/aa3f2acd74670f3f944b6c9d2ff3f43381a9d8c3/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/aa3f2acd74670f3f944b6c9d2ff3f43381a9d8c3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/aa3f2acd74670f3f944b6c9d2ff3f43381a9d8c3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/84e934af76a72f12d7869b2538e0a18eeb6f6ebb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/84e934af76a72f12d7869b2538e0a18eeb6f6ebb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/84e934af76a72f12d7869b2538e0a18eeb6f6ebb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -163,7 +163,18 @@ Table 2. Input and output parameters of the dataset along with their units.
 Concrete is widely regarded as the most complex composite material, comprising various ingredients and exhibiting diverse properties that make its behavior challenging to predict. Its composition can vary significantly depending on application, environmental conditions, and performance requirements. Figure 1 illustrates the statistical distribution of input parameters for concrete compositions, revealing diverse applications and formulations contributing to complex datasets. Certain parameters, such as water-to-cement (W/C) ratio (0.35-0.5), superplasticizer content (typically ≤1% of binder weight), water absorption of aggregates (∼2% of aggregate weight), and curing time (predominantly 28 days), exhibit narrow interquartile ranges, indicating relatively fixed proportions in typical cement-based mixtures [@doi:10.1680/macr.2005.57.8.445; @lee2003; @goldman1993; @lai1997]. In contrast, lightweight aggregate types and corresponding variations in concrete compositions display larger interquartile ranges, reflecting the broad range of available materials, underscoring the complexity of concrete's widespread use as the world's most utilized composite material [@vilarinho2009researchgate].
 </p>
 
-Add figure 1
+![
+**A square image at actual size and with a bottom caption.**
+Loaded from the latest version of image on GitHub.
+](https://github.com/uiceds/project-team-ads/blob/aa3f2acd74670f3f944b6c9d2ff3f43381a9d8c3/content/images/Fig%201.png "Square image"){#fig:square-image}
+
+
+![
+**A square image at actual size and with a bottom caption.**
+Loaded from the latest version of image on GitHub.
+](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png "Square image"){#fig:square-image}
+
+
 
 <p align="justify">
 The authors have comprehensively compiled a dataset encompassing a wide range of lightweight aggregates from existing literature. These aggregates, derived from industrial waste materials or naturally occurring sources, exhibit spatial variability due to regional differences in availability. Consequently, a diverse array of lightweight aggregates is utilized globally. Figure 2 illustrates the various types of aggregates incorporated in this study. Notably, the dataset reveals that clay-based Lightweight Expanded Clay Aggregate (LECA) predominates, reflecting clay's abundance as a raw material for artificial aggregate production [@doi:10.1016/j.surfin.2020.100705]. Furthermore, polystyrene, a prevalent waste material, emerges as a primary source of artificial lightweight aggregates in the dataset [@doi:10.1016/j.procs.2020.05.145].
