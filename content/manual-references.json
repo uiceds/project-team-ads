@@ -1,22 +1,10 @@
 [
   {
-    "id": "vilarinho2009incorporation",
+    "id": "vilarinho2009researchgate",
     "title": "Incorporation of Wastes in Lightweight Aggregate of Expanded Clay for Construction Applications",
     "author": [
       {
         "family": "Vilarinho",
-        "given": "C."
-      },
-      {
-        "family": "Castro",
-        "given": "F."
-      },
-      {
-        "family": "Mendonça",
-        "given": "B."
-      },
-      {
-        "family": "Coelho",
         "given": "C."
       }
     ],
@@ -27,6 +15,66 @@
       ]
     },
     "type": "paper-conference"
+  },
+  {
+    "id": "en13055-1-2016",
+    "title": "Lightweight aggregates for concrete, mortar and grout",
+    "author": [
+      {
+        "family": "European Committee for Standardization"
+      }
+    ],
+    "container-title": "EN 13055-1",
+    "issued": {
+      "date-parts": [
+        [2016]
+      ]
+    },
+    "type": "standard"
+  },
+  {
+    "id": "sivakumar2015flyash",
+    "title": "Influence of fly ash and LYTAG lightweight aggregate on concrete",
+    "author": [
+      {
+        "family": "Sivakumar",
+        "given": "S."
+      },
+      {
+        "family": "Kameshwari",
+        "given": "B."
+      }
+    ],
+    "container-title": "International Journal of Applied Engineering Research",
+    "volume": "10",
+    "page": "35843–35848",
+    "issued": {
+      "date-parts": [
+        [2015]
+      ]
+    },
+    "type": "article-journal"
+  },
+  {
+    "id": "zach2009",
+    "type": "conference-paper",
+    "title": "Possibilities of determination of thermal conductivity of lightweight concrete with utilization of non stationary hot-wire method",
+    "authors": [
+      {
+        "family": "Zach",
+        "given": "J."
+      },
+      {
+        "family": "Hubertova",
+        "given": "M."
+      },
+      {
+        "family": "Hroudova",
+        "given": "J."
+      }
+    ],
+    "container-title": "10th Int. Conf. Slov. Soc. Non-Destructive Test. Appl. Contemp. Non-Destructive Test. Eng.",
+    "year": 2009,
+    "page": "207–213"
   }
 ]
-
