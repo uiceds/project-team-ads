@@ -574,6 +574,62 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\nstandard_id: en13055-1-2016"
   },
   {
+    "id": "oINi2vrz",
+    "type": "article",
+    "title": "The influence of microfillers on enhancement of concrete strength",
+    "author": [
+      {
+        "family": "Goldman",
+        "given": "A."
+      },
+      {
+        "family": "Bentur",
+        "given": "A."
+      }
+    ],
+    "container-title": "Cement and Concrete Research",
+    "volume": "23",
+    "issue": "4",
+    "page": "962–972",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\nstandard_id: goldman1993"
+  },
+  {
+    "id": "zBw1t13m",
+    "type": "article",
+    "title": "Concrete strength prediction by means of neural network",
+    "author": [
+      {
+        "family": "Lai",
+        "given": "Sergio"
+      },
+      {
+        "family": "Serra",
+        "given": "Mauro"
+      }
+    ],
+    "container-title": "Construction and Building Materials",
+    "volume": "11",
+    "issue": "2",
+    "page": "93–98",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\nstandard_id: lai1997"
+  },
+  {
+    "id": "H2rfhitf",
+    "type": "article",
+    "title": "Prediction of concrete strength using artificial neural networks",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "Seung-Chang"
+      }
+    ],
+    "container-title": "Engineering Structures",
+    "volume": "25",
+    "issue": "7",
+    "page": "849–857",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\nstandard_id: lee2003"
+  },
+  {
     "id": "ZvZXLiEd",
     "title": "Influence of fly ash and LYTAG lightweight aggregate on concrete",
     "author": [

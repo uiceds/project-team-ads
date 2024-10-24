@@ -5,8 +5,8 @@ Ayyan
 backpropagation
 Borukati
 CEE
-Compressive
-Dataset
+compressive
+dataset
 dataset’s
 datasets
 DeeVarma
@@ -19,6 +19,7 @@ hyperparameters
 interpretability
 interpretable
 interquartile
+lai
 LECA
 LW
 LWA
