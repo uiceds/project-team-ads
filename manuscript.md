@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-09-27'
+date-meta: '2024-10-24'
 author-meta:
 - Ayyan Iqbal
 - Shayan Khan
@@ -21,11 +21,11 @@ header-includes: |
   <meta name="citation_title" content="Machine Learning-Based Optimization Of The Mix Design Of Lightweight Concrete For Enhanced Mechanical Properties" />
   <meta property="og:title" content="Machine Learning-Based Optimization Of The Mix Design Of Lightweight Concrete For Enhanced Mechanical Properties" />
   <meta property="twitter:title" content="Machine Learning-Based Optimization Of The Mix Design Of Lightweight Concrete For Enhanced Mechanical Properties" />
-  <meta name="dc.date" content="2024-09-27" />
-  <meta name="citation_publication_date" content="2024-09-27" />
-  <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T18:05:46+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T18:05:46+00:00" />
+  <meta name="dc.date" content="2024-10-24" />
+  <meta name="citation_publication_date" content="2024-10-24" />
+  <meta property="article:published_time" content="2024-10-24" />
+  <meta name="dc.modified" content="2024-10-24T07:38:11+00:00" />
+  <meta property="article:modified_time" content="2024-10-24T07:38:11+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/396306f5367a11272e66d6ea1ffef9a5eb5ce9b6/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/396306f5367a11272e66d6ea1ffef9a5eb5ce9b6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/396306f5367a11272e66d6ea1ffef9a5eb5ce9b6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/7ed45848f9f1ca91cafe141cbc96e7b0210f3e5e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7ed45848f9f1ca91cafe141cbc96e7b0210f3e5e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7ed45848f9f1ca91cafe141cbc96e7b0210f3e5e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -155,6 +155,13 @@ Table 2. Input and output parameters of the dataset along with their units.
 * NW = Normal weight
 * w/b = water to binder ratio
 * HRWR = High range water reducer
+</p>
+
+### Statistical distribution of dataset 
+
+<p align="justify">
+Concrete is widely regarded as the most complex composite material, comprising various ingredients and exhibiting diverse properties that make its behavior challenging to predict. Its composition can vary significantly depending on application, environmental conditions, and performance requirements. Figure 1 illustrates the statistical distribution of input parameters for concrete compositions, revealing diverse applications and formulations contributing to complex datasets. Certain parameters, such as water-to-cement (W/C) ratio (0.35-0.5), superplasticizer content (typically ≤1% of binder weight), water absorption of aggregates (∼2% of aggregate weight), and curing time (predominantly 28 days), exhibit narrow interquartile ranges, indicating relatively fixed proportions in typical cement-based mixtures [@doi:10.1680/macr.2005.57.8.445, @doi:10.1016/0008-8846(93)90050-J, @doi:10.1016/S0950-0618(97)00007-X, @doi:10.1016/S0141-0296(03)00004-X.]. In contrast, lightweight aggregate types and corresponding variations in concrete compositions display larger interquartile ranges, reflecting the broad range of available materials, underscoring the complexity of concrete's widespread use as the world's most utilized composite material [@vilarinho2009incorporation]
+.
 </p>
 
 ### References {.page_break_before}
