@@ -600,6 +600,26 @@
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\nstandard_id: sivakumar2015flyash"
   },
   {
+    "id": "5TGE0dep",
+    "title": "Incorporation of Wastes in Lightweight Aggregate of Expanded Clay for Construction Applications",
+    "author": [
+      {
+        "family": "Vilarinho",
+        "given": "C."
+      }
+    ],
+    "container-title": "ISWA World Congress 2009",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "type": "paper-conference",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\nstandard_id: vilarinho2009researchgate"
+  },
+  {
     "id": "157O3X0aW",
     "title": "Possibilities of determination of thermal conductivity of lightweight concrete with utilization of non stationary hot-wire method",
     "container-title": "10th Int. Conf. Slov. Soc. Non-Destructive Test. Appl. Contemp. Non-Destructive Test. Eng.",
