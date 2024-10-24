@@ -76,5 +76,70 @@
     "container-title": "10th Int. Conf. Slov. Soc. Non-Destructive Test. Appl. Contemp. Non-Destructive Test. Eng.",
     "year": 2009,
     "page": "207–213"
+  },
+  {
+    "id": "lee2003",
+    "type": "article",
+    "title": "Prediction of concrete strength using artificial neural networks",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "Seung-Chang"
+      }
+    ],
+    "container-title": "Engineering Structures",
+    "volume": "25",
+    "issue": "7",
+    "page": "849–857",
+    "year": 2003,
+    "issn": "0141-0296",
+    "doi": "10.1016/S0141-0296(03)00004-X",
+    "url": "https://www.sciencedirect.com/science/article/pii/S014102960300004X"
+  },
+  {
+    "id": "lai1997",
+    "type": "article",
+    "title": "Concrete strength prediction by means of neural network",
+    "author": [
+      {
+        "family": "Lai",
+        "given": "Sergio"
+      },
+      {
+        "family": "Serra",
+        "given": "Mauro"
+      }
+    ],
+    "container-title": "Construction and Building Materials",
+    "volume": "11",
+    "issue": "2",
+    "page": "93–98",
+    "year": 1997,
+    "issn": "0950-0618",
+    "doi": "10.1016/S0950-0618(97)00007-X",
+    "url": "https://www.sciencedirect.com/science/article/pii/S095006189700007X"
+  },
+  {
+    "id": "goldman1993",
+    "type": "article",
+    "title": "The influence of microfillers on enhancement of concrete strength",
+    "author": [
+      {
+        "family": "Goldman",
+        "given": "A."
+      },
+      {
+        "family": "Bentur",
+        "given": "A."
+      }
+    ],
+    "container-title": "Cement and Concrete Research",
+    "volume": "23",
+    "issue": "4",
+    "page": "962–972",
+    "year": 1993,
+    "issn": "0008-8846",
+    "doi": "10.1016/0008-8846(93)90050-J",
+    "url": "https://www.sciencedirect.com/science/article/pii/000888469390050J"
   }
 ]
