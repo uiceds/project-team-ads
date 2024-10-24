@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-24" />
   <meta name="citation_publication_date" content="2024-10-24" />
   <meta property="article:published_time" content="2024-10-24" />
-  <meta name="dc.modified" content="2024-10-24T08:18:05+00:00" />
-  <meta property="article:modified_time" content="2024-10-24T08:18:05+00:00" />
+  <meta name="dc.modified" content="2024-10-24T08:19:53+00:00" />
+  <meta property="article:modified_time" content="2024-10-24T08:19:53+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/29759ed0acc05adcc699df9bb1a4a35bfdcda975/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/29759ed0acc05adcc699df9bb1a4a35bfdcda975/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/29759ed0acc05adcc699df9bb1a4a35bfdcda975/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/c3d0d2a94956083eea3d2c38cb3b0ce92b7ae58c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/c3d0d2a94956083eea3d2c38cb3b0ce92b7ae58c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/c3d0d2a94956083eea3d2c38cb3b0ce92b7ae58c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -160,7 +160,7 @@ Table 2. Input and output parameters of the dataset along with their units.
 ## 2. Statistical distribution of dataset {.page_break_before}
 
 <p align="justify">
-Concrete is widely regarded as the most complex composite material, comprising various ingredients and exhibiting diverse properties that make its behavior challenging to predict. Its composition can vary significantly depending on application, environmental conditions, and performance requirements. Figure 1 illustrates the statistical distribution of input parameters for concrete compositions, revealing diverse applications and formulations contributing to complex datasets. Certain parameters, such as water-to-cement (W/C) ratio (0.35-0.5), superplasticizer content (typically ≤1% of binder weight), water absorption of aggregates (∼2% of aggregate weight), and curing time (predominantly 28 days), exhibit narrow interquartile ranges, indicating relatively fixed proportions in typical cement-based mixtures [@doi:10.1680/macr.2005.57.8.445, @doi:10.1016/0008-8846(93)90050-J, @doi:10.1016/S0950-0618(97)00007-X, @doi:10.1016/S0141-0296(03)00004-X]. In contrast, lightweight aggregate types and corresponding variations in concrete compositions display larger interquartile ranges, reflecting the broad range of available materials, underscoring the complexity of concrete's widespread use as the world's most utilized composite material [@vilarinho2009researchgate]
+Concrete is widely regarded as the most complex composite material, comprising various ingredients and exhibiting diverse properties that make its behavior challenging to predict. Its composition can vary significantly depending on application, environmental conditions, and performance requirements. Figure 1 illustrates the statistical distribution of input parameters for concrete compositions, revealing diverse applications and formulations contributing to complex datasets. Certain parameters, such as water-to-cement (W/C) ratio (0.35-0.5), superplasticizer content (typically ≤1% of binder weight), water absorption of aggregates (∼2% of aggregate weight), and curing time (predominantly 28 days), exhibit narrow interquartile ranges, indicating relatively fixed proportions in typical cement-based mixtures [@doi:10.1680/macr.2005.57.8.445; @doi:10.1016/0008-8846(93)90050-J; @doi:10.1016/S0950-0618(97)00007-X; @doi:10.1016/S0141-0296(03)00004-X]. In contrast, lightweight aggregate types and corresponding variations in concrete compositions display larger interquartile ranges, reflecting the broad range of available materials, underscoring the complexity of concrete's widespread use as the world's most utilized composite material [@vilarinho2009researchgate]
 .
 </p>
 
@@ -173,7 +173,7 @@ The authors have comprehensively compiled a dataset encompassing a wide range of
 Add figure 2
 
 <p align="justify">
-Figure 3 illustrates the statistical distribution of compressive strength, tensile strength, and concrete density. The results show that the mean tensile strength is approximately one-tenth of the mean compressive strength (∼30 MPa), aligning with established conventions (e.g., ACI codes) [@en13055-1-2016]. The average density of 1700 kg/m³ reflects the prevalence of expanded clay aggregate and polystyrene-based concretes since their density lies in this range, validating the dataset's accuracy and reliability for further analysis [@doi:10.1016/j.jclepro.2015.07.001, @sivakumar2015flyash].
+Figure 3 illustrates the statistical distribution of compressive strength, tensile strength, and concrete density. The results show that the mean tensile strength is approximately one-tenth of the mean compressive strength (∼30 MPa), aligning with established conventions (e.g., ACI codes) [@en13055-1-2016]. The average density of 1700 kg/m³ reflects the prevalence of expanded clay aggregate and polystyrene-based concretes since their density lies in this range, validating the dataset's accuracy and reliability for further analysis [@doi:10.1016/j.jclepro.2015.07.001; @sivakumar2015flyash].
 </p>
 
 Add figure 3
@@ -181,7 +181,7 @@ Add figure 3
 ### 2.1. Dataset cleaning and splitting
 
 <p align="justify">
-To maintain accuracy, completeness, consistency, relevance, and validity, the dataset underwent a rigorous cleaning process, a crucial step before applying any machine learning algorithm. This process ensures that the data is processable and enables effective learning for accurate output. Given that the dataset was compiled from X diverse articles sourced from online libraries, there was a high likelihood of human error. However, since most of the dataset was collected by our team, missing values were nonexistent, eliminating the need for removal or imputation. Data cleaning addressed potential issues such as data entry errors, equipment malfunctions, or incomplete surveys. Outliers were identified, and upon examination, most were found to originate from articles published by sources with questionable academic reputations [@doi:10.1016/j.bsecv.2021.11.003, @doi:10.3390/ma15113929, @doi:10.3390/ma11122434, @zach2009, @doi:10.1016/j.matdes.2013.12.013, @doi:10.3390/buildings12010060, @doi:10.3390/ma12020267]. These outliers were subsequently trimmed to prevent biased analysis and ensure data integrity.
+To maintain accuracy, completeness, consistency, relevance, and validity, the dataset underwent a rigorous cleaning process, a crucial step before applying any machine learning algorithm. This process ensures that the data is processable and enables effective learning for accurate output. Given that the dataset was compiled from X diverse articles sourced from online libraries, there was a high likelihood of human error. However, since most of the dataset was collected by our team, missing values were nonexistent, eliminating the need for removal or imputation. Data cleaning addressed potential issues such as data entry errors, equipment malfunctions, or incomplete surveys. Outliers were identified, and upon examination, most were found to originate from articles published by sources with questionable academic reputations [@doi:10.1016/j.bsecv.2021.11.003; @doi:10.3390/ma15113929; @doi:10.3390/ma11122434; @zach2009; @doi:10.1016/j.matdes.2013.12.013; @doi:10.3390/buildings12010060; @doi:10.3390/ma12020267]. These outliers were subsequently trimmed to prevent biased analysis and ensure data integrity.
 Following data cleaning, the refined dataset was split into training (80%) and testing sets (20%). Summary statistics for both are presented in Tables 1 and 2, providing a comprehensive foundation for reliable model development and evaluation.
 </p>
 
