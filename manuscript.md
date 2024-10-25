@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-25" />
   <meta name="citation_publication_date" content="2024-10-25" />
   <meta property="article:published_time" content="2024-10-25" />
-  <meta name="dc.modified" content="2024-10-25T05:19:50+00:00" />
-  <meta property="article:modified_time" content="2024-10-25T05:19:50+00:00" />
+  <meta name="dc.modified" content="2024-10-25T05:26:40+00:00" />
+  <meta property="article:modified_time" content="2024-10-25T05:26:40+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/cc7d70eaefc563f1198188a2595f063805424b92/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/cc7d70eaefc563f1198188a2595f063805424b92/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/cc7d70eaefc563f1198188a2595f063805424b92/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/86300c1474334bf8c1f1f1f1979d3a15f356e9ae/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/86300c1474334bf8c1f1f1f1979d3a15f356e9ae/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/86300c1474334bf8c1f1f1f1979d3a15f356e9ae/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -164,17 +164,8 @@ Concrete is widely regarded as the most complex composite material, comprising v
 </p>
 
 ![
-**A square image at actual size and with a bottom caption.**
-Loaded from the latest version of image on GitHub.
-](https://github.com/maiqbal2/Images/blob/02d8894cb5753eea62d74c9824383b72bf008246/Fig%201.png?raw=true "Square image"){#fig:square-image}
-
-
-![
-**A square image at actual size and with a bottom caption.**
-Loaded from the latest version of image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png "Square image"){#fig:square-image}
-
-
+**Figure. 1 Statistical distribution of the input parameters of the dataset compiled from articles.**
+](https://raw.githubusercontent.com/uiceds/project-team-ads/refs/heads/main/content/images/Fig%201.png "Square image"){#fig:Fig 1.}
 
 <p align="justify">
 The authors have comprehensively compiled a dataset encompassing a wide range of lightweight aggregates from existing literature. These aggregates, derived from industrial waste materials or naturally occurring sources, exhibit spatial variability due to regional differences in availability. Consequently, a diverse array of lightweight aggregates is utilized globally. Figure 2 illustrates the various types of aggregates incorporated in this study. Notably, the dataset reveals that clay-based Lightweight Expanded Clay Aggregate (LECA) predominates, reflecting clay's abundance as a raw material for artificial aggregate production [@doi:10.1016/j.surfin.2020.100705]. Furthermore, polystyrene, a prevalent waste material, emerges as a primary source of artificial lightweight aggregates in the dataset [@doi:10.1016/j.procs.2020.05.145].
