@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-25" />
   <meta name="citation_publication_date" content="2024-10-25" />
   <meta property="article:published_time" content="2024-10-25" />
-  <meta name="dc.modified" content="2024-10-25T05:04:15+00:00" />
-  <meta property="article:modified_time" content="2024-10-25T05:04:15+00:00" />
+  <meta name="dc.modified" content="2024-10-25T05:19:50+00:00" />
+  <meta property="article:modified_time" content="2024-10-25T05:19:50+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/93ff84a9ac9caea42f9a59abbc4179cdb343ac3f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/93ff84a9ac9caea42f9a59abbc4179cdb343ac3f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/93ff84a9ac9caea42f9a59abbc4179cdb343ac3f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/cc7d70eaefc563f1198188a2595f063805424b92/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/cc7d70eaefc563f1198188a2595f063805424b92/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/cc7d70eaefc563f1198188a2595f063805424b92/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -166,7 +166,7 @@ Concrete is widely regarded as the most complex composite material, comprising v
 ![
 **A square image at actual size and with a bottom caption.**
 Loaded from the latest version of image on GitHub.
-](https://github.com/maiqbal2/Images/blob/02d8894cb5753eea62d74c9824383b72bf008246/Fig%201.png "Square image"){#fig:square-image}
+](https://github.com/maiqbal2/Images/blob/02d8894cb5753eea62d74c9824383b72bf008246/Fig%201.png?raw=true "Square image"){#fig:square-image}
 
 
 ![
