@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-26" />
   <meta name="citation_publication_date" content="2024-10-26" />
   <meta property="article:published_time" content="2024-10-26" />
-  <meta name="dc.modified" content="2024-10-26T21:59:42+00:00" />
-  <meta property="article:modified_time" content="2024-10-26T21:59:42+00:00" />
+  <meta name="dc.modified" content="2024-10-26T22:15:23+00:00" />
+  <meta property="article:modified_time" content="2024-10-26T22:15:23+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/ce07521c889676a70811c62d28059b4517fa0ad6/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/ce07521c889676a70811c62d28059b4517fa0ad6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/ce07521c889676a70811c62d28059b4517fa0ad6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/3e5b2b8e14dc73048b8e38468f4d8797b970f8a1/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/3e5b2b8e14dc73048b8e38468f4d8797b970f8a1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/3e5b2b8e14dc73048b8e38468f4d8797b970f8a1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -165,19 +165,24 @@ Concrete is widely regarded as the most complex composite material, comprising v
 
 ![
 **Statistical distribution of the input parameters of the dataset compiled from articles.**
-](https://raw.githubusercontent.com/uiceds/project-team-ads/refs/heads/main/content/images/Fig%201.png "Square image"){#fig:Fig 1.}
+](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture1.png?raw=true ""){#fig:Fig. 1}
 
 <p align="justify">
 The authors have comprehensively compiled a dataset encompassing a wide range of lightweight aggregates from existing literature. These aggregates, derived from industrial waste materials or naturally occurring sources, exhibit spatial variability due to regional differences in availability. Consequently, a diverse array of lightweight aggregates is utilized globally. Figure 2 illustrates the various types of aggregates incorporated in this study. Notably, the dataset reveals that clay-based Lightweight Expanded Clay Aggregate (LECA) predominates, reflecting clay's abundance as a raw material for artificial aggregate production [@doi:10.1016/j.surfin.2020.100705]. Furthermore, polystyrene, a prevalent waste material, emerges as a primary source of artificial lightweight aggregates in the dataset [@doi:10.1016/j.procs.2020.05.145].
 </p>
 
 Add figure 2
+![
+**Types of lightweight aggregates used by researchers in the article from which data has been obtained.**
+](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture2.png?raw=true ""){#fig:Fig. 2}
 
 <p align="justify">
 Figure 3 illustrates the statistical distribution of compressive strength, tensile strength, and concrete density. The results show that the mean tensile strength is approximately one-tenth of the mean compressive strength (∼30 MPa), aligning with established conventions (e.g., ACI codes) [@en13055-1-2016]. The average density of 1700 kg/m³ reflects the prevalence of expanded clay aggregate and polystyrene-based concretes since their density lies in this range, validating the dataset's accuracy and reliability for further analysis [@doi:10.1016/j.jclepro.2015.07.001; @sivakumar2015flyash].
 </p>
 
-Add figure 3
+![
+**Statistical distributions of the output parameters of the dataset compiled from articles.**
+](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture3.png?raw=true ""){#fig:Fig. 3}
 
 ### 2.1. Dataset cleaning and splitting
 
@@ -194,7 +199,11 @@ Add table 1,2
 Data normalization is a standardization technique for transforming variables to have a common scale. When working with data from different sources or formats, there can be variations in how it is represented, such as differences in units of measurement, data formats, and data structures, making it difficult to compare variables or perform statistical analysis. Data standardization is a crucial step in such cases. The major challenge faced after data collection is processing the raw data to make it compatible with the ML models used. For instance, there was a considerable difference in our dataset between the numerical values of cement, w/c, and normal aggregate used. This difference adversely affected the accuracy of our model. This issue was tackled using the data normalization technique. Data normalization means transforming data into the unit sphere or scaling down the actual values to numerical indexes between 0 and 1. It leads to data cleansing and convergence and significantly enhances the model's efficiency. It also improves data execution by reducing the data set's redundancy. The governing equation taken into consideration for data normalization is mentioned below, where the normalized value of a certain input variable is a function of the actual, minimum, and maximum values of that variable in the data set. The normalized dataset has been plotted in figure 4 below
 </p>
 
-Add EQ1 and Fig 4
+Add EQ1
+
+![
+**Statistical distribution of the parameters of the dataset compiled after standardization.**
+](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture4.png?raw=true ""){#fig:Fig. 4}
 
 
 
@@ -210,7 +219,9 @@ Add equation 2
 The correlation matrix of each input with a particular output has been shown separately for a deeper understanding. Keeping the number of input and output parameters in consideration in a single correlation matrix made the visualization difficult. From the correlation matrices, it is evident that the LWA density was the primary factor controlling compressive strength. As per S.A.Khan et al. [@doi:10.1155/2024/8263261], the difference between normal-weight concrete and lightweight concrete is that lightweight concrete fails due to the failure of aggregates, not matrix so failure concrete with increased lightweight aggregate density had increased compressive strengths as well. Also, an increase in the water-cement ratio causes a decrease in compressive strength, which can also be seen in the graph. Similarly the total fines content or total normal weight aggregate content has a good positive correlation with split tensile strength and concrete density which is also supported by the literature.
 </p>
 
-Add figure 5
+![
+**Pearson correlation matrices of input parameters with each output parameters.**
+](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture5.png?raw=true ""){#fig:Fig. 5}
 
 <p align="justify">
 Apart from the data cleaning standardization and visualization discussed above, the authors of the report did not require any data augmentation since the number of data points seemed enough for the types of models they intended to train. However, the authors might perform some feature engineering by combining some of the highly correlated input parameters if the statistical performance indicators do not meet their expectations upon training of the model hence changes will be made in the subsequent report
@@ -230,7 +241,9 @@ Additionally, this report addresses the longstanding controversy surrounding the
 Artificial Neural Networks (ANNs) are complex computational models inspired by biological neural networks. They process input data, generate output, and adapt through backpropagation training. Proven effective in various domains, ANNs excel in classification, regression, forecasting, and clustering tasks. The implemented ANN model architecture has been depicted in figure 6 below.
 </p>
 
-Add Figure 6
+![
+**Model architecture of ANN.**
+](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture6.png?raw=true ""){#fig:Fig. 6}
 
 ### 3.2. Decision Tree 
 
@@ -238,7 +251,9 @@ Add Figure 6
 Decision Trees, a supervised machine learning approach, effectively predicts concrete's mechanical characteristics by modeling complex relationships between input data and output labels.  The tree-like structure of Decision Trees provides transparency into prediction outcomes. As a valuable alternative to traditional methods, Decision Trees are a helpful tool for forecasting concrete's mechanical properties, as illustrated in Figure 7.
 </p>
 
-Add Figure 7
+![
+**Working mechanism/flowchart of the Decision tree.**
+](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture7.png?raw=true ""){#fig:Fig. 7}
 
 ### 3.3. Gaussian Process of Regression
 
@@ -246,13 +261,17 @@ Add Figure 7
 Gaussian Process Regression (GPR) is a supervised machine learning technique using Bayesian inference for predictions. As a non-parametric method [60, 61], GPR excels with limited data, modeling complex relationships between inputs and outputs. Ideal for predicting concrete's mechanical properties, GPR offers accuracy and versatility, making it suitable for diverse applications, as shown in Figure 8.
 </p>
 
-Add Figure 8
+![
+**Working mechanism/flowchart of GPR.**
+](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture8.png?raw=true ""){#fig:Fig. 8}
 
 <p align="justify">
 In the figure 9, a complete overview of the whole project is depicted pictorially.
 </p>
 
-Add Figure 9
+![
+**A flowchart explaining the sequence of tasks in the project.**
+](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture9.png?raw=true ""){#fig:Fig. 9}
 
 ### References {.page_break_before}
 
