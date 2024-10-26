@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-10-25'
+date-meta: '2024-10-26'
 author-meta:
 - Ayyan Iqbal
 - Shayan Khan
@@ -21,11 +21,11 @@ header-includes: |
   <meta name="citation_title" content="Machine Learning-Based Optimization Of The Mix Design Of Lightweight Concrete For Enhanced Mechanical Properties" />
   <meta property="og:title" content="Machine Learning-Based Optimization Of The Mix Design Of Lightweight Concrete For Enhanced Mechanical Properties" />
   <meta property="twitter:title" content="Machine Learning-Based Optimization Of The Mix Design Of Lightweight Concrete For Enhanced Mechanical Properties" />
-  <meta name="dc.date" content="2024-10-25" />
-  <meta name="citation_publication_date" content="2024-10-25" />
-  <meta property="article:published_time" content="2024-10-25" />
-  <meta name="dc.modified" content="2024-10-25T05:54:12+00:00" />
-  <meta property="article:modified_time" content="2024-10-25T05:54:12+00:00" />
+  <meta name="dc.date" content="2024-10-26" />
+  <meta name="citation_publication_date" content="2024-10-26" />
+  <meta property="article:published_time" content="2024-10-26" />
+  <meta name="dc.modified" content="2024-10-26T21:47:31+00:00" />
+  <meta property="article:modified_time" content="2024-10-26T21:47:31+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/530ad55c90800a89516e56f1305e6ec7a452527f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/530ad55c90800a89516e56f1305e6ec7a452527f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/530ad55c90800a89516e56f1305e6ec7a452527f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/e630c91a75e4510ebf9bbddcea8a7e1e7ac7b635/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/e630c91a75e4510ebf9bbddcea8a7e1e7ac7b635/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/e630c91a75e4510ebf9bbddcea8a7e1e7ac7b635/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
