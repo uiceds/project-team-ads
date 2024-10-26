@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-26" />
   <meta name="citation_publication_date" content="2024-10-26" />
   <meta property="article:published_time" content="2024-10-26" />
-  <meta name="dc.modified" content="2024-10-26T22:15:23+00:00" />
-  <meta property="article:modified_time" content="2024-10-26T22:15:23+00:00" />
+  <meta name="dc.modified" content="2024-10-26T22:29:43+00:00" />
+  <meta property="article:modified_time" content="2024-10-26T22:29:43+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/3e5b2b8e14dc73048b8e38468f4d8797b970f8a1/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/3e5b2b8e14dc73048b8e38468f4d8797b970f8a1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/3e5b2b8e14dc73048b8e38468f4d8797b970f8a1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/50463867665e95904dd5ec16f932f2782db94465/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/50463867665e95904dd5ec16f932f2782db94465/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/50463867665e95904dd5ec16f932f2782db94465/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -171,10 +171,8 @@ Concrete is widely regarded as the most complex composite material, comprising v
 The authors have comprehensively compiled a dataset encompassing a wide range of lightweight aggregates from existing literature. These aggregates, derived from industrial waste materials or naturally occurring sources, exhibit spatial variability due to regional differences in availability. Consequently, a diverse array of lightweight aggregates is utilized globally. Figure 2 illustrates the various types of aggregates incorporated in this study. Notably, the dataset reveals that clay-based Lightweight Expanded Clay Aggregate (LECA) predominates, reflecting clay's abundance as a raw material for artificial aggregate production [@doi:10.1016/j.surfin.2020.100705]. Furthermore, polystyrene, a prevalent waste material, emerges as a primary source of artificial lightweight aggregates in the dataset [@doi:10.1016/j.procs.2020.05.145].
 </p>
 
-Add figure 2
 ![
-**Types of lightweight aggregates used by researchers in the article from which data has been obtained.**
-](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture2.png?raw=true ""){#fig:Fig. 2}
+<img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture1.png?raw=true" alt="**Statistical distribution of the input parameters of the dataset compiled from articles.**" id="fig:Fig. 1" width="500"/>
 
 <p align="justify">
 Figure 3 illustrates the statistical distribution of compressive strength, tensile strength, and concrete density. The results show that the mean tensile strength is approximately one-tenth of the mean compressive strength (∼30 MPa), aligning with established conventions (e.g., ACI codes) [@en13055-1-2016]. The average density of 1700 kg/m³ reflects the prevalence of expanded clay aggregate and polystyrene-based concretes since their density lies in this range, validating the dataset's accuracy and reliability for further analysis [@doi:10.1016/j.jclepro.2015.07.001; @sivakumar2015flyash].
