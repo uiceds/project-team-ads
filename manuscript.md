@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-26" />
   <meta name="citation_publication_date" content="2024-10-26" />
   <meta property="article:published_time" content="2024-10-26" />
-  <meta name="dc.modified" content="2024-10-26T22:29:43+00:00" />
-  <meta property="article:modified_time" content="2024-10-26T22:29:43+00:00" />
+  <meta name="dc.modified" content="2024-10-26T22:34:15+00:00" />
+  <meta property="article:modified_time" content="2024-10-26T22:34:15+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/50463867665e95904dd5ec16f932f2782db94465/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/50463867665e95904dd5ec16f932f2782db94465/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/50463867665e95904dd5ec16f932f2782db94465/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/c5b70699c71ce83a685c4100e3c4004ab9b8b44c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/c5b70699c71ce83a685c4100e3c4004ab9b8b44c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/c5b70699c71ce83a685c4100e3c4004ab9b8b44c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -172,7 +172,8 @@ The authors have comprehensively compiled a dataset encompassing a wide range of
 </p>
 
 ![
-<img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture1.png?raw=true" alt="**Statistical distribution of the input parameters of the dataset compiled from articles.**" id="fig:Fig. 1" width="500"/>
+**Types of lightweight aggregates used by researchers in the article from which data has been obtained.**
+](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture2.png?raw=true ""){#fig:Fig. 2}
 
 <p align="justify">
 Figure 3 illustrates the statistical distribution of compressive strength, tensile strength, and concrete density. The results show that the mean tensile strength is approximately one-tenth of the mean compressive strength (∼30 MPa), aligning with established conventions (e.g., ACI codes) [@en13055-1-2016]. The average density of 1700 kg/m³ reflects the prevalence of expanded clay aggregate and polystyrene-based concretes since their density lies in this range, validating the dataset's accuracy and reliability for further analysis [@doi:10.1016/j.jclepro.2015.07.001; @sivakumar2015flyash].
