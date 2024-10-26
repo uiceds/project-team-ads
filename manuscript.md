@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-26" />
   <meta name="citation_publication_date" content="2024-10-26" />
   <meta property="article:published_time" content="2024-10-26" />
-  <meta name="dc.modified" content="2024-10-26T22:50:18+00:00" />
-  <meta property="article:modified_time" content="2024-10-26T22:50:18+00:00" />
+  <meta name="dc.modified" content="2024-10-26T23:02:36+00:00" />
+  <meta property="article:modified_time" content="2024-10-26T23:02:36+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/541b1e17f6347a2b5410cb238da23a5ca7b790fe/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/541b1e17f6347a2b5410cb238da23a5ca7b790fe/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/541b1e17f6347a2b5410cb238da23a5ca7b790fe/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/0e9a852af8cfff8afcde17c7841e8e14db675c18/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/0e9a852af8cfff8afcde17c7841e8e14db675c18/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/0e9a852af8cfff8afcde17c7841e8e14db675c18/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -163,25 +163,28 @@ Table 2. Input and output parameters of the dataset along with their units.
 Concrete is widely regarded as the most complex composite material, comprising various ingredients and exhibiting diverse properties that make its behavior challenging to predict. Its composition can vary significantly depending on application, environmental conditions, and performance requirements. Figure 1 illustrates the statistical distribution of input parameters for concrete compositions, revealing diverse applications and formulations contributing to complex datasets. Certain parameters, such as water-to-cement (W/C) ratio (0.35-0.5), superplasticizer content (typically ≤1% of binder weight), water absorption of aggregates (∼2% of aggregate weight), and curing time (predominantly 28 days), exhibit narrow interquartile ranges, indicating relatively fixed proportions in typical cement-based mixtures [@doi:10.1680/macr.2005.57.8.445; @lee2003; @goldman1993; @lai1997]. In contrast, lightweight aggregate types and corresponding variations in concrete compositions display larger interquartile ranges, reflecting the broad range of available materials, underscoring the complexity of concrete's widespread use as the world's most utilized composite material [@vilarinho2009researchgate].
 </p>
 
-![
-**Statistical distribution of the input parameters of the dataset compiled from articles.**
-](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture1.png?raw=true ""){#fig:Fig. 1}
+<div style="text-align: center;">
+  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture1.png?raw=true" id="fig:Fig.1" style="width: 75%;"/>
+  <p><strong>Figure 1:</strong> Statistical distribution of the input parameters of the dataset compiled from articles.</p>
+</div>
 
 <p align="justify">
 The authors have comprehensively compiled a dataset encompassing a wide range of lightweight aggregates from existing literature. These aggregates, derived from industrial waste materials or naturally occurring sources, exhibit spatial variability due to regional differences in availability. Consequently, a diverse array of lightweight aggregates is utilized globally. Figure 2 illustrates the various types of aggregates incorporated in this study. Notably, the dataset reveals that clay-based Lightweight Expanded Clay Aggregate (LECA) predominates, reflecting clay's abundance as a raw material for artificial aggregate production [@doi:10.1016/j.surfin.2020.100705]. Furthermore, polystyrene, a prevalent waste material, emerges as a primary source of artificial lightweight aggregates in the dataset [@doi:10.1016/j.procs.2020.05.145].
 </p>
 
-![
-**Types of lightweight aggregates used by researchers in the article from which data has been obtained.**
-](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture2.png?raw=true ""){#fig:Fig. 2}
+<div style="text-align: center;">
+  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture2.png?raw=true" id="fig:Fig.2" style="width: 75%;"/>
+  <p><strong>Figure 2:</strong> Types of lightweight aggregates used by researchers in the article from which data has been obtained.</p>
+</div>
 
 <p align="justify">
 Figure 3 illustrates the statistical distribution of compressive strength, tensile strength, and concrete density. The results show that the mean tensile strength is approximately one-tenth of the mean compressive strength (∼30 MPa), aligning with established conventions (e.g., ACI codes) [@en13055-1-2016]. The average density of 1700 kg/m³ reflects the prevalence of expanded clay aggregate and polystyrene-based concretes since their density lies in this range, validating the dataset's accuracy and reliability for further analysis [@doi:10.1016/j.jclepro.2015.07.001; @sivakumar2015flyash].
 </p>
 
-![
-**Statistical distributions of the output parameters of the dataset compiled from articles.**
-](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture3.png?raw=true ""){#fig:Fig. 3}
+<div style="text-align: center;">
+  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture3.png?raw=true" id="fig:Fig.3" style="width: 75%;"/>
+  <p><strong>Figure 3:</strong> Statistical distributions of the output parameters of the dataset compiled from articles.</p>
+</div>
 
 ### 2.1. Dataset cleaning and splitting
 
@@ -200,11 +203,10 @@ Data normalization is a standardization technique for transforming variables to 
 
 Add EQ1
 
-![
-**Statistical distribution of the parameters of the dataset compiled after standardization.**
-](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture4.png?raw=true ""){#fig:Fig. 4}
-
-
+<div style="text-align: center;">
+  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture4.png?raw=true" id="fig:Fig.4" style="width: 75%;"/>
+  <p><strong>Figure 4:</strong> Statistical distribution of the parameters of the dataset compiled after standardization.</p>
+</div>
 
 ### 2.3. Correlation of input parameters with output parameters
 
@@ -218,9 +220,10 @@ Add equation 2
 The correlation matrix of each input with a particular output has been shown separately for a deeper understanding. Keeping the number of input and output parameters in consideration in a single correlation matrix made the visualization difficult. From the correlation matrices, it is evident that the LWA density was the primary factor controlling compressive strength. As per S.A.Khan et al. [@doi:10.1155/2024/8263261], the difference between normal-weight concrete and lightweight concrete is that lightweight concrete fails due to the failure of aggregates, not matrix so failure concrete with increased lightweight aggregate density had increased compressive strengths as well. Also, an increase in the water-cement ratio causes a decrease in compressive strength, which can also be seen in the graph. Similarly the total fines content or total normal weight aggregate content has a good positive correlation with split tensile strength and concrete density which is also supported by the literature.
 </p>
 
-![
-**Pearson correlation matrices of input parameters with each output parameters.**
-](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture5.png?raw=true ""){#fig:Fig. 5}
+<div style="text-align: center;">
+  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture5.png?raw=true" id="fig:Fig.5" style="width: 75%;"/>
+  <p><strong>Figure 5:</strong> Pearson correlation matrices of input parameters with each output parameter.</p>
+</div>
 
 <p align="justify">
 Apart from the data cleaning standardization and visualization discussed above, the authors of the report did not require any data augmentation since the number of data points seemed enough for the types of models they intended to train. However, the authors might perform some feature engineering by combining some of the highly correlated input parameters if the statistical performance indicators do not meet their expectations upon training of the model hence changes will be made in the subsequent report
@@ -250,9 +253,10 @@ Artificial Neural Networks (ANNs) are complex computational models inspired by b
 Decision Trees, a supervised machine learning approach, effectively predicts concrete's mechanical characteristics by modeling complex relationships between input data and output labels.  The tree-like structure of Decision Trees provides transparency into prediction outcomes. As a valuable alternative to traditional methods, Decision Trees are a helpful tool for forecasting concrete's mechanical properties, as illustrated in Figure 7.
 </p>
 
-![
-**Working mechanism/flowchart of the Decision tree.**
-](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture7.png?raw=true ""){#fig:Fig. 7}
+<div style="text-align: center;">
+  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture7.png?raw=true" id="fig:Fig.7" style="width: 75%;"/>
+  <p><strong>Figure 7:</strong> Working mechanism/flowchart of the Decision tree.</p>
+</div>
 
 ### 3.3. Gaussian Process of Regression
 
@@ -260,17 +264,19 @@ Decision Trees, a supervised machine learning approach, effectively predicts con
 Gaussian Process Regression (GPR) is a supervised machine learning technique using Bayesian inference for predictions. As a non-parametric method [60, 61], GPR excels with limited data, modeling complex relationships between inputs and outputs. Ideal for predicting concrete's mechanical properties, GPR offers accuracy and versatility, making it suitable for diverse applications, as shown in Figure 8.
 </p>
 
-![
-**Working mechanism/flowchart of GPR.**
-](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture8.png?raw=true ""){#fig:Fig. 8}
+<div style="text-align: center;">
+  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture8.png?raw=true" id="fig:Fig.8" style="width: 75%;"/>
+  <p><strong>Figure 8:</strong> Working mechanism/flowchart of GPR.</p>
+</div>
 
 <p align="justify">
 In the figure 9, a complete overview of the whole project is depicted pictorially.
 </p>
 
-![
-**A flowchart explaining the sequence of tasks in the project.**
-](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture9.png?raw=true ""){#fig:Fig. 9}
+<div style="text-align: center;">
+  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture9.png?raw=true" id="fig:Fig.9" style="width: 75%;"/>
+  <p><strong>Figure 9:</strong> A flowchart explaining the sequence of tasks in the project.</p>
+</div>
 
 ### References {.page_break_before}
 
