@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-10-27T01:27:57+00:00" />
-  <meta property="article:modified_time" content="2024-10-27T01:27:57+00:00" />
+  <meta name="dc.modified" content="2024-10-27T01:38:07+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T01:38:07+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/efdba08d22155e23d7fe151edcabb0fa450529ce/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/efdba08d22155e23d7fe151edcabb0fa450529ce/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/efdba08d22155e23d7fe151edcabb0fa450529ce/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/edb4203d125c6a0bb1731fe2358cecf6d7a8c628/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/edb4203d125c6a0bb1731fe2358cecf6d7a8c628/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/edb4203d125c6a0bb1731fe2358cecf6d7a8c628/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,7 +102,7 @@ A significant obstacle in the widespread adoption of Lightweight Concrete (LWC) 
 To address this challenge, a machine learning (ML) framework can be employed to predict LWA concrete's mechanical properties, including compressive strength, tensile strength, and density. The development of user-friendly tools, leveraging these ML models, would facilitate iterative design optimization and trial-and-error experimentation for researchers working on specialized LWC mix designs.
 This predictive tool would not only streamline LWC mix design hence enhancing accuracy in mechanical property prediction but expedite the development of tailored LWC solutions for specific applications. By integrating ML and materials science, this innovative approach would overcome existing design complexities and unlock LWC's full potential.
 For the CEE-492 semester project, our team objectives are to develop and compare the performance of Artificial Neural Networks (ANN), Gaussian Process Regression (GPR), and Decision Trees in predicting the mechanical properties of Lightweight Concrete (LWC), specifically density, compressive strength, and tensile strength. Initially, relevant data from published online articles would be collected, followed by data preprocessing to ensure consistency and quality. Next, we identify 10 influential input parameters governing LWC mix design through a comprehensive literature review of the latest published review articles. An exploratory data analysis (EDA) is then conducted to uncover trends and relationships within the data. Subsequently, the preprocessed data is divided into training (~70-80%) and testing sets (~20-30%). The training data is then normalized and scaled to optimize model performance.
-Then the team aims to train the ANN, GPR, and Decision Tree models on the training data, fine-tuning hyperparameters through cross-validation and grid search. Model evaluation is performed on the testing data using the statistical performance indicators i.e., such as mean squared error (MSE), R-squared (R²), and mean absolute error (MAE). Finally, we compare the performance of the trained models and select the best-performing algorithm. The formulas for the performance metrics are mentioned below in Table @Table 1.
+Then the team aims to train the ANN, GPR, and Decision Tree models on the training data, fine-tuning hyperparameters through cross-validation and grid search. Model evaluation is performed on the testing data using the statistical performance indicators i.e., such as mean squared error (MSE), R-squared (R²), and mean absolute error (MAE). Finally, we compare the performance of the trained models and select the best-performing algorithm. The formulas for the performance metrics are mentioned below in [Table 1](#Table 1).
 </p>
 
 <p align="center" id="Table 1"><strong>Table 1. Mathematical formulation of the statistical performance indicators used in the report.</strong></p>
@@ -122,7 +122,7 @@ A longstanding controversy surrounds the efficacy and reliability of Machine Lea
 ### 1.1. Dataset description
 
 <p align="justify">
-The data set attached has been collected by the team members from all the scholarly articles from Scopus. The search query used for finding articles was “{Lightweight} AND {concrete} AND {aggregate} AND {strength} AND {density} AND {ML}”. The authors have collected 500 data points from over 50 articles. The data set has the quantities of Cement, sand, fly ash (FA), the density of lightweight aggregate, water absorption of lightweight aggregate, superplasticizer, curing time, and the amount of normal aggregate (normal agg.), as input parameters while the compressive strength, split tensile strength, and density of the concrete were taken as output parameters. The first test columns of the dataset correspond to inputs while the last three correspond to output. All the quantities were normalized by the cement quantity before the start of the analysis. The input and output parameters along with their units have been mentioned below in Table 2 as well.
+The data set attached has been collected by the team members from all the scholarly articles from Scopus. The search query used for finding articles was “{Lightweight} AND {concrete} AND {aggregate} AND {strength} AND {density} AND {ML}”. The authors have collected 500 data points from over 50 articles. The data set has the quantities of Cement, sand, fly ash (FA), the density of lightweight aggregate, water absorption of lightweight aggregate, superplasticizer, curing time, and the amount of normal aggregate (normal agg.), as input parameters while the compressive strength, split tensile strength, and density of the concrete were taken as output parameters. The first test columns of the dataset correspond to inputs while the last three correspond to output. All the quantities were normalized by the cement quantity before the start of the analysis. The input and output parameters along with their units have been mentioned below in [Table 2](#Table 2) as well.
 </p>
 
 <p align="center" id="Table 2"><strong>Table 2. Input and output parameters of the dataset along with their units.</strong></p>
@@ -156,7 +156,7 @@ The data set attached has been collected by the team members from all the schola
 ## 2. Statistical distribution of dataset {.page_break_before}
 
 <p align="justify">
-Concrete is widely regarded as the most complex composite material, comprising various ingredients and exhibiting diverse properties that make its behavior challenging to predict. Its composition can vary significantly depending on application, environmental conditions, and performance requirements. Figure 1 illustrates the statistical distribution of input parameters for concrete compositions, revealing diverse applications and formulations contributing to complex datasets. Certain parameters, such as water-to-cement (W/C) ratio (0.35-0.5), superplasticizer content (typically ≤1% of binder weight), water absorption of aggregates (∼2% of aggregate weight), and curing time (predominantly 28 days), exhibit narrow interquartile ranges, indicating relatively fixed proportions in typical cement-based mixtures [@doi:10.1680/macr.2005.57.8.445; @lee2003; @goldman1993; @lai1997]. In contrast, lightweight aggregate types and corresponding variations in concrete compositions display larger interquartile ranges, reflecting the broad range of available materials, underscoring the complexity of concrete's widespread use as the world's most utilized composite material [@vilarinho2009researchgate].
+Concrete is widely regarded as the most complex composite material, comprising various ingredients and exhibiting diverse properties that make its behavior challenging to predict. Its composition can vary significantly depending on application, environmental conditions, and performance requirements. [Figure 1](fig:Fig.1) illustrates the statistical distribution of input parameters for concrete compositions, revealing diverse applications and formulations contributing to complex datasets. Certain parameters, such as water-to-cement (W/C) ratio (0.35-0.5), superplasticizer content (typically ≤1% of binder weight), water absorption of aggregates (∼2% of aggregate weight), and curing time (predominantly 28 days), exhibit narrow interquartile ranges, indicating relatively fixed proportions in typical cement-based mixtures [@doi:10.1680/macr.2005.57.8.445; @lee2003; @goldman1993; @lai1997]. In contrast, lightweight aggregate types and corresponding variations in concrete compositions display larger interquartile ranges, reflecting the broad range of available materials, underscoring the complexity of concrete's widespread use as the world's most utilized composite material [@vilarinho2009researchgate].
 </p>
 
 <div style="text-align: center;">
@@ -165,7 +165,7 @@ Concrete is widely regarded as the most complex composite material, comprising v
 </div>
 
 <p align="justify">
-The authors have comprehensively compiled a dataset encompassing a wide range of lightweight aggregates from existing literature. These aggregates, derived from industrial waste materials or naturally occurring sources, exhibit spatial variability due to regional differences in availability. Consequently, a diverse array of lightweight aggregates is utilized globally. Figure 2 illustrates the various types of aggregates incorporated in this study. Notably, the dataset reveals that clay-based Lightweight Expanded Clay Aggregate (LECA) predominates, reflecting clay's abundance as a raw material for artificial aggregate production [@doi:10.1016/j.surfin.2020.100705]. Furthermore, polystyrene, a prevalent waste material, emerges as a primary source of artificial lightweight aggregates in the dataset [@doi:10.1016/j.procs.2020.05.145].
+The authors have comprehensively compiled a dataset encompassing a wide range of lightweight aggregates from existing literature. These aggregates, derived from industrial waste materials or naturally occurring sources, exhibit spatial variability due to regional differences in availability. Consequently, a diverse array of lightweight aggregates is utilized globally. [Figure 2](fig:Fig.2) illustrates the various types of aggregates incorporated in this study. Notably, the dataset reveals that clay-based Lightweight Expanded Clay Aggregate (LECA) predominates, reflecting clay's abundance as a raw material for artificial aggregate production [@doi:10.1016/j.surfin.2020.100705]. Furthermore, polystyrene, a prevalent waste material, emerges as a primary source of artificial lightweight aggregates in the dataset [@doi:10.1016/j.procs.2020.05.145].
 </p>
 
 <div style="text-align: center;">
@@ -174,7 +174,7 @@ The authors have comprehensively compiled a dataset encompassing a wide range of
 </div>
 
 <p align="justify">
-Figure 3 illustrates the statistical distribution of compressive strength, tensile strength, and concrete density. The results show that the mean tensile strength is approximately one-tenth of the mean compressive strength (∼30 MPa), aligning with established conventions (e.g., ACI codes) [@en13055-1-2016]. The average density of 1700 kg/m³ reflects the prevalence of expanded clay aggregate and polystyrene-based concretes since their density lies in this range, validating the dataset's accuracy and reliability for further analysis [@doi:10.1016/j.jclepro.2015.07.001; @sivakumar2015flyash].
+[Figure 3](fig:Fig.3) illustrates the statistical distribution of compressive strength, tensile strength, and concrete density. The results show that the mean tensile strength is approximately one-tenth of the mean compressive strength (∼30 MPa), aligning with established conventions (e.g., ACI codes) [@en13055-1-2016]. The average density of 1700 kg/m³ reflects the prevalence of expanded clay aggregate and polystyrene-based concretes since their density lies in this range, validating the dataset's accuracy and reliability for further analysis [@doi:10.1016/j.jclepro.2015.07.001; @sivakumar2015flyash].
 </p>
 
 <div style="text-align: center;">
@@ -186,7 +186,7 @@ Figure 3 illustrates the statistical distribution of compressive strength, tensi
 
 <p align="justify">
 To maintain accuracy, completeness, consistency, relevance, and validity, the dataset underwent a rigorous cleaning process, a crucial step before applying any machine learning algorithm. This process ensures that the data is processable and enables effective learning for accurate output. Given that the dataset was compiled from X diverse articles sourced from online libraries, there was a high likelihood of human error. However, since most of the dataset was collected by our team, missing values were nonexistent, eliminating the need for removal or imputation. Data cleaning addressed potential issues such as data entry errors, equipment malfunctions, or incomplete surveys. Outliers were identified, and upon examination, most were found to originate from articles published by sources with questionable academic reputations [@doi:10.1016/j.bsecv.2021.11.003; @doi:10.3390/ma15113929; @doi:10.3390/ma11122434; @zach2009; @doi:10.1016/j.matdes.2013.12.013; @doi:10.3390/buildings12010060; @doi:10.3390/ma12020267]. These outliers were subsequently trimmed to prevent biased analysis and ensure data integrity.
-Following data cleaning, the refined dataset was split into training (80%) and testing sets (20%). Summary statistics for both are presented in Tables 1 and 2, providing a comprehensive foundation for reliable model development and evaluation.
+Following data cleaning, the refined dataset was split into training (80%) and testing sets (20%). Summary statistics for both are presented in [Table 3](#Table 3) and [Table 4](#Table 4), providing a comprehensive foundation for reliable model development and evaluation.
 </p>
 
 <p align="center" id="Table 4"><strong>Table 3. Summary statistics of dataset set aside for ML model training.</strong></p>
@@ -229,7 +229,7 @@ Following data cleaning, the refined dataset was split into training (80%) and t
 ### 2.2. Dataset cleaning and splitting
 
 <p align="justify">
-Data normalization is a standardization technique for transforming variables to have a common scale. When working with data from different sources or formats, there can be variations in how it is represented, such as differences in units of measurement, data formats, and data structures, making it difficult to compare variables or perform statistical analysis. Data standardization is a crucial step in such cases. The major challenge faced after data collection is processing the raw data to make it compatible with the ML models used. For instance, there was a considerable difference in our dataset between the numerical values of cement, w/c, and normal aggregate used. This difference adversely affected the accuracy of our model. This issue was tackled using the data normalization technique. Data normalization means transforming data into the unit sphere or scaling down the actual values to numerical indexes between 0 and 1. It leads to data cleansing and convergence and significantly enhances the model's efficiency. It also improves data execution by reducing the data set's redundancy. The governing equation taken into consideration for data normalization is mentioned below, where the normalized value of a certain input variable is a function of the actual, minimum, and maximum values of that variable in the data set. The normalized dataset has been plotted in figure 4 below
+Data normalization is a standardization technique for transforming variables to have a common scale. When working with data from different sources or formats, there can be variations in how it is represented, such as differences in units of measurement, data formats, and data structures, making it difficult to compare variables or perform statistical analysis. Data standardization is a crucial step in such cases. The major challenge faced after data collection is processing the raw data to make it compatible with the ML models used. For instance, there was a considerable difference in our dataset between the numerical values of cement, w/c, and normal aggregate used. This difference adversely affected the accuracy of our model. This issue was tackled using the data normalization technique. Data normalization means transforming data into the unit sphere or scaling down the actual values to numerical indexes between 0 and 1. It leads to data cleansing and convergence and significantly enhances the model's efficiency. It also improves data execution by reducing the data set's redundancy. The governing [Eq 1](#eq:Eq 1) taken into consideration for data normalization is mentioned below, where the normalized value of a certain input variable is a function of the actual, minimum, and maximum values of that variable in the data set. The normalized dataset has been plotted in [Figure 4](fig:Fig.4) below
 </p>
 
 \begin{equation}
@@ -245,7 +245,7 @@ y = \frac{\sum_{i=1}^{n} \left( x_i - \bar{x} \right) \left( y_i - \bar{y} \righ
 ### 2.3. Correlation of input parameters with output parameters
 
 <p align="justify">
-The preprocessing phase proceeded with the plotting of Pearson correlation matrices (Figure 5) to elucidate relationships between dependent and independent variables. This comprehensive graph displays pairwise correlations through Pearson correlation coefficients, ranging from -1 to +1. Diagonal entries show perfect correlation (1), while non-diagonal entries exhibit coefficients between -1 and +1, indicating varying degrees of correlation. In the graph template used for this article, blue the color shows the direction of the correlation, and the size of the circle shows magnitude/extent of correlation. Positive coefficients signify direct relationships, and negative coefficients indicate inverse relationships. This analysis, mathematically expressed through the Pearson correlation coefficient (r) equation (1), provides valuable insights into variable interactions, informing the development of a robust ML model.
+The preprocessing phase proceeded with the plotting of Pearson correlation matrices [Figure 5](fig:Fig.5) to elucidate relationships between dependent and independent variables. This comprehensive graph displays pairwise correlations through Pearson correlation coefficients, ranging from -1 to +1. Diagonal entries show perfect correlation (1), while non-diagonal entries exhibit coefficients between -1 and +1, indicating varying degrees of correlation. In the graph template used for this article, blue the color shows the direction of the correlation, and the size of the circle shows magnitude/extent of correlation. Positive coefficients signify direct relationships, and negative coefficients indicate inverse relationships. This analysis, mathematically expressed through the Pearson correlation coefficient (r) [Eq 2](#eq:Eq 2), provides valuable insights into variable interactions, informing the development of a robust ML model.
 </p>
 
 \begin{equation}
@@ -277,7 +277,7 @@ Additionally, this report addresses the longstanding controversy surrounding the
 ### 3.1. Artificial neural network
 
 <p align="justify">
-Artificial Neural Networks (ANNs) are complex computational models inspired by biological neural networks. They process input data, generate output, and adapt through backpropagation training. Proven effective in various domains, ANNs excel in classification, regression, forecasting, and clustering tasks. The implemented ANN model architecture has been depicted in figure 6 below.
+Artificial Neural Networks (ANNs) are complex computational models inspired by biological neural networks. They process input data, generate output, and adapt through backpropagation training. Proven effective in various domains, ANNs excel in classification, regression, forecasting, and clustering tasks. The implemented ANN model architecture has been depicted in [Figure 6](fig:Fig.6) below.
 </p>
 
 <div style="text-align: center;">
@@ -288,7 +288,7 @@ Artificial Neural Networks (ANNs) are complex computational models inspired by b
 ### 3.2. Decision Tree 
 
 <p align="justify">
-Decision Trees, a supervised machine learning approach, effectively predicts concrete's mechanical characteristics by modeling complex relationships between input data and output labels.  The tree-like structure of Decision Trees provides transparency into prediction outcomes. As a valuable alternative to traditional methods, Decision Trees are a helpful tool for forecasting concrete's mechanical properties, as illustrated in Figure 7.
+Decision Trees, a supervised machine learning approach, effectively predicts concrete's mechanical characteristics by modeling complex relationships between input data and output labels.  The tree-like structure of Decision Trees provides transparency into prediction outcomes. As a valuable alternative to traditional methods, Decision Trees are a helpful tool for forecasting concrete's mechanical properties, as illustrated in [Figure 7](fig:Fig.7).
 </p>
 
 <div style="text-align: center;">
@@ -299,7 +299,7 @@ Decision Trees, a supervised machine learning approach, effectively predicts con
 ### 3.3. Gaussian Process of Regression
 
 <p align="justify">
-Gaussian Process Regression (GPR) is a supervised machine learning technique using Bayesian inference for predictions. As a non-parametric method [60, 61], GPR excels with limited data, modeling complex relationships between inputs and outputs. Ideal for predicting concrete's mechanical properties, GPR offers accuracy and versatility, making it suitable for diverse applications, as shown in Figure 8.
+Gaussian Process Regression (GPR) is a supervised machine learning technique using Bayesian inference for predictions. As a non-parametric method [60, 61], GPR excels with limited data, modeling complex relationships between inputs and outputs. Ideal for predicting concrete's mechanical properties, GPR offers accuracy and versatility, making it suitable for diverse applications, as shown in [Figure 8](fig:Fig.8).
 </p>
 
 <div style="text-align: center;">
@@ -308,7 +308,7 @@ Gaussian Process Regression (GPR) is a supervised machine learning technique usi
 </div>
 
 <p align="justify">
-In the figure 9, a complete overview of the whole project is depicted pictorially.
+In the [Figure 9](fig:Fig.9), a complete overview of the whole project is depicted pictorially.
 </p>
 
 <div style="text-align: center;">
