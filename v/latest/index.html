@@ -55,8 +55,8 @@
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-10-27T00:57:37+00:00" />
-  <meta property="article:modified_time" content="2024-10-27T00:57:37+00:00" />
+  <meta name="dc.modified" content="2024-10-27T01:13:38+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T01:13:38+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -75,9 +75,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/ffd64b98137121b285f837e4ddde966dce1a3c46/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/ffd64b98137121b285f837e4ddde966dce1a3c46/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/ffd64b98137121b285f837e4ddde966dce1a3c46/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/443bccb657d8b4a9e46e3b46e3a0596d26387119/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/443bccb657d8b4a9e46e3b46e3a0596d26387119/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/443bccb657d8b4a9e46e3b46e3a0596d26387119/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -128,9 +128,8 @@ This predictive tool would not only streamline LWC mix design hence enhancing ac
 For the CEE-492 semester project, our team objectives are to develop and compare the performance of Artificial Neural Networks (ANN), Gaussian Process Regression (GPR), and Decision Trees in predicting the mechanical properties of Lightweight Concrete (LWC), specifically density, compressive strength, and tensile strength. Initially, relevant data from published online articles would be collected, followed by data preprocessing to ensure consistency and quality. Next, we identify 10 influential input parameters governing LWC mix design through a comprehensive literature review of the latest published review articles. An exploratory data analysis (EDA) is then conducted to uncover trends and relationships within the data. Subsequently, the preprocessed data is divided into training (~70-80%) and testing sets (~20-30%). The training data is then normalized and scaled to optimize model performance.
 Then the team aims to train the ANN, GPR, and Decision Tree models on the training data, fine-tuning hyperparameters through cross-validation and grid search. Model evaluation is performed on the testing data using the statistical performance indicators i.e., such as mean squared error (MSE), R-squared (R²), and mean absolute error (MAE). Finally, we compare the performance of the trained models and select the best-performing algorithm. The formulas for the performance metrics are mentioned below in Table 1.
 </p>
-<p align="center">
+<p align="center" id="Table 1">
 <strong>Table 1. Mathematical formulation of the statistical performance indicators used in the report.</strong>
-{#tbl: Table 1}
 </p>
 <table>
 <colgroup>
@@ -166,9 +165,8 @@ A longstanding controversy surrounds the efficacy and reliability of Machine Lea
 <p align="justify">
 The data set attached has been collected by the team members from all the scholarly articles from Scopus. The search query used for finding articles was “{Lightweight} AND {concrete} AND {aggregate} AND {strength} AND {density} AND {ML}”. The authors have collected 500 data points from over 50 articles. The data set has the quantities of Cement, sand, fly ash (FA), the density of lightweight aggregate, water absorption of lightweight aggregate, superplasticizer, curing time, and the amount of normal aggregate (normal agg.), as input parameters while the compressive strength, split tensile strength, and density of the concrete were taken as output parameters. The first test columns of the dataset correspond to inputs while the last three correspond to output. All the quantities were normalized by the cement quantity before the start of the analysis. The input and output parameters along with their units have been mentioned below in Table 2 as well.
 </p>
-<p align="center">
+<p align="center" id="Table 2">
 <strong>Table 2. Input and output parameters of the dataset along with their units.</strong>
-{#tbl: Table 2}
 </p>
 <table>
 <thead>
@@ -275,9 +273,8 @@ Figure 3 illustrates the statistical distribution of compressive strength, tensi
 To maintain accuracy, completeness, consistency, relevance, and validity, the dataset underwent a rigorous cleaning process, a crucial step before applying any machine learning algorithm. This process ensures that the data is processable and enables effective learning for accurate output. Given that the dataset was compiled from X diverse articles sourced from online libraries, there was a high likelihood of human error. However, since most of the dataset was collected by our team, missing values were nonexistent, eliminating the need for removal or imputation. Data cleaning addressed potential issues such as data entry errors, equipment malfunctions, or incomplete surveys. Outliers were identified, and upon examination, most were found to originate from articles published by sources with questionable academic reputations <span class="citation" data-cites="JFqEuzXI 81Cz4XDP vGFdVmWU 157O3X0aW EI8Ba5X rCm0JXFJ FiOLHRUz">[<a href="#ref-JFqEuzXI" role="doc-biblioref">13</a>,<a href="#ref-81Cz4XDP" role="doc-biblioref">14</a>,<a href="#ref-vGFdVmWU" role="doc-biblioref">15</a>,<a href="#ref-157O3X0aW" role="doc-biblioref">16</a>,<a href="#ref-EI8Ba5X" role="doc-biblioref">17</a>,<a href="#ref-rCm0JXFJ" role="doc-biblioref">18</a>,<a href="#ref-FiOLHRUz" role="doc-biblioref">19</a>]</span>. These outliers were subsequently trimmed to prevent biased analysis and ensure data integrity.
 Following data cleaning, the refined dataset was split into training (80%) and testing sets (20%). Summary statistics for both are presented in Tables 1 and 2, providing a comprehensive foundation for reliable model development and evaluation.
 </p>
-<p align="center">
+<p align="center" id="Table 4">
 <strong>Table 3. Summary statistics of dataset set aside for ML model training.</strong>
-{#tbl: Table 3}
 </p>
 <table>
 <colgroup>
@@ -420,9 +417,8 @@ Following data cleaning, the refined dataset was split into training (80%) and t
 </tr>
 </tbody>
 </table>
-<p align="center">
+<p align="center" id="Table 4">
 <strong>Table 4. Summary statistics of dataset set aside for ML model testing.</strong>
-{#tbl: Table 4}
 </p>
 <table>
 <colgroup>
