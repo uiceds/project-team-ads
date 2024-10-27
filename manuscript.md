@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-10-27T00:24:18+00:00" />
-  <meta property="article:modified_time" content="2024-10-27T00:24:18+00:00" />
+  <meta name="dc.modified" content="2024-10-27T00:57:37+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T00:57:37+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/7cf78dc7f9887dce50296957b7a5308f3adb7b6a/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7cf78dc7f9887dce50296957b7a5308f3adb7b6a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7cf78dc7f9887dce50296957b7a5308f3adb7b6a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/ffd64b98137121b285f837e4ddde966dce1a3c46/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/ffd64b98137121b285f837e4ddde966dce1a3c46/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/ffd64b98137121b285f837e4ddde966dce1a3c46/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -107,7 +107,8 @@ Then the team aims to train the ANN, GPR, and Decision Tree models on the traini
 
 \newpage
 <p align="center">
-</strong>Table 1. Mathematical formulation of the statistical performance indicators used in the report.</strong>
+**Table 1. Mathematical formulation of the statistical performance indicators used in the report.**
+{#tbl: Table 1}
 </p>
 
 | Equations |
@@ -129,24 +130,26 @@ The data set attached has been collected by the team members from all the schola
 </p>
 
 <p align="center">
-</strong>Table 2. Input and output parameters of the dataset along with their units.</strong>
+**Table 2. Input and output parameters of the dataset along with their units.**
+{#tbl: Table 2}
 </p>
 
-| Parameters | Categories (I/O) |
-|:-----------------:|:-------------:|
-| Binder (kg/m3) | I |
-| Fine agg. (kg/m3) | I |
-| w/b | I |
-| LW agg. (kg/m3) | I |
-| LW agg. density (kg/m3) | I |
-| LW agg. water absorption (%) | I |
-| NW agg. (kg/m3) | I |
-| HRWR (% of binder) | I |
-| Curing Time (days) | I |
-| Fly Ash (kg/m3) | I |
-| Compressive Strength of LW concrete (MPa) | O |
-| Split Tensile Strength of LW concrete (MPa) | O |
-| Density of LW concrete (kg/m3) | O |
+| Parameters                               | Categories (I/O) |
+|:----------------------------------------:|:-----------------:|
+| Cement (kg/m³)                           | I                |
+| Fine agg. (kg/m³)                        | I                |
+| w/b                                      | I                |
+| LW agg. (kg/m³)                          | I                |
+| LW agg. density (kg/m³)                  | I                |
+| LW agg. water absorption (%)             | I                |
+| NW agg. (kg/m³)                          | I                |
+| HRWR (% of binder)                       | I                |
+| Curing Time (days)                       | I                |
+| Fly Ash (kg/m³)                          | I                |
+| Compressive Strength of LW concrete (MPa)| O                |
+| Split Tensile Strength of LW concrete (MPa) | O             |
+| Density of LW concrete (kg/m³)           | O                |
+
 
 <p align="justify">
 * I = Input
@@ -193,7 +196,49 @@ To maintain accuracy, completeness, consistency, relevance, and validity, the da
 Following data cleaning, the refined dataset was split into training (80%) and testing sets (20%). Summary statistics for both are presented in Tables 1 and 2, providing a comprehensive foundation for reliable model development and evaluation.
 </p>
 
-Add table 1,2
+<p align="center">
+**Table 3. Summary statistics of dataset set aside for ML model training.**
+{#tbl: Table 3}
+</p>
+
+| Parameters                               | Minimum | Maximum | Median | Mode | SD      | Type |
+|:----------------------------------------:|:-------:|:-------:|:------:|:----:|:-------:|:----:|
+| Cement (kg/m³)                           | 156     | 1500    | 467    | 480  | 378.42  | I    |
+| Fine agg. (kg/m³)                        | 0       | 1193    | 664    | 0    | 330.15  | I    |
+| w/b                                      | 0.15    | 0.80    | 0.45   | 0.5  | 0.08    | I    |
+| LW agg. (kg/m³)                          | 23.80   | 1191    | 308    | 37   | 297.28  | I    |
+| LW agg. density (kg/m³)                  | 415     | 1489    | 783    | 575  | 357.65  | I    |
+| LW agg. water absorption (%)             | 0.92    | 58.30   | 25.20  | 40   | 13.83   | I    |
+| NW agg. (kg/m³)                          | 0       | 1326    | 0      | 0    | 353.98  | I    |
+| HRWR (% of binder)                       | 0       | 3       | 0      | 0    | 0.70    | I    |
+| Curing Time (days)                       | 1       | 120     | 28     | 28   | 14.27   | I    |
+| Fly Ash (kg/m³)                          | 0       | 540     | 0      | 0    | 117.61  | I    |
+| Compressive Strength of LW concrete (MPa)| 2.03    | 79      | 24.58  | 25   | 16.68   | O    |
+| Split Tensile Strength of LW concrete (MPa) | 1   | 7       | 3.5    | 3    | 2       | O    |
+| Density of LW concrete (kg/m³)           | 900     | 2500    | 1855   | 1800 | 366     | O    |
+
+
+<p align="center">
+**Table 4. Summary statistics of dataset set aside for ML model testing.**
+{#tbl: Table 4}
+</p>
+
+| Parameters                               | Minimum | Maximum | Median | Mode | SD      | Type |
+|:----------------------------------------:|:-------:|:-------:|:------:|:----:|:-------:|:----:|
+| Cement (kg/m³)                           | 139     | 1350    | 384    | 450  | 197.70  | I    |
+| Fine agg. (kg/m³)                        | 0       | 1178    | 630    | 0    | 294.92  | I    |
+| w/b                                      | 0.23    | 0.8     | 0.42   | 0.35 | 0.07    | I    |
+| LW agg. (kg/m³)                          | 0       | 950     | 155    | 0    | 270.29  | I    |
+| LW agg. density (kg/m³)                  | 406     | 1480    | 750    | 610  | 320.11  | I    |
+| LW agg. water absorption (%)             | 0.92    | 56      | 20.5   | 20.5 | 13.54   | I    |
+| NW agg. (kg/m³)                          | 0       | 941.2   | 0      | 0    | 282.15  | I    |
+| HRWR (% of binder)                       | 0       | 2.5     | 0.5    | 0    | 0.687   | I    |
+| Curing Time (days)                       | 1       | 120     | 28     | 28   | 23.4    | I    |
+| Fly Ash (kg/m³)                          | 0       | 540     | 0      | 0    | 111.38  | I    |
+| Compressive Strength of LW concrete (MPa)| 4.28    | 65.14   | 27     | 25   | 15.54   | O    |
+| Split Tensile Strength of LW concrete (MPa) | 1.2  | 6.7     | 3.6    | 3.1  | 2.2     | O    |
+| Density of LW concrete (kg/m³)           | 950     | 2670    | 1755   | 1650 | 354     | O    |
+
 
 ### 2.2. Dataset cleaning and splitting
 
@@ -201,7 +246,10 @@ Add table 1,2
 Data normalization is a standardization technique for transforming variables to have a common scale. When working with data from different sources or formats, there can be variations in how it is represented, such as differences in units of measurement, data formats, and data structures, making it difficult to compare variables or perform statistical analysis. Data standardization is a crucial step in such cases. The major challenge faced after data collection is processing the raw data to make it compatible with the ML models used. For instance, there was a considerable difference in our dataset between the numerical values of cement, w/c, and normal aggregate used. This difference adversely affected the accuracy of our model. This issue was tackled using the data normalization technique. Data normalization means transforming data into the unit sphere or scaling down the actual values to numerical indexes between 0 and 1. It leads to data cleansing and convergence and significantly enhances the model's efficiency. It also improves data execution by reducing the data set's redundancy. The governing equation taken into consideration for data normalization is mentioned below, where the normalized value of a certain input variable is a function of the actual, minimum, and maximum values of that variable in the data set. The normalized dataset has been plotted in figure 4 below
 </p>
 
-Add EQ1
+\begin{equation}
+y = \frac{\sum_{i=1}^{n} \left( x_i - \bar{x} \right) \left( y_i - \bar{y} \right)}{\sqrt{\sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2} \sqrt{\sum_{i=1}^{n} \left( y_i - \bar{y} \right)^2}}
+\label{eq:Eq 1}
+\end{equation}
 
 <div style="text-align: center;">
   <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture4.png?raw=true" id="fig:Fig.4" style="width: 75%;"/>
@@ -214,7 +262,10 @@ Add EQ1
 The preprocessing phase proceeded with the plotting of Pearson correlation matrices (Figure 5) to elucidate relationships between dependent and independent variables. This comprehensive graph displays pairwise correlations through Pearson correlation coefficients, ranging from -1 to +1. Diagonal entries show perfect correlation (1), while non-diagonal entries exhibit coefficients between -1 and +1, indicating varying degrees of correlation. In the graph template used for this article, blue the color shows the direction of the correlation, and the size of the circle shows magnitude/extent of correlation. Positive coefficients signify direct relationships, and negative coefficients indicate inverse relationships. This analysis, mathematically expressed through the Pearson correlation coefficient (r) equation (1), provides valuable insights into variable interactions, informing the development of a robust ML model.
 </p>
 
-Add equation 2
+\begin{equation}
+r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}}
+\label{eq:Eq 2}
+\end{equation}
 
 <p align="justify">
 The correlation matrix of each input with a particular output has been shown separately for a deeper understanding. Keeping the number of input and output parameters in consideration in a single correlation matrix made the visualization difficult. From the correlation matrices, it is evident that the LWA density was the primary factor controlling compressive strength. As per S.A.Khan et al. [@doi:10.1155/2024/8263261], the difference between normal-weight concrete and lightweight concrete is that lightweight concrete fails due to the failure of aggregates, not matrix so failure concrete with increased lightweight aggregate density had increased compressive strengths as well. Also, an increase in the water-cement ratio causes a decrease in compressive strength, which can also be seen in the graph. Similarly the total fines content or total normal weight aggregate content has a good positive correlation with split tensile strength and concrete density which is also supported by the literature.

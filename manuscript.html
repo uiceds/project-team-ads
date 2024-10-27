@@ -55,8 +55,8 @@
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-10-27T00:24:18+00:00" />
-  <meta property="article:modified_time" content="2024-10-27T00:24:18+00:00" />
+  <meta name="dc.modified" content="2024-10-27T00:57:37+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T00:57:37+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -75,9 +75,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/7cf78dc7f9887dce50296957b7a5308f3adb7b6a/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7cf78dc7f9887dce50296957b7a5308f3adb7b6a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7cf78dc7f9887dce50296957b7a5308f3adb7b6a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/ffd64b98137121b285f837e4ddde966dce1a3c46/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/ffd64b98137121b285f837e4ddde966dce1a3c46/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/ffd64b98137121b285f837e4ddde966dce1a3c46/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -129,7 +129,8 @@ For the CEE-492 semester project, our team objectives are to develop and compare
 Then the team aims to train the ANN, GPR, and Decision Tree models on the training data, fine-tuning hyperparameters through cross-validation and grid search. Model evaluation is performed on the testing data using the statistical performance indicators i.e., such as mean squared error (MSE), R-squared (R²), and mean absolute error (MAE). Finally, we compare the performance of the trained models and select the best-performing algorithm. The formulas for the performance metrics are mentioned below in Table 1.
 </p>
 <p align="center">
-</strong>Table 1. Mathematical formulation of the statistical performance indicators used in the report.</strong>
+<strong>Table 1. Mathematical formulation of the statistical performance indicators used in the report.</strong>
+{#tbl: Table 1}
 </p>
 <table>
 <colgroup>
@@ -166,7 +167,8 @@ A longstanding controversy surrounds the efficacy and reliability of Machine Lea
 The data set attached has been collected by the team members from all the scholarly articles from Scopus. The search query used for finding articles was “{Lightweight} AND {concrete} AND {aggregate} AND {strength} AND {density} AND {ML}”. The authors have collected 500 data points from over 50 articles. The data set has the quantities of Cement, sand, fly ash (FA), the density of lightweight aggregate, water absorption of lightweight aggregate, superplasticizer, curing time, and the amount of normal aggregate (normal agg.), as input parameters while the compressive strength, split tensile strength, and density of the concrete were taken as output parameters. The first test columns of the dataset correspond to inputs while the last three correspond to output. All the quantities were normalized by the cement quantity before the start of the analysis. The input and output parameters along with their units have been mentioned below in Table 2 as well.
 </p>
 <p align="center">
-</strong>Table 2. Input and output parameters of the dataset along with their units.</strong>
+<strong>Table 2. Input and output parameters of the dataset along with their units.</strong>
+{#tbl: Table 2}
 </p>
 <table>
 <thead>
@@ -177,11 +179,11 @@ The data set attached has been collected by the team members from all the schola
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;">Binder (kg/m3)</td>
+<td style="text-align: center;">Cement (kg/m³)</td>
 <td style="text-align: center;">I</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">Fine agg. (kg/m3)</td>
+<td style="text-align: center;">Fine agg. (kg/m³)</td>
 <td style="text-align: center;">I</td>
 </tr>
 <tr class="odd">
@@ -189,11 +191,11 @@ The data set attached has been collected by the team members from all the schola
 <td style="text-align: center;">I</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">LW agg. (kg/m3)</td>
+<td style="text-align: center;">LW agg. (kg/m³)</td>
 <td style="text-align: center;">I</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">LW agg. density (kg/m3)</td>
+<td style="text-align: center;">LW agg. density (kg/m³)</td>
 <td style="text-align: center;">I</td>
 </tr>
 <tr class="even">
@@ -201,7 +203,7 @@ The data set attached has been collected by the team members from all the schola
 <td style="text-align: center;">I</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">NW agg. (kg/m3)</td>
+<td style="text-align: center;">NW agg. (kg/m³)</td>
 <td style="text-align: center;">I</td>
 </tr>
 <tr class="even">
@@ -213,7 +215,7 @@ The data set attached has been collected by the team members from all the schola
 <td style="text-align: center;">I</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">Fly Ash (kg/m3)</td>
+<td style="text-align: center;">Fly Ash (kg/m³)</td>
 <td style="text-align: center;">I</td>
 </tr>
 <tr class="odd">
@@ -225,7 +227,7 @@ The data set attached has been collected by the team members from all the schola
 <td style="text-align: center;">O</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">Density of LW concrete (kg/m3)</td>
+<td style="text-align: center;">Density of LW concrete (kg/m³)</td>
 <td style="text-align: center;">O</td>
 </tr>
 </tbody>
@@ -273,12 +275,304 @@ Figure 3 illustrates the statistical distribution of compressive strength, tensi
 To maintain accuracy, completeness, consistency, relevance, and validity, the dataset underwent a rigorous cleaning process, a crucial step before applying any machine learning algorithm. This process ensures that the data is processable and enables effective learning for accurate output. Given that the dataset was compiled from X diverse articles sourced from online libraries, there was a high likelihood of human error. However, since most of the dataset was collected by our team, missing values were nonexistent, eliminating the need for removal or imputation. Data cleaning addressed potential issues such as data entry errors, equipment malfunctions, or incomplete surveys. Outliers were identified, and upon examination, most were found to originate from articles published by sources with questionable academic reputations <span class="citation" data-cites="JFqEuzXI 81Cz4XDP vGFdVmWU 157O3X0aW EI8Ba5X rCm0JXFJ FiOLHRUz">[<a href="#ref-JFqEuzXI" role="doc-biblioref">13</a>,<a href="#ref-81Cz4XDP" role="doc-biblioref">14</a>,<a href="#ref-vGFdVmWU" role="doc-biblioref">15</a>,<a href="#ref-157O3X0aW" role="doc-biblioref">16</a>,<a href="#ref-EI8Ba5X" role="doc-biblioref">17</a>,<a href="#ref-rCm0JXFJ" role="doc-biblioref">18</a>,<a href="#ref-FiOLHRUz" role="doc-biblioref">19</a>]</span>. These outliers were subsequently trimmed to prevent biased analysis and ensure data integrity.
 Following data cleaning, the refined dataset was split into training (80%) and testing sets (20%). Summary statistics for both are presented in Tables 1 and 2, providing a comprehensive foundation for reliable model development and evaluation.
 </p>
-<p>Add table 1,2</p>
+<p align="center">
+<strong>Table 3. Summary statistics of dataset set aside for ML model training.</strong>
+{#tbl: Table 3}
+</p>
+<table>
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 8%" />
+<col style="width: 6%" />
+<col style="width: 10%" />
+<col style="width: 6%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Parameters</th>
+<th style="text-align: center;">Minimum</th>
+<th style="text-align: center;">Maximum</th>
+<th style="text-align: center;">Median</th>
+<th style="text-align: center;">Mode</th>
+<th style="text-align: center;">SD</th>
+<th style="text-align: center;">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Cement (kg/m³)</td>
+<td style="text-align: center;">156</td>
+<td style="text-align: center;">1500</td>
+<td style="text-align: center;">467</td>
+<td style="text-align: center;">480</td>
+<td style="text-align: center;">378.42</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Fine agg. (kg/m³)</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1193</td>
+<td style="text-align: center;">664</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">330.15</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">w/b</td>
+<td style="text-align: center;">0.15</td>
+<td style="text-align: center;">0.80</td>
+<td style="text-align: center;">0.45</td>
+<td style="text-align: center;">0.5</td>
+<td style="text-align: center;">0.08</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">LW agg. (kg/m³)</td>
+<td style="text-align: center;">23.80</td>
+<td style="text-align: center;">1191</td>
+<td style="text-align: center;">308</td>
+<td style="text-align: center;">37</td>
+<td style="text-align: center;">297.28</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">LW agg. density (kg/m³)</td>
+<td style="text-align: center;">415</td>
+<td style="text-align: center;">1489</td>
+<td style="text-align: center;">783</td>
+<td style="text-align: center;">575</td>
+<td style="text-align: center;">357.65</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">LW agg. water absorption (%)</td>
+<td style="text-align: center;">0.92</td>
+<td style="text-align: center;">58.30</td>
+<td style="text-align: center;">25.20</td>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">13.83</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">NW agg. (kg/m³)</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1326</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">353.98</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">HRWR (% of binder)</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0.70</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Curing Time (days)</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">120</td>
+<td style="text-align: center;">28</td>
+<td style="text-align: center;">28</td>
+<td style="text-align: center;">14.27</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Fly Ash (kg/m³)</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">540</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">117.61</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Compressive Strength of LW concrete (MPa)</td>
+<td style="text-align: center;">2.03</td>
+<td style="text-align: center;">79</td>
+<td style="text-align: center;">24.58</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">16.68</td>
+<td style="text-align: center;">O</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Split Tensile Strength of LW concrete (MPa)</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3.5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">O</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Density of LW concrete (kg/m³)</td>
+<td style="text-align: center;">900</td>
+<td style="text-align: center;">2500</td>
+<td style="text-align: center;">1855</td>
+<td style="text-align: center;">1800</td>
+<td style="text-align: center;">366</td>
+<td style="text-align: center;">O</td>
+</tr>
+</tbody>
+</table>
+<p align="center">
+<strong>Table 4. Summary statistics of dataset set aside for ML model testing.</strong>
+{#tbl: Table 4}
+</p>
+<table>
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 8%" />
+<col style="width: 6%" />
+<col style="width: 10%" />
+<col style="width: 6%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Parameters</th>
+<th style="text-align: center;">Minimum</th>
+<th style="text-align: center;">Maximum</th>
+<th style="text-align: center;">Median</th>
+<th style="text-align: center;">Mode</th>
+<th style="text-align: center;">SD</th>
+<th style="text-align: center;">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Cement (kg/m³)</td>
+<td style="text-align: center;">139</td>
+<td style="text-align: center;">1350</td>
+<td style="text-align: center;">384</td>
+<td style="text-align: center;">450</td>
+<td style="text-align: center;">197.70</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Fine agg. (kg/m³)</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1178</td>
+<td style="text-align: center;">630</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">294.92</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">w/b</td>
+<td style="text-align: center;">0.23</td>
+<td style="text-align: center;">0.8</td>
+<td style="text-align: center;">0.42</td>
+<td style="text-align: center;">0.35</td>
+<td style="text-align: center;">0.07</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">LW agg. (kg/m³)</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">950</td>
+<td style="text-align: center;">155</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">270.29</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">LW agg. density (kg/m³)</td>
+<td style="text-align: center;">406</td>
+<td style="text-align: center;">1480</td>
+<td style="text-align: center;">750</td>
+<td style="text-align: center;">610</td>
+<td style="text-align: center;">320.11</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">LW agg. water absorption (%)</td>
+<td style="text-align: center;">0.92</td>
+<td style="text-align: center;">56</td>
+<td style="text-align: center;">20.5</td>
+<td style="text-align: center;">20.5</td>
+<td style="text-align: center;">13.54</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">NW agg. (kg/m³)</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">941.2</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">282.15</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">HRWR (% of binder)</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2.5</td>
+<td style="text-align: center;">0.5</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0.687</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Curing Time (days)</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">120</td>
+<td style="text-align: center;">28</td>
+<td style="text-align: center;">28</td>
+<td style="text-align: center;">23.4</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Fly Ash (kg/m³)</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">540</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">111.38</td>
+<td style="text-align: center;">I</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Compressive Strength of LW concrete (MPa)</td>
+<td style="text-align: center;">4.28</td>
+<td style="text-align: center;">65.14</td>
+<td style="text-align: center;">27</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">15.54</td>
+<td style="text-align: center;">O</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Split Tensile Strength of LW concrete (MPa)</td>
+<td style="text-align: center;">1.2</td>
+<td style="text-align: center;">6.7</td>
+<td style="text-align: center;">3.6</td>
+<td style="text-align: center;">3.1</td>
+<td style="text-align: center;">2.2</td>
+<td style="text-align: center;">O</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Density of LW concrete (kg/m³)</td>
+<td style="text-align: center;">950</td>
+<td style="text-align: center;">2670</td>
+<td style="text-align: center;">1755</td>
+<td style="text-align: center;">1650</td>
+<td style="text-align: center;">354</td>
+<td style="text-align: center;">O</td>
+</tr>
+</tbody>
+</table>
 <h3 id="dataset-cleaning-and-splitting-1">2.2. Dataset cleaning and splitting</h3>
 <p align="justify">
 Data normalization is a standardization technique for transforming variables to have a common scale. When working with data from different sources or formats, there can be variations in how it is represented, such as differences in units of measurement, data formats, and data structures, making it difficult to compare variables or perform statistical analysis. Data standardization is a crucial step in such cases. The major challenge faced after data collection is processing the raw data to make it compatible with the ML models used. For instance, there was a considerable difference in our dataset between the numerical values of cement, w/c, and normal aggregate used. This difference adversely affected the accuracy of our model. This issue was tackled using the data normalization technique. Data normalization means transforming data into the unit sphere or scaling down the actual values to numerical indexes between 0 and 1. It leads to data cleansing and convergence and significantly enhances the model’s efficiency. It also improves data execution by reducing the data set’s redundancy. The governing equation taken into consideration for data normalization is mentioned below, where the normalized value of a certain input variable is a function of the actual, minimum, and maximum values of that variable in the data set. The normalized dataset has been plotted in figure 4 below
 </p>
-<p>Add EQ1</p>
+<p><span class="math display">\[\begin{equation}
+y = \frac{\sum_{i=1}^{n} \left( x_i - \bar{x} \right) \left( y_i - \bar{y} \right)}{\sqrt{\sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2} \sqrt{\sum_{i=1}^{n} \left( y_i - \bar{y} \right)^2}}
+\label{eq:Eq 1}
+\end{equation}\]</span></p>
 <div style="text-align: center;">
 <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture4.png?raw=true" id="fig:Fig.4" style="width: 75%;"/>
 <p>
@@ -289,7 +583,10 @@ Data normalization is a standardization technique for transforming variables to 
 <p align="justify">
 The preprocessing phase proceeded with the plotting of Pearson correlation matrices (Figure 5) to elucidate relationships between dependent and independent variables. This comprehensive graph displays pairwise correlations through Pearson correlation coefficients, ranging from -1 to +1. Diagonal entries show perfect correlation (1), while non-diagonal entries exhibit coefficients between -1 and +1, indicating varying degrees of correlation. In the graph template used for this article, blue the color shows the direction of the correlation, and the size of the circle shows magnitude/extent of correlation. Positive coefficients signify direct relationships, and negative coefficients indicate inverse relationships. This analysis, mathematically expressed through the Pearson correlation coefficient (r) equation (1), provides valuable insights into variable interactions, informing the development of a robust ML model.
 </p>
-<p>Add equation 2</p>
+<p><span class="math display">\[\begin{equation}
+r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}}
+\label{eq:Eq 2}
+\end{equation}\]</span></p>
 <p align="justify">
 The correlation matrix of each input with a particular output has been shown separately for a deeper understanding. Keeping the number of input and output parameters in consideration in a single correlation matrix made the visualization difficult. From the correlation matrices, it is evident that the LWA density was the primary factor controlling compressive strength. As per S.A.Khan et al. <span class="citation" data-cites="eyUFmQR5">[<a href="#ref-eyUFmQR5" role="doc-biblioref">20</a>]</span>, the difference between normal-weight concrete and lightweight concrete is that lightweight concrete fails due to the failure of aggregates, not matrix so failure concrete with increased lightweight aggregate density had increased compressive strengths as well. Also, an increase in the water-cement ratio causes a decrease in compressive strength, which can also be seen in the graph. Similarly the total fines content or total normal weight aggregate content has a good positive correlation with split tensile strength and concrete density which is also supported by the literature.
 </p>
