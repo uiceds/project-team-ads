@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/uiceds/project-team-ads/tree/gh-pages) branch hosts the contents of this directory at <https://uiceds.github.io/project-team-ads/>.
-The permalink for this webpage version is <https://uiceds.github.io/project-team-ads/v/7cf78dc7f9887dce50296957b7a5308f3adb7b6a/>.
+The permalink for this webpage version is <https://uiceds.github.io/project-team-ads/v/ffd64b98137121b285f837e4ddde966dce1a3c46/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://uiceds.github.io/project-team-ads/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`7cf78dc7f9887dce50296957b7a5308f3adb7b6a`](https://github.com/uiceds/project-team-ads/commit/7cf78dc7f9887dce50296957b7a5308f3adb7b6a).
+[`ffd64b98137121b285f837e4ddde966dce1a3c46`](https://github.com/uiceds/project-team-ads/commit/ffd64b98137121b285f837e4ddde966dce1a3c46).
