@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-10-26'
+date-meta: '2024-10-27'
 author-meta:
 - Ayyan Iqbal
 - Shayan Khan
@@ -21,11 +21,11 @@ header-includes: |
   <meta name="citation_title" content="Machine Learning-Based Optimization Of The Mix Design Of Lightweight Concrete For Enhanced Mechanical Properties" />
   <meta property="og:title" content="Machine Learning-Based Optimization Of The Mix Design Of Lightweight Concrete For Enhanced Mechanical Properties" />
   <meta property="twitter:title" content="Machine Learning-Based Optimization Of The Mix Design Of Lightweight Concrete For Enhanced Mechanical Properties" />
-  <meta name="dc.date" content="2024-10-26" />
-  <meta name="citation_publication_date" content="2024-10-26" />
-  <meta property="article:published_time" content="2024-10-26" />
-  <meta name="dc.modified" content="2024-10-26T23:02:36+00:00" />
-  <meta property="article:modified_time" content="2024-10-26T23:02:36+00:00" />
+  <meta name="dc.date" content="2024-10-27" />
+  <meta name="citation_publication_date" content="2024-10-27" />
+  <meta property="article:published_time" content="2024-10-27" />
+  <meta name="dc.modified" content="2024-10-27T00:24:18+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T00:24:18+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/0e9a852af8cfff8afcde17c7841e8e14db675c18/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/0e9a852af8cfff8afcde17c7841e8e14db675c18/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/0e9a852af8cfff8afcde17c7841e8e14db675c18/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/7cf78dc7f9887dce50296957b7a5308f3adb7b6a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7cf78dc7f9887dce50296957b7a5308f3adb7b6a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7cf78dc7f9887dce50296957b7a5308f3adb7b6a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -107,7 +107,7 @@ Then the team aims to train the ANN, GPR, and Decision Tree models on the traini
 
 \newpage
 <p align="center">
-Table 1. Mathematical formulation of the statistical performance indicators used in the report.
+</strong>Table 1. Mathematical formulation of the statistical performance indicators used in the report.</strong>
 </p>
 
 | Equations |
@@ -129,7 +129,7 @@ The data set attached has been collected by the team members from all the schola
 </p>
 
 <p align="center">
-Table 2. Input and output parameters of the dataset along with their units.
+</strong>Table 2. Input and output parameters of the dataset along with their units.</strong>
 </p>
 
 | Parameters | Categories (I/O) |
@@ -165,7 +165,7 @@ Concrete is widely regarded as the most complex composite material, comprising v
 
 <div style="text-align: center;">
   <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture1.png?raw=true" id="fig:Fig.1" style="width: 75%;"/>
-  <p><strong>Figure 1:</strong> Statistical distribution of the input parameters of the dataset compiled from articles.</p>
+  <p><strong>Figure 1: Statistical distribution of the input parameters of the dataset compiled from articles.</strong></p>
 </div>
 
 <p align="justify">
@@ -174,7 +174,7 @@ The authors have comprehensively compiled a dataset encompassing a wide range of
 
 <div style="text-align: center;">
   <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture2.png?raw=true" id="fig:Fig.2" style="width: 75%;"/>
-  <p><strong>Figure 2:</strong> Types of lightweight aggregates used by researchers in the article from which data has been obtained.</p>
+  <p><strong>Figure 2: Types of lightweight aggregates used by researchers in the article from which data has been obtained.</strong></p>
 </div>
 
 <p align="justify">
@@ -183,7 +183,7 @@ Figure 3 illustrates the statistical distribution of compressive strength, tensi
 
 <div style="text-align: center;">
   <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture3.png?raw=true" id="fig:Fig.3" style="width: 75%;"/>
-  <p><strong>Figure 3:</strong> Statistical distributions of the output parameters of the dataset compiled from articles.</p>
+  <p><strong>Figure 3: Statistical distributions of the output parameters of the dataset compiled from articles.</strong></p>
 </div>
 
 ### 2.1. Dataset cleaning and splitting
@@ -205,7 +205,7 @@ Add EQ1
 
 <div style="text-align: center;">
   <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture4.png?raw=true" id="fig:Fig.4" style="width: 75%;"/>
-  <p><strong>Figure 4:</strong> Statistical distribution of the parameters of the dataset compiled after standardization.</p>
+  <p><strong>Figure 4: Statistical distribution of the parameters of the dataset compiled after standardization.</strong></p>
 </div>
 
 ### 2.3. Correlation of input parameters with output parameters
@@ -222,7 +222,7 @@ The correlation matrix of each input with a particular output has been shown sep
 
 <div style="text-align: center;">
   <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture5.png?raw=true" id="fig:Fig.5" style="width: 75%;"/>
-  <p><strong>Figure 5:</strong> Pearson correlation matrices of input parameters with each output parameter.</p>
+  <p><strong>Figure 5: Pearson correlation matrices of input parameters with each output parameter.</strong></p>
 </div>
 
 <p align="justify">
@@ -243,9 +243,10 @@ Additionally, this report addresses the longstanding controversy surrounding the
 Artificial Neural Networks (ANNs) are complex computational models inspired by biological neural networks. They process input data, generate output, and adapt through backpropagation training. Proven effective in various domains, ANNs excel in classification, regression, forecasting, and clustering tasks. The implemented ANN model architecture has been depicted in figure 6 below.
 </p>
 
-![
-**Model architecture of ANN.**
-](https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture6.png?raw=true ""){#fig:Fig. 6}
+<div style="text-align: center;">
+  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture6.png?raw=true" id="fig:Fig.6" style="width: 75%;"/>
+  <p><strong>Figure 6: Model architecture of ANN.</strong></p>
+</div>
 
 ### 3.2. Decision Tree 
 
@@ -255,7 +256,7 @@ Decision Trees, a supervised machine learning approach, effectively predicts con
 
 <div style="text-align: center;">
   <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture7.png?raw=true" id="fig:Fig.7" style="width: 75%;"/>
-  <p><strong>Figure 7:</strong> Working mechanism/flowchart of the Decision tree.</p>
+  <p><strong>Figure 7: Working mechanism/flowchart of the Decision tree.</strong></p>
 </div>
 
 ### 3.3. Gaussian Process of Regression
@@ -266,7 +267,7 @@ Gaussian Process Regression (GPR) is a supervised machine learning technique usi
 
 <div style="text-align: center;">
   <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture8.png?raw=true" id="fig:Fig.8" style="width: 75%;"/>
-  <p><strong>Figure 8:</strong> Working mechanism/flowchart of GPR.</p>
+  <p><strong>Figure 8: Working mechanism/flowchart of GPR.</strong></p>
 </div>
 
 <p align="justify">
@@ -275,7 +276,7 @@ In the figure 9, a complete overview of the whole project is depicted pictoriall
 
 <div style="text-align: center;">
   <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture9.png?raw=true" id="fig:Fig.9" style="width: 75%;"/>
-  <p><strong>Figure 9:</strong> A flowchart explaining the sequence of tasks in the project.</p>
+  <p><strong>Figure 9: A flowchart explaining the sequence of tasks in the project</strong>.</p>
 </div>
 
 ### References {.page_break_before}
