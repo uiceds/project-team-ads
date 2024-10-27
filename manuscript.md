@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-10-27T01:58:34+00:00" />
-  <meta property="article:modified_time" content="2024-10-27T01:58:34+00:00" />
+  <meta name="dc.modified" content="2024-10-27T02:04:05+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T02:04:05+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/96394418d6d15e1604de0462331c084b8f62abe0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/96394418d6d15e1604de0462331c084b8f62abe0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/96394418d6d15e1604de0462331c084b8f62abe0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/ad1294cfc82965be241734a632cc42d462d310ea/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/ad1294cfc82965be241734a632cc42d462d310ea/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/ad1294cfc82965be241734a632cc42d462d310ea/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -233,12 +233,12 @@ Data normalization is a standardization technique for transforming variables to 
 </p>
 
 \begin{equation}
-y = \frac{\sum_{i=1}^{n} \left( x_i - \bar{x} \right) \left( y_i - \bar{y} \right)}{\sqrt{\sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2} \sqrt{\sum_{i=1}^{n} \left( y_i - \bar{y} \right)^2}}
+y = \frac{\sum_{i=1}^{n} \left( x_i - \bar{x} \right) \left( y_i - \bar{y} \right)}{\sqrt{\sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2} \sqrt{\sum_{i=1}^{n} \left( y_i - \bar{y} \right)^2}} (Eq 1)
 \label{eq:Eq 1}
 \end{equation}
 
 <div style="text-align: center;">
-  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture4.png?raw=true" id="fig:Fig.4" style="width: 65%;"/>
+  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture4.png?raw=true" id="fig:Fig.4" style="width: 70%;"/>
   <p><strong>Figure 4: Statistical distribution of the parameters of the dataset compiled after standardization.</strong></p>
 </div>
 
@@ -249,7 +249,7 @@ The preprocessing phase proceeded with the plotting of Pearson correlation matri
 </p>
 
 \begin{equation}
-r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}}
+r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}} (Eq 2)
 \label{eq:Eq 2}
 \end{equation}
 
