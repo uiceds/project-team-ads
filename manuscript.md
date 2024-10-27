@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-10-27T03:00:51+00:00" />
-  <meta property="article:modified_time" content="2024-10-27T03:00:51+00:00" />
+  <meta name="dc.modified" content="2024-10-27T03:19:35+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T03:19:35+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/8b465282d7cf0f0ee17e074d941f339d8998195d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/8b465282d7cf0f0ee17e074d941f339d8998195d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/8b465282d7cf0f0ee17e074d941f339d8998195d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/015954be92982ce18d8d6dd4682d555b13f99be9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/015954be92982ce18d8d6dd4682d555b13f99be9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/015954be92982ce18d8d6dd4682d555b13f99be9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -191,7 +191,7 @@ Following data cleaning, the refined dataset was split into training (80%) and t
 
 <p align="center" id="Table 4"><strong>Table 3. Summary statistics of dataset set aside for ML model training.</strong></p>
 
-| Parameters                               | Min | Max | Median | Mode | SD      | Type |
+| Parameters                               | Minimum | Maximum | Median | Mode | SD      | Type |
 |:----------------------------------------:|:-------:|:-------:|:------:|:----:|:-------:|:----:|
 | Cement (kg/m³)                           | 156     | 1500    | 467    | 480  | 378.42  | I    |
 | Fine agg. (kg/m³)                        | 0       | 1193    | 664    | 0    | 330.15  | I    |
@@ -209,7 +209,7 @@ Following data cleaning, the refined dataset was split into training (80%) and t
 
 <p align="center" id="Table 4"><strong>Table 4. Summary statistics of dataset set aside for ML model testing.</strong></p>
 
-| Parameters                               | Min | Max | Median | Mode | SD      | Type |
+| Parameters                               | Minimum | Maximum | Median | Mode | SD      | Type |
 |:----------------------------------------:|:-------:|:-------:|:------:|:----:|:-------:|:----:|
 | Cement (kg/m³)                           | 139     | 1350    | 384    | 450  | 197.70  | I    |
 | Fine agg. (kg/m³)                        | 0       | 1178    | 630    | 0    | 294.92  | I    |
