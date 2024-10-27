@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-10-27T00:57:37+00:00" />
-  <meta property="article:modified_time" content="2024-10-27T00:57:37+00:00" />
+  <meta name="dc.modified" content="2024-10-27T01:13:38+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T01:13:38+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/ffd64b98137121b285f837e4ddde966dce1a3c46/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/ffd64b98137121b285f837e4ddde966dce1a3c46/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/ffd64b98137121b285f837e4ddde966dce1a3c46/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/443bccb657d8b4a9e46e3b46e3a0596d26387119/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/443bccb657d8b4a9e46e3b46e3a0596d26387119/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/443bccb657d8b4a9e46e3b46e3a0596d26387119/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -106,10 +106,8 @@ Then the team aims to train the ANN, GPR, and Decision Tree models on the traini
 </p>
 
 \newpage
-<p align="center">
-**Table 1. Mathematical formulation of the statistical performance indicators used in the report.**
-{#tbl: Table 1}
-</p>
+
+<p align="center" id="Table 1"><strong>Table 1. Mathematical formulation of the statistical performance indicators used in the report.</strong></p>
 
 | Equations |
 |:-----------------:|
@@ -129,10 +127,7 @@ A longstanding controversy surrounds the efficacy and reliability of Machine Lea
 The data set attached has been collected by the team members from all the scholarly articles from Scopus. The search query used for finding articles was “{Lightweight} AND {concrete} AND {aggregate} AND {strength} AND {density} AND {ML}”. The authors have collected 500 data points from over 50 articles. The data set has the quantities of Cement, sand, fly ash (FA), the density of lightweight aggregate, water absorption of lightweight aggregate, superplasticizer, curing time, and the amount of normal aggregate (normal agg.), as input parameters while the compressive strength, split tensile strength, and density of the concrete were taken as output parameters. The first test columns of the dataset correspond to inputs while the last three correspond to output. All the quantities were normalized by the cement quantity before the start of the analysis. The input and output parameters along with their units have been mentioned below in Table 2 as well.
 </p>
 
-<p align="center">
-**Table 2. Input and output parameters of the dataset along with their units.**
-{#tbl: Table 2}
-</p>
+<p align="center" id="Table 2"><strong>Table 2. Input and output parameters of the dataset along with their units.</strong></p>
 
 | Parameters                               | Categories (I/O) |
 |:----------------------------------------:|:-----------------:|
@@ -196,10 +191,7 @@ To maintain accuracy, completeness, consistency, relevance, and validity, the da
 Following data cleaning, the refined dataset was split into training (80%) and testing sets (20%). Summary statistics for both are presented in Tables 1 and 2, providing a comprehensive foundation for reliable model development and evaluation.
 </p>
 
-<p align="center">
-**Table 3. Summary statistics of dataset set aside for ML model training.**
-{#tbl: Table 3}
-</p>
+<p align="center" id="Table 4"><strong>Table 3. Summary statistics of dataset set aside for ML model training.</strong></p>
 
 | Parameters                               | Minimum | Maximum | Median | Mode | SD      | Type |
 |:----------------------------------------:|:-------:|:-------:|:------:|:----:|:-------:|:----:|
@@ -217,11 +209,7 @@ Following data cleaning, the refined dataset was split into training (80%) and t
 | Split Tensile Strength of LW concrete (MPa) | 1   | 7       | 3.5    | 3    | 2       | O    |
 | Density of LW concrete (kg/m³)           | 900     | 2500    | 1855   | 1800 | 366     | O    |
 
-
-<p align="center">
-**Table 4. Summary statistics of dataset set aside for ML model testing.**
-{#tbl: Table 4}
-</p>
+<p align="center" id="Table 4"><strong>Table 4. Summary statistics of dataset set aside for ML model testing.</strong></p>
 
 | Parameters                               | Minimum | Maximum | Median | Mode | SD      | Type |
 |:----------------------------------------:|:-------:|:-------:|:------:|:----:|:-------:|:----:|
