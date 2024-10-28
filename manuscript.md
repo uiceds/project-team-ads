@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T00:29:22+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T00:29:22+00:00" />
+  <meta name="dc.modified" content="2024-10-28T00:35:33+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T00:35:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/11346f9d818809b0b7d840318dd8f7efa2469029/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/11346f9d818809b0b7d840318dd8f7efa2469029/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/11346f9d818809b0b7d840318dd8f7efa2469029/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/f5fe8f7134ff1cb319c4043d0231a19a350e0a5e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/f5fe8f7134ff1cb319c4043d0231a19a350e0a5e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/f5fe8f7134ff1cb319c4043d0231a19a350e0a5e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -314,7 +314,7 @@ In the [Figure 9](fig:Fig.9), a complete overview of the whole project is depict
 ## 2. Exploratory Data Analysis {.page_break_before}
 
 <p align="justify">
-Concrete is widely regarded as the most complex composite material, comprising various ingredients and exhibiting diverse properties that make its behavior challenging to predict. Its composition can vary significantly depending on application, environmental conditions, and performance requirements. [Figure 1](fig:Fig.1) illustrates the statistical distribution of input parameters for concrete compositions, revealing diverse applications and formulations contributing to complex datasets. Certain parameters, such as water-to-cement (W/C) ratio (0.35-0.5), superplasticizer content (typically ≤1% of binder weight), water absorption of aggregates (∼2% of aggregate weight), and curing time (predominantly 28 days), exhibit narrow interquartile ranges, indicating relatively fixed proportions in typical cement-based mixtures [@doi:10.1680/macr.2005.57.8.445; @lee2003; @goldman1993; @lai1997]. In contrast, lightweight aggregate types and corresponding variations in concrete compositions display larger interquartile ranges, reflecting the broad range of available materials, underscoring the complexity of concrete's widespread use as the world's most utilized composite material [@vilarinho2009researchgate].
+Concrete is widely regarded as the most complex composite material, comprising various ingredients and exhibiting diverse properties that make its behavior challenging to predict. Its composition can vary significantly depending on application, environmental conditions, and performance requirements. [Figure 1](fig:Fig.1) illustrates the statistical distribution of input parameters for concrete compositions, revealing diverse applications and formulations contributing to complex datasets. Certain parameters, such as water-to-cement (W/C) ratio (0.35-0.5), superplasticizer content (typically ≤1% of binder weight), water absorption of aggregates (∼2% of aggregate weight), and curing time (predominantly 28 days), exhibit narrow interquartile ranges, indicating relatively fixed proportions in typical cement-based mixtures [@doi:10.1680/macr.2005.57.8.445; @lee2003; @goldman1993; @lai1997]. In contrast, lightweight aggregate types and corresponding variations in concrete compositions display larger interquartile ranges, reflecting the broad range of available materials, underscoring the complexity of concrete's widespread use as the world's most utilized composite material [@vilarinho2009researchgate]..
 </p>
 
 <div style="text-align: center;">

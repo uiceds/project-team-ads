@@ -5,8 +5,8 @@ Ayyan
 backpropagation
 Borukati
 CEE
-compressive
-dataset
+Compressive
+Dataset
 dataset’s
 datasets
 DeeVarma
