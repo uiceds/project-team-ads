@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T00:53:33+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T00:53:33+00:00" />
+  <meta name="dc.modified" content="2024-10-28T00:57:58+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T00:57:58+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/f277b6dbcb238b54004c55b4ed924e522500ec6f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/f277b6dbcb238b54004c55b4ed924e522500ec6f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/f277b6dbcb238b54004c55b4ed924e522500ec6f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/9406c4f6a55f376fc70a4c97640fc8cb106b2156/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/9406c4f6a55f376fc70a4c97640fc8cb106b2156/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/9406c4f6a55f376fc70a4c97640fc8cb106b2156/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -169,7 +169,7 @@ The authors have comprehensively compiled a dataset encompassing a wide range of
 </p>
 
 <div style="text-align: center;">
-  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture2.png?raw=true" id="fig:Fig.2" style="width: 75%;"/>
+  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture2.png?raw=true" id="fig:Fig.2" style="width: 60%;"/>
   <p><strong>Figure 2: Types of lightweight aggregates used by researchers in the article from which data has been obtained.</strong></p>
 </div>
 
@@ -178,7 +178,7 @@ The authors have comprehensively compiled a dataset encompassing a wide range of
 </p>
 
 <div style="text-align: center;">
-  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture3.png?raw=true" id="fig:Fig.3" style="width: 75%;"/>
+  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture3.png?raw=true" id="fig:Fig.3" style="width: 100%;"/>
   <p><strong>Figure 3: Statistical distributions of the output parameters of the dataset compiled from articles.</strong></p>
 </div>
 
@@ -253,7 +253,7 @@ The correlation matrix of each input with a particular output has been shown sep
 </p>
 
 <div style="text-align: center;">
-  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture5.png?raw=true" id="fig:Fig.5" style="width: 90%;"/>
+  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture5.png?raw=true" id="fig:Fig.5" style="width: 100%;"/>
   <p><strong>Figure 5: Pearson correlation matrices of input parameters with each output parameter.</strong></p>
 </div>
 
