@@ -6,12 +6,13 @@ backpropagation
 Borukati
 CEE
 compressive
-dataset
+Dataset
 dataset’s
 datasets
 DeeVarma
 Dhatrika
 EDA
+feeded
 flyash
 GPR
 HRWR

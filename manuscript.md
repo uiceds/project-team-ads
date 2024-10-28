@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T00:40:57+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T00:40:57+00:00" />
+  <meta name="dc.modified" content="2024-10-28T00:53:33+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T00:53:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/195246df61a70a7e2f23132adff572743160bb8e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/195246df61a70a7e2f23132adff572743160bb8e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/195246df61a70a7e2f23132adff572743160bb8e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/f277b6dbcb238b54004c55b4ed924e522500ec6f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/f277b6dbcb238b54004c55b4ed924e522500ec6f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/f277b6dbcb238b54004c55b4ed924e522500ec6f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -229,7 +229,7 @@ Following data cleaning, the refined dataset was split into training (80%) and t
 ### 2.2. Dataset cleaning and splitting
 
 <p align="justify">
-Data normalization is a standardization technique for transforming variables to have a common scale. When working with data from different sources or formats, there can be variations in how it is represented, such as differences in units of measurement, data formats, and data structures, making it difficult to compare variables or perform statistical analysis. Data standardization is a crucial step in such cases. The major challenge faced after data collection is processing the raw data to make it compatible with the ML models used. For instance, there was a considerable difference in our dataset between the numerical values of cement, w/c, and normal aggregate used. This difference adversely affected the accuracy of our model. This issue was tackled using the data normalization technique. Data normalization means transforming data into the unit sphere or scaling down the actual values to numerical indexes between 0 and 1. It leads to data cleansing and convergence and significantly enhances the model's efficiency. It also improves data execution by reducing the data set's redundancy. The governing [Equation 1](#eq:Eq. 1) taken into consideration for data normalization is mentioned below, where the normalized value of a certain input variable is a function of the actual, minimum, and maximum values of that variable in the data set. The normalized dataset has been plotted in [Figure 4](fig:Fig.4) below
+Data normalization is a standardization technique for transforming variables to have a common scale. When working with data from different sources or formats, there can be variations in how it is represented, such as differences in units of measurement, data formats, and data structures, making it difficult to compare variables or perform statistical analysis. Data standardization is a crucial step in such cases. The major challenge faced after data collection is processing the raw data to make it compatible with the ML models used. For instance, there was a considerable difference in our dataset between the numerical values of cement, w/c, and normal aggregate used. This difference adversely affected the accuracy of our model. This issue was tackled using the data normalization technique. Data normalization means transforming data into the unit sphere or scaling down the actual values to numerical indexes between 0 and 1. It leads to data cleansing and convergence and significantly enhances the model's efficiency. It also improves data execution by reducing the data set's redundancy. The governing [Equation 1](#eq:Eq. 1) taken into consideration for data normalization is mentioned below, where the normalized value of a certain input variable is a function of the actual, minimum, and maximum values of that variable in the data set. The normalized dataset has been plotted in [Figure 4](fig:Fig.4) below. After normalization, the mix design quantities were written in ratios because that’s the conventional way concrete mix designs are feeded to any type of models by dividing all with cement content.
 </p>
 
 
@@ -253,7 +253,7 @@ The correlation matrix of each input with a particular output has been shown sep
 </p>
 
 <div style="text-align: center;">
-  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture5.png?raw=true" id="fig:Fig.5" style="width: 75%;"/>
+  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture5.png?raw=true" id="fig:Fig.5" style="width: 90%;"/>
   <p><strong>Figure 5: Pearson correlation matrices of input parameters with each output parameter.</strong></p>
 </div>
 
