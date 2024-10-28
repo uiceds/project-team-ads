@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T00:57:58+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T00:57:58+00:00" />
+  <meta name="dc.modified" content="2024-10-28T01:03:17+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T01:03:17+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/9406c4f6a55f376fc70a4c97640fc8cb106b2156/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/9406c4f6a55f376fc70a4c97640fc8cb106b2156/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/9406c4f6a55f376fc70a4c97640fc8cb106b2156/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/805b0a1358e4013415573034f1b62e7366f5030c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/805b0a1358e4013415573034f1b62e7366f5030c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/805b0a1358e4013415573034f1b62e7366f5030c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -178,7 +178,7 @@ The authors have comprehensively compiled a dataset encompassing a wide range of
 </p>
 
 <div style="text-align: center;">
-  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture3.png?raw=true" id="fig:Fig.3" style="width: 100%;"/>
+  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture3.png?raw=true" id="fig:Fig.3" style="width: 90%;"/>
   <p><strong>Figure 3: Statistical distributions of the output parameters of the dataset compiled from articles.</strong></p>
 </div>
 
