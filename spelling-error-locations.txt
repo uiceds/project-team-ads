@@ -150,7 +150,6 @@ content/03.Prelim.md:4:hyperparameters
 content/03.Prelim.md:7:Hyperparameter
 content/03.Prelim.md:9:Hypermeter
 content/03.Prelim.md:15:GPR
-content/03.Prelim.md:16:GPR
 content/03.Prelim.md:18:ayer
 content/03.Prelim.md:23:compressive
 content/03.Prelim.md:23:GPR

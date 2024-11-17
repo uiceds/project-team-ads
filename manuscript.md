@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-17" />
   <meta name="citation_publication_date" content="2024-11-17" />
   <meta property="article:published_time" content="2024-11-17" />
-  <meta name="dc.modified" content="2024-11-17T23:33:33+00:00" />
-  <meta property="article:modified_time" content="2024-11-17T23:33:33+00:00" />
+  <meta name="dc.modified" content="2024-11-17T23:48:42+00:00" />
+  <meta property="article:modified_time" content="2024-11-17T23:48:42+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/85d2b126c44d203c8ab8ceca5cc0d49046c7d3b7/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/85d2b126c44d203c8ab8ceca5cc0d49046c7d3b7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/85d2b126c44d203c8ab8ceca5cc0d49046c7d3b7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/bdcafa0b39b49feccd8fd1c9797e082db118ece5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/bdcafa0b39b49feccd8fd1c9797e082db118ece5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/bdcafa0b39b49feccd8fd1c9797e082db118ece5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -319,16 +319,16 @@ Before initiating machine learning model training, hyperparameter optimization i
 
 <p align="center" id="Table 5"><strong>Table 5. Hyperparameter for the optimal performance of the selected ML models.</strong></p>
 
-| Methods  | Hypermeter| Range                | Optimum Value |
-|:--------:|:---------:|:--------------------:|:-------------:|
-| Random Forest <!-- $rowspan="4" --> | n_estimators    | 100-500 | 200 |
-|                                     | max_depth       | 100-500 | 200 |
-|                                     | min_samples_sp  | 100-500 | 200 |
-|                                     | min_samples_lea | 100-500 | 200 |
-| GPR | Kernel scale                       | 1-80 | 52 |
-| GPR | Sigma                              | 1-80 | 52 |
-| ANN | Training algorithm                 | 1-80 | 52 |
-| ANN | Hidden ayer size                   | 1-80 | 52 |
+| Methods                             | Hypermeter         | Range                   | Optimum Value |
+|:-----------------------------------:|:------------------:|:-----------------------:|:-------------:|
+| Random Forest <!-- $rowspan="4" --> | n_estimators       | 100-500                 | 200           |
+|                                     | max_depth          | 5-20                    | 200           |
+|                                     | min_samples_sp     | 2-10                    | 200           |
+|                                     | min_samples_lea    | 1-5                     | 200           |
+| GPR <!-- $rowspan="2" -->           | Kernel scale       | 1-80                    | 52            |
+|                                     | Sigma              | 1-15                    | 52            |
+| ANN <!-- $rowspan="" -->            | Training algorithm | Bayesian regularization | 52            |
+|                                     | Hidden ayer size   | 1-40                    | 52            |
 
 ### 4.1. Results and Discussions
 

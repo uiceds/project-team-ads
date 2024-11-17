@@ -55,8 +55,8 @@
   <meta name="dc.date" content="2024-11-17" />
   <meta name="citation_publication_date" content="2024-11-17" />
   <meta property="article:published_time" content="2024-11-17" />
-  <meta name="dc.modified" content="2024-11-17T23:33:33+00:00" />
-  <meta property="article:modified_time" content="2024-11-17T23:33:33+00:00" />
+  <meta name="dc.modified" content="2024-11-17T23:48:42+00:00" />
+  <meta property="article:modified_time" content="2024-11-17T23:48:42+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -75,9 +75,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/85d2b126c44d203c8ab8ceca5cc0d49046c7d3b7/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/85d2b126c44d203c8ab8ceca5cc0d49046c7d3b7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/85d2b126c44d203c8ab8ceca5cc0d49046c7d3b7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/bdcafa0b39b49feccd8fd1c9797e082db118ece5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/bdcafa0b39b49feccd8fd1c9797e082db118ece5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/bdcafa0b39b49feccd8fd1c9797e082db118ece5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -647,12 +647,12 @@ Before initiating machine learning model training, hyperparameter optimization i
 <p align="center" id="Table 5">
 <strong>Table 5. Hyperparameter for the optimal performance of the selected ML models.</strong>
 </p>
-<table>
+<table style="width:100%;">
 <colgroup>
-<col style="width: 17%" />
-<col style="width: 18%" />
-<col style="width: 37%" />
+<col style="width: 38%" />
+<col style="width: 20%" />
 <col style="width: 25%" />
+<col style="width: 15%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -672,43 +672,43 @@ Before initiating machine learning model training, hyperparameter optimization i
 <tr class="even">
 <td style="text-align: center;"></td>
 <td style="text-align: center;">max_depth</td>
-<td style="text-align: center;">100-500</td>
+<td style="text-align: center;">5-20</td>
 <td style="text-align: center;">200</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"></td>
 <td style="text-align: center;">min_samples_sp</td>
-<td style="text-align: center;">100-500</td>
+<td style="text-align: center;">2-10</td>
 <td style="text-align: center;">200</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"></td>
 <td style="text-align: center;">min_samples_lea</td>
-<td style="text-align: center;">100-500</td>
+<td style="text-align: center;">1-5</td>
 <td style="text-align: center;">200</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">GPR</td>
+<td style="text-align: center;">GPR <!-- $rowspan="2" --></td>
 <td style="text-align: center;">Kernel scale</td>
 <td style="text-align: center;">1-80</td>
 <td style="text-align: center;">52</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">GPR</td>
+<td style="text-align: center;"></td>
 <td style="text-align: center;">Sigma</td>
-<td style="text-align: center;">1-80</td>
+<td style="text-align: center;">1-15</td>
 <td style="text-align: center;">52</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">ANN</td>
+<td style="text-align: center;">ANN <!-- $rowspan="" --></td>
 <td style="text-align: center;">Training algorithm</td>
-<td style="text-align: center;">1-80</td>
+<td style="text-align: center;">Bayesian regularization</td>
 <td style="text-align: center;">52</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">ANN</td>
+<td style="text-align: center;"></td>
 <td style="text-align: center;">Hidden ayer size</td>
-<td style="text-align: center;">1-80</td>
+<td style="text-align: center;">1-40</td>
 <td style="text-align: center;">52</td>
 </tr>
 </tbody>
