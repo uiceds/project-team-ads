@@ -16,6 +16,7 @@ feeded
 flyash
 GPR
 HRWR
+Hyperparameter
 hyperparameters
 interpretability
 interpretable
@@ -28,6 +29,7 @@ LWAs
 LWC
 LWC’s
 maiqbal
+MAPE
 MPa
 MSE
 NWC
@@ -35,6 +37,8 @@ overfitting
 PDP
 preprocessed
 preprocessing
+qbs
+RMSE
 Scopus
 SHAP
 Shapley

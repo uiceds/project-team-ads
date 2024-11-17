@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-17" />
   <meta name="citation_publication_date" content="2024-11-17" />
   <meta property="article:published_time" content="2024-11-17" />
-  <meta name="dc.modified" content="2024-11-17T21:21:57+00:00" />
-  <meta property="article:modified_time" content="2024-11-17T21:21:57+00:00" />
+  <meta name="dc.modified" content="2024-11-17T22:56:33+00:00" />
+  <meta property="article:modified_time" content="2024-11-17T22:56:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/82bfcedf44c9ab1a40c9e873a7f58540ba382f4d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/82bfcedf44c9ab1a40c9e873a7f58540ba382f4d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/82bfcedf44c9ab1a40c9e873a7f58540ba382f4d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/fb126dde91a3ee886b2e03830d6a3873e96d20a2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/fb126dde91a3ee886b2e03830d6a3873e96d20a2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/fb126dde91a3ee886b2e03830d6a3873e96d20a2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -261,7 +261,7 @@ The correlation matrix of each input with a particular output has been shown sep
 Apart from the data cleaning standardization and visualization discussed above, the authors of the report did not require any data augmentation since the number of data points seemed enough for the types of models they intended to train. However, the authors might perform some feature engineering by combining some of the highly correlated input parameters if the statistical performance indicators do not meet their expectations upon training of the model hence changes will be made in the subsequent report
 </p>
 
-## 3. Predictive Modeling {.page_break_before}
+## 3. Implemented Predictive Models {.page_break_before}
 
 <p align="justify">
 This report aims to train, validate, and fine-tune Artificial Neural Networks (ANN), Gaussian Process Regression (GPR), and Random Forest models on the training data for predicting concrete properties. The objectives are to leverage the unique strengths of each model, with ANN capturing non-linear relationships and patterns, Random Forest providing interpretable results and feature selection, and GPR quantifying uncertainty and handling sparse data. By combining these models, the challenges in concrete property prediction, including non-linear relationships, variability, and limited data, can be effectively addressed.
@@ -310,6 +310,105 @@ In the [Figure 9](fig:Fig.9), a complete overview of the whole project is depict
   <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture9.png?raw=true" id="fig:Fig.9" style="width: 75%;"/>
   <p><strong>Figure 9: A flowchart explaining the sequence of tasks in the project</strong>.</p>
 </div>
+
+## 4. Preliminary Predictive Modeling {.page_break_before}
+
+<p align="justify">
+Before initiating machine learning model training, hyperparameter optimization is performed through iterative refinement to achieve maximal predictive accuracy. The specification of model parameters varies across distinct models and datasets. A systematic exploration of key architectural and training parameters including the number of hidden layers, learning rate, ensemble size, leaf size, and data partitioning for training, validation, and testing was conducted to determine optimal configurations. Given the vast parameter space, a focused approach was employed, selectively tuning critical hyperparameters while maintaining default settings for others. The optimized hyperparameter configurations for the machine learning models are presented in [Table 5](#Table 5).
+</p>
+
+<p align="center" id="Table 5"><strong>Table 5. Hyperparameter for the optimal performance of the selected ML models.</strong></p>
+
+<table>
+  <tr>
+    <th>Methods</th>
+    <th>Hyperparameters</th>
+    <th>Range</th>
+    <th>Optimum Value</th>
+  </tr>
+  <tr>
+    <td rowspan="4" align="center"><b>Random Forest</b></td>
+    <td>
+      <ul>
+        <li>n_estimators</li>
+        <li>max_depth</li>
+        <li>min_samples_split</li>
+        <li>min_samples_leaf</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>100-500</li>
+        <li>5-20</li>
+        <li>2-10</li>
+        <li>1-5</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>200</li>
+        <li>8</li>
+        <li>5</li>
+        <li>5</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">GPR</td>
+    <td>
+      <ul>
+        <li>Kernel scale</li>
+        <li>Sigma</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>1-80</li>
+        <li>1-15</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>52</li>
+        <li>11</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">ANN</td>
+    <td>
+      <ul>
+        <li>Training algorithm: Bayesian Regularization</li>
+        <li>Hidden Layer Size</li>
+      </ul>
+    </td>
+    <td>1-40</td>
+    <td>15</td>
+  </tr>
+</table>
+
+### 4.1. Results and Discussions
+
+<p align="justify">
+Several machine learning methods were trained for the task, and it turned out that the Artificial neural network (ANN) gave the best result for density, the Gaussian process of regression (GPR) for compressive strength, and Random Forest for tensile strength. The model's accuracy is measured in terms of R2; the larger the value, the more accurate the model will be. In the case of the RMSE, the lower the value, the greater the accuracy of the model. Fig. X, Y, and Z compare the actual and predicted results of the output parameters for all three models. Also, the statistical parameters indicators considered for the task have been compiled in [Table 6](#Table 6) for reference.
+</p>
+
+<p align="center" id="Table 6"><strong>Table 6. Statistical performance indicators of the selected ML models i.e., RF, GPR, and ANN were trained for predicting split tensile strength, compressive strength, and density respectively.</strong></p>
+
+| Metric                            | Ensemble Learning (Random Forest) for prediction of Split tensile strength (Train) | Ensemble Learning (Random Forest) for prediction of Split tensile strength (Test) | Gaussian Process Regression for prediction of Compression Strength (Train) | Gaussian Process Regression for prediction of Compression Strength (Test) | Artificial Neural Network for prediction of Density (Train) | Artificial Neural Network for prediction of Density (Test) |
+|-----------------------------------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------|---------------------------------------------------------------------------|--------------------------------------------------------------|-------------------------------------------------------------|
+| RMSE                              | 1.1961                                                                              | 1.0654                                                                             | 12.097                                                                    | 12.409                                                                   | 394.75                                                      | 295.34                                                     |
+| R-Squared                         | 0.92                                                                                | 0.94                                                                               | 0.91                                                                      | 0.90                                                                     | 0.86                                                        | 0.91                                                       |
+| MSE                               | 1.4305                                                                              | 1.1352                                                                             | 146.33                                                                    | 153.98                                                                   | 1.56E+05                                                   | 87228                                                      |
+| MAE                               | 0.85302                                                                             | 0.80444                                                                            | 8.7957                                                                    | 8.8809                                                                   | 249.23                                                     | 200.39                                                     |
+| MAPE                              | 7.50%                                                                               | 6.80%                                                                              | 8.00%                                                                     | 8.90%                                                                    | 11.70%                                                     | 9.20%                                                      |
+| Prediction Speed                  | ~940 qbs/sec                                                                         | ~940 qbs/sec                                                                       | ~6000 qbs/sec                                                             | ~6000 qbs/sec                                                            | ~24000 qbs/sec                                              | ~24000 qbs/sec                                            |
+| Training Time                     | 178.54 sec                                                                          | 178.54 sec                                                                         | 468.49 sec                                                                | 468.49 sec                                                               | 449.05 sec                                                 | 449.05 sec                                                |
+| Model Size (Compact)              | ~3 MB                                                                               | ~3 MB                                                                              | ~73 kB                                                                    | ~73 kB                                                                    | ~37 kB                                                     | ~37 kB                                                     |
+
+
+
+
 
 
 
