@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-17" />
   <meta name="citation_publication_date" content="2024-11-17" />
   <meta property="article:published_time" content="2024-11-17" />
-  <meta name="dc.modified" content="2024-11-17T21:11:36+00:00" />
-  <meta property="article:modified_time" content="2024-11-17T21:11:36+00:00" />
+  <meta name="dc.modified" content="2024-11-17T21:21:57+00:00" />
+  <meta property="article:modified_time" content="2024-11-17T21:21:57+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/3bababe5e9f8e20c7a702601a5e9dcc57742a6d9/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/3bababe5e9f8e20c7a702601a5e9dcc57742a6d9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/3bababe5e9f8e20c7a702601a5e9dcc57742a6d9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/82bfcedf44c9ab1a40c9e873a7f58540ba382f4d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/82bfcedf44c9ab1a40c9e873a7f58540ba382f4d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/82bfcedf44c9ab1a40c9e873a7f58540ba382f4d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -264,7 +264,7 @@ Apart from the data cleaning standardization and visualization discussed above, 
 ## 3. Predictive Modeling {.page_break_before}
 
 <p align="justify">
-This report aims to train, validate, and fine-tune Artificial Neural Networks (ANN), Gaussian Process Regression (GPR), and Decision Tree models on the training data for predicting concrete properties. The objectives are to leverage the unique strengths of each model, with ANN capturing non-linear relationships and patterns, Decision Trees providing interpretable results and feature selection, and GPR quantifying uncertainty and handling sparse data. By combining these models, the challenges in concrete property prediction, including non-linear relationships, variability, and limited data, can be effectively addressed.
+This report aims to train, validate, and fine-tune Artificial Neural Networks (ANN), Gaussian Process Regression (GPR), and Random Forest models on the training data for predicting concrete properties. The objectives are to leverage the unique strengths of each model, with ANN capturing non-linear relationships and patterns, Random Forest providing interpretable results and feature selection, and GPR quantifying uncertainty and handling sparse data. By combining these models, the challenges in concrete property prediction, including non-linear relationships, variability, and limited data, can be effectively addressed.
 
 Additionally, this report addresses the longstanding controversy surrounding the efficacy and reliability of Machine Learning (ML) and Artificial Intelligence (AI) based models, often labeled as "black boxes" that merely identify patterns without providing meaningful insights. To alleviate concerns regarding overfitting and model interpretability, local explanation techniques, specifically Partial Dependence Plots (PDP) and Shapley Additive Explanations (SHAP), will be employed to decipher the relationships between individual input parameters and the model's output. This approach ensures model interpretability, validity, reliability, and identification of potential biases, ultimately demonstrating the efficacy of ML models in concrete property prediction.
 </p>
@@ -280,15 +280,15 @@ Artificial Neural Networks (ANNs) are complex computational models inspired by b
   <p><strong>Figure 6: Model architecture of ANN.</strong></p>
 </div>
 
-### 3.2. Decision Tree 
+### 3.2. Random Forest 
 
 <p align="justify">
-Decision Trees, a supervised machine learning approach, effectively predicts concrete's mechanical characteristics by modeling complex relationships between input data and output labels.  The tree-like structure of Decision Trees provides transparency into prediction outcomes. As a valuable alternative to traditional methods, Decision Trees are a helpful tool for forecasting concrete's mechanical properties, as illustrated in [Figure 7](fig:Fig.7).
+Random Forest combines multiple decision trees to boost accuracy and robustness. Leveraging bootstrap sampling and random feature selection, it effectively handles complex datasets, reduces overfitting, and excels in concrete property prediction, identifying key factors and capturing intricate relationships. Consequently, Random Forest is ideally suited for predicting concrete properties, identifying influential factors, enhancing accuracy, and capturing intricate variable interactions, as illustrated in [Figure 7](fig:Fig.7).
 </p>
 
 <div style="text-align: center;">
   <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture7.png?raw=true" id="fig:Fig.7" style="width: 75%;"/>
-  <p><strong>Figure 7: Working mechanism/flowchart of the Decision tree.</strong></p>
+  <p><strong>Figure 7: Working mechanism/flowchart of the Random Forest.</strong></p>
 </div>
 
 ### 3.3. Gaussian Process of Regression
