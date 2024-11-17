@@ -55,8 +55,8 @@
   <meta name="dc.date" content="2024-11-17" />
   <meta name="citation_publication_date" content="2024-11-17" />
   <meta property="article:published_time" content="2024-11-17" />
-  <meta name="dc.modified" content="2024-11-17T22:56:33+00:00" />
-  <meta property="article:modified_time" content="2024-11-17T22:56:33+00:00" />
+  <meta name="dc.modified" content="2024-11-17T23:33:33+00:00" />
+  <meta property="article:modified_time" content="2024-11-17T23:33:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -75,9 +75,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/fb126dde91a3ee886b2e03830d6a3873e96d20a2/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/fb126dde91a3ee886b2e03830d6a3873e96d20a2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/fb126dde91a3ee886b2e03830d6a3873e96d20a2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/85d2b126c44d203c8ab8ceca5cc0d49046c7d3b7/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/85d2b126c44d203c8ab8ceca5cc0d49046c7d3b7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/85d2b126c44d203c8ab8ceca5cc0d49046c7d3b7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -648,129 +648,70 @@ Before initiating machine learning model training, hyperparameter optimization i
 <strong>Table 5. Hyperparameter for the optimal performance of the selected ML models.</strong>
 </p>
 <table>
-<tr>
-<th>
-Methods
-</th>
-<th>
-Hyperparameters
-</th>
-<th>
-Range
-</th>
-<th>
-Optimum Value
-</th>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 18%" />
+<col style="width: 37%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Methods</th>
+<th style="text-align: center;">Hypermeter</th>
+<th style="text-align: center;">Range</th>
+<th style="text-align: center;">Optimum Value</th>
 </tr>
-<tr>
-<td rowspan="4" align="center">
-<b>Random Forest</b>
-</td>
-<td>
-<ul>
-<li>
-n_estimators
-</li>
-<li>
-max_depth
-</li>
-<li>
-min_samples_split
-</li>
-<li>
-min_samples_leaf
-</li>
-</ul>
-</td>
-<td>
-<ul>
-<li>
-100-500
-</li>
-<li>
-5-20
-</li>
-<li>
-2-10
-</li>
-<li>
-1-5
-</li>
-</ul>
-</td>
-<td>
-<ul>
-<li>
-200
-</li>
-<li>
-8
-</li>
-<li>
-5
-</li>
-<li>
-5
-</li>
-</ul>
-</td>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Random Forest <!-- $rowspan="4" --></td>
+<td style="text-align: center;">n_estimators</td>
+<td style="text-align: center;">100-500</td>
+<td style="text-align: center;">200</td>
 </tr>
-<tr>
-<td align="center">
-GPR
-</td>
-<td>
-<ul>
-<li>
-Kernel scale
-</li>
-<li>
-Sigma
-</li>
-</ul>
-</td>
-<td>
-<ul>
-<li>
-1-80
-</li>
-<li>
-1-15
-</li>
-</ul>
-</td>
-<td>
-<ul>
-<li>
-52
-</li>
-<li>
-11
-</li>
-</ul>
-</td>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">max_depth</td>
+<td style="text-align: center;">100-500</td>
+<td style="text-align: center;">200</td>
 </tr>
-<tr>
-<td align="center">
-ANN
-</td>
-<td>
-<ul>
-<li>
-Training algorithm: Bayesian Regularization
-</li>
-<li>
-Hidden Layer Size
-</li>
-</ul>
-</td>
-<td>
-1-40
-</td>
-<td>
-15
-</td>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">min_samples_sp</td>
+<td style="text-align: center;">100-500</td>
+<td style="text-align: center;">200</td>
 </tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">min_samples_lea</td>
+<td style="text-align: center;">100-500</td>
+<td style="text-align: center;">200</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">GPR</td>
+<td style="text-align: center;">Kernel scale</td>
+<td style="text-align: center;">1-80</td>
+<td style="text-align: center;">52</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">GPR</td>
+<td style="text-align: center;">Sigma</td>
+<td style="text-align: center;">1-80</td>
+<td style="text-align: center;">52</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ANN</td>
+<td style="text-align: center;">Training algorithm</td>
+<td style="text-align: center;">1-80</td>
+<td style="text-align: center;">52</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">ANN</td>
+<td style="text-align: center;">Hidden ayer size</td>
+<td style="text-align: center;">1-80</td>
+<td style="text-align: center;">52</td>
+</tr>
+</tbody>
 </table>
 <h3 id="results-and-discussions">4.1. Results and Discussions</h3>
 <p align="justify">
@@ -780,98 +721,28 @@ Several machine learning methods were trained for the task, and it turned out th
 <strong>Table 6. Statistical performance indicators of the selected ML models i.e., RF, GPR, and ANN were trained for predicting split tensile strength, compressive strength, and density respectively.</strong>
 </p>
 <table>
-<colgroup>
-<col style="width: 7%" />
-<col style="width: 17%" />
-<col style="width: 17%" />
-<col style="width: 15%" />
-<col style="width: 15%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-</colgroup>
 <thead>
 <tr class="header">
-<th>Metric</th>
-<th>Ensemble Learning (Random Forest) for prediction of Split tensile strength (Train)</th>
-<th>Ensemble Learning (Random Forest) for prediction of Split tensile strength (Test)</th>
-<th>Gaussian Process Regression for prediction of Compression Strength (Train)</th>
-<th>Gaussian Process Regression for prediction of Compression Strength (Test)</th>
-<th>Artificial Neural Network for prediction of Density (Train)</th>
-<th>Artificial Neural Network for prediction of Density (Test)</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"><strong>Colors</strong> <!-- $colspan="2" --></th>
+<th style="text-align: center;"></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>RMSE</td>
-<td>1.1961</td>
-<td>1.0654</td>
-<td>12.097</td>
-<td>12.409</td>
-<td>394.75</td>
-<td>295.34</td>
+<td style="text-align: center;"><strong>Size</strong></td>
+<td style="text-align: center;"><strong>Text Color</strong></td>
+<td style="text-align: center;"><strong>Background Color</strong></td>
 </tr>
 <tr class="even">
-<td>R-Squared</td>
-<td>0.92</td>
-<td>0.94</td>
-<td>0.91</td>
-<td>0.90</td>
-<td>0.86</td>
-<td>0.91</td>
+<td style="text-align: center;">big</td>
+<td style="text-align: center;">blue</td>
+<td style="text-align: center;">orange</td>
 </tr>
 <tr class="odd">
-<td>MSE</td>
-<td>1.4305</td>
-<td>1.1352</td>
-<td>146.33</td>
-<td>153.98</td>
-<td>1.56E+05</td>
-<td>87228</td>
-</tr>
-<tr class="even">
-<td>MAE</td>
-<td>0.85302</td>
-<td>0.80444</td>
-<td>8.7957</td>
-<td>8.8809</td>
-<td>249.23</td>
-<td>200.39</td>
-</tr>
-<tr class="odd">
-<td>MAPE</td>
-<td>7.50%</td>
-<td>6.80%</td>
-<td>8.00%</td>
-<td>8.90%</td>
-<td>11.70%</td>
-<td>9.20%</td>
-</tr>
-<tr class="even">
-<td>Prediction Speed</td>
-<td>~940 qbs/sec</td>
-<td>~940 qbs/sec</td>
-<td>~6000 qbs/sec</td>
-<td>~6000 qbs/sec</td>
-<td>~24000 qbs/sec</td>
-<td>~24000 qbs/sec</td>
-</tr>
-<tr class="odd">
-<td>Training Time</td>
-<td>178.54 sec</td>
-<td>178.54 sec</td>
-<td>468.49 sec</td>
-<td>468.49 sec</td>
-<td>449.05 sec</td>
-<td>449.05 sec</td>
-</tr>
-<tr class="even">
-<td>Model Size (Compact)</td>
-<td>~3 MB</td>
-<td>~3 MB</td>
-<td>~73 kB</td>
-<td>~73 kB</td>
-<td>~37 kB</td>
-<td>~37 kB</td>
+<td style="text-align: center;">small</td>
+<td style="text-align: center;">black</td>
+<td style="text-align: center;">white</td>
 </tr>
 </tbody>
 </table>
