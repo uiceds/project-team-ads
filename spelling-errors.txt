@@ -1,11 +1,12 @@
 ACI
 agg
 ANNs
+ayer
 Ayyan
 backpropagation
 Borukati
 CEE
-Compressive
+compressive
 dataset
 dataset’s
 datasets
@@ -16,7 +17,8 @@ feeded
 flyash
 GPR
 HRWR
-Hyperparameter
+Hypermeter
+hyperparameter
 hyperparameters
 interpretability
 interpretable
@@ -29,7 +31,6 @@ LWAs
 LWC
 LWC’s
 maiqbal
-MAPE
 MPa
 MSE
 NWC
@@ -37,7 +38,6 @@ overfitting
 PDP
 preprocessed
 preprocessing
-qbs
 RMSE
 Scopus
 SHAP
