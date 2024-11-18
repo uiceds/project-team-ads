@@ -7,7 +7,7 @@ backpropagation
 Borukati
 CEE
 Compressive
-Dataset
+dataset
 dataset’s
 datasets
 DeeVarma
