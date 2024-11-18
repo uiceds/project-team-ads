@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T03:12:36+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T03:12:36+00:00" />
+  <meta name="dc.modified" content="2024-11-18T03:33:35+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T03:33:35+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/3c70f8425a0b4251823a77949bfce3d77bc33a68/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/3c70f8425a0b4251823a77949bfce3d77bc33a68/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/3c70f8425a0b4251823a77949bfce3d77bc33a68/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/7284616f97328debc965222ec240a23a5b3eb7f9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7284616f97328debc965222ec240a23a5b3eb7f9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7284616f97328debc965222ec240a23a5b3eb7f9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -253,7 +253,7 @@ The correlation matrix of each input with a particular output has been shown sep
 </p>
 
 <div style="text-align: center;">
-  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture5.png?raw=true" id="fig:Fig.5" style="width: 100%;"/>
+  <img src="https://github.com/uiceds/project-team-ads/blob/main/content/images/Picture5.png?raw=true" id="fig:Fig.5" style="width: 75%;"/>
   <p><strong>Figure 5: Pearson correlation matrices of input parameters with each output parameter.</strong></p>
 </div>
 
@@ -351,10 +351,9 @@ Several machine learning methods were trained for the task, and it turned out th
   <p><strong>Figure 12: Predicted vs Actual compressive strength of LWAC using ANN.</strong></p>
 </div>
 
-<p align="center" id="Table 6"><strong>Table 6. Statistical performance indicators of the selected ML models i.e., RF, GPR, and ANN were trained for predicting split tensile strength, compressive strength, and density respectively.</strong></p>
+<p align="center" id="Table 6"><strong>Table 6. Statistical performance indicators of the selected ML models i.e., RF (a), GPR (b), and ANN (c) were trained for predicting split tensile strength, compressive strength, and density respectively.</strong></p>
 
-|                      | Ensemble Learning (Random Forest) for prediction of Split tensile strength  | Gaussian Process Regression for prediction of Compression Strength | Artificial Neural Network for prediction of Density |
-|                      | Train        | Test      | Train         | Test      | Train          | Test      |
+|                      | a. Train     | Test      | b. Train      | Test      | c.Train        | Test      |
 |:--------------------:|:------------:|:---------:|:-------------:|:---------:|:--------------:|:---------:|
 | RMSE	               | 1.1961       | 1.0654	  | 12.097	      | 12.409	  | 394.75         | 295.34    |
 | R-Squared            | 0.92         |	0.94	    | 0.91	        | 0.9	      | 0.86	         | 0.91      |
@@ -389,7 +388,7 @@ SHAP is a model-agnostic technique that explains individual predictions by assig
 </div>
 
 <p align="justify">
-PDPs visualize the relationship between input features and predicted outcomes, helping understand how changes in individual features affect model predictions. They divide the feature range into discrete intervals, calculate predictions, average across data points, and plot results. Hence the results of the PDPs were evaluated and compared with the established understandings of concrete science. In concrete science, we know that the input parameters for Lightweight Concrete (LWC) significantly impact its properties. Cement, normal-weight aggregate, and fly ash positively influence compressive and split tensile strength, while sand and LWA quantity negatively affect strength due to increased porosity [@doi:10.1016/S0008-8846(00)00226-X]. W/B ratio and curing time also impact strength development [@doi:10.1061/(ASCE)0899-1561(2004)16:3(257)]. LWA density and super-plasticizer improve strength and workability, whereas LWA water absorption decreases strength [@doi:10.1016/S1644-9665(12)60105-8]. Fly ash reduces density. Normal weight aggregate increases density and strength [@doi:10.1016/j.cemconres.2010.11.003]. All the PDPs showed similar trends which concrete scientists report throughout, and no anomalous behavior was seen which reassured the explainability of the models that the models have learned in the same way the concrete behaves. However, no concrete science was fed to the model except for the 10 input parameters. The PDPs of the three selected models can be seen in [Figure 16](fig:Fig.16), [Figure 17](fig:Fig.17) and [Figure 18](fig:Fig.18) below.
+PDPs visualize the relationship between input features and predicted outcomes, helping understand how changes in individual features affect model predictions. They divide the feature range into discrete intervals, calculate predictions, average across data points, and plot results. Hence the results of the PDPs were evaluated and compared with the established understandings of concrete science. In concrete science, we know that the input parameters for Lightweight Concrete (LWC) significantly impact its properties. Cement, normal-weight aggregate, and fly ash positively influence compressive and split tensile strength, while sand and LWA quantity negatively affect strength due to increased porosity [@Qasrawi2000]. W/B ratio and curing time also impact strength development [@Kim2004]. LWA density and super-plasticizer improve strength and workability, whereas LWA water absorption decreases strength [@KmieciK2011]. Fly ash reduces density. Normal weight aggregate increases density and strength [@doi:10.1016/j.cemconres.2010.11.003]. All the PDPs showed similar trends which concrete scientists report throughout, and no anomalous behavior was seen which reassured the explainability of the models that the models have learned in the same way the concrete behaves. However, no concrete science was fed to the model except for the 10 input parameters. The PDPs of the three selected models can be seen in [Figure 16](fig:Fig.16), [Figure 17](fig:Fig.17) and [Figure 18](fig:Fig.18) below.
 </p>
 
 <div style="text-align: center;">
