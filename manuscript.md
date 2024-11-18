@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T03:33:35+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T03:33:35+00:00" />
+  <meta name="dc.modified" content="2024-11-18T04:50:22+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T04:50:22+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/7284616f97328debc965222ec240a23a5b3eb7f9/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7284616f97328debc965222ec240a23a5b3eb7f9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/7284616f97328debc965222ec240a23a5b3eb7f9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/fd36103062650b0b1e7d7844527904f6f4a49aa7/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/fd36103062650b0b1e7d7844527904f6f4a49aa7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/fd36103062650b0b1e7d7844527904f6f4a49aa7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -406,7 +406,7 @@ PDPs visualize the relationship between input features and predicted outcomes, h
   <p><strong>Figure 18: Partial dependence plots of ANN for prediction of Density.</strong></p>
 </div>
 
-## 5. Conclusions
+## 5. Conclusions {.page_break_before}
 
 <p align="justify">
 Multiple machine learning models were trained to predict specific material properties. The Random Forest model demonstrated the highest accuracy for Split tensile strength, achieving a low RMSE of 1.0654 and a high R-Squared of 0.94. Gaussian Process Regression provided satisfactory results for Compression Strength, with an RMSE of 12.409 and an R-Squared of 0.9. The Artificial Neural Network struggled to predict Density, showing the highest RMSE of 295.34 and the lowest R-Squared of 0.91. While the Neural Network had the fastest prediction speed of ~24000 obs/sec, it also required the largest model size of ~37 kB. It is evident from the results of the explanation using explainable AI that W/B ratio, LWA density, and LWA quantity are the controlling parameters for the tensile and compression strength of lightweight concrete. On the other hand, density is solely controlled by lightweight aggregate weight and quantity since aggregate makes upto 70% of the concrete mass. The relationship between each input parameter to a specific output parameter also showed similar trends with the existing literature of concrete science. 
