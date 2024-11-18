@@ -18,7 +18,7 @@ flyash
 GPR
 HRWR
 Hypermeter
-hyperparameter
+Hyperparameter
 hyperparameters
 interpretability
 interpretable
