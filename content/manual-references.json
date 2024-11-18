@@ -59,7 +59,7 @@
     "id": "zach2009",
     "type": "conference-paper",
     "title": "Possibilities of determination of thermal conductivity of lightweight concrete with utilization of non stationary hot-wire method",
-    "authors": [
+    "author": [
       {
         "family": "Zach",
         "given": "J."
@@ -141,16 +141,106 @@
     "issn": "0008-8846",
     "doi": "10.1016/0008-8846(93)90050-J",
     "url": "https://www.sciencedirect.com/science/article/pii/000888469390050J"
-  }
+  },
   {
     "id": "22126388",
     "type": "inproceedings",
     "author": [
-      "Cândida Vilarinho",
-      "Fernando Castro"
+      {
+        "family": "Vilarinho",
+        "given": "Cândida"
+      },
+      {
+        "family": "Castro",
+        "given": "Fernando"
+      }
     ],
     "title": "Incorporation of Wastes in Lightweight Aggregate of Expanded Clay for Construction Applications",
     "year": 2009,
     "url": "https://api.semanticscholar.org/CorpusID:22126388"
+  },
+  {
+    "id": "Qasrawi2000",
+    "type": "article-journal",
+    "title": "Concrete strength by combined nondestructive methods simply and reliably predicted",
+    "author": [
+      {
+        "family": "Qasrawi",
+        "given": "Hisham Y."
+      }
+    ],
+    "container-title": "Cement and Concrete Research",
+    "volume": "30",
+    "issue": "5",
+    "page": "739-746",
+    "issued": {
+      "date-parts": [
+        [2000]
+      ]
+    },
+    "ISSN": "0008-8846",
+    "URL": "https://www.sciencedirect.com/science/article/pii/S000888460000226X",
+    "DOI": "10.1016/S0008-8846(00)00226-X"
+  },
+  {
+    "id": "Kim2004",
+    "type": "article-journal",
+    "title": "Application of Neural Networks for Estimation of Concrete Strength",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Jong-In"
+      },
+      {
+        "family": "Kim",
+        "given": "Doo Kie"
+      },
+      {
+        "family": "Feng",
+        "given": "Maria Q."
+      },
+      {
+        "family": "Yazdani",
+        "given": "Frank"
+      }
+    ],
+    "container-title": "Journal of Materials in Civil Engineering",
+    "volume": "16",
+    "issue": "3",
+    "page": "257-264",
+    "issued": {
+      "date-parts": [
+        [2004]
+      ]
+    },
+    "DOI": "10.1061/(ASCE)0899-1561(2004)16:3(257)",
+    "URL": "https://ascelibrary.org/doi/abs/10.1061/%28ASCE%290899-1561%282004%2916%3A3%28257%29"
+  },
+  {
+    "id": "KmieciK2011",
+    "type": "article-journal",
+    "title": "Modelling of reinforced concrete structures and composite structures with concrete strength degradation taken into consideration",
+    "author": [
+      {
+        "family": "KmieciK",
+        "given": "P."
+      },
+      {
+        "family": "Kamiński",
+        "given": "M."
+      }
+    ],
+    "container-title": "Archives of Civil and Mechanical Engineering",
+    "volume": "11",
+    "issue": "3",
+    "page": "623-636",
+    "issued": {
+      "date-parts": [
+        [2011]
+      ]
+    },
+    "ISSN": "1644-9665",
+    "URL": "https://www.sciencedirect.com/science/article/pii/S1644966512601058",
+    "DOI": "10.1016/S1644-9665(12)60105-8"
   }
 ]
