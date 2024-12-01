@@ -7,7 +7,7 @@ Ayyan
 backpropagation
 Borukati
 CEE
-Compressive
+compressive
 dataset
 dataset’s
 datasets
