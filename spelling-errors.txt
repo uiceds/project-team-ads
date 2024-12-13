@@ -7,8 +7,8 @@ Ayyan
 backpropagation
 Borukati
 CEE
-compressive
-Dataset
+Compressive
+dataset
 dataset’s
 datasets
 DeeVarma
@@ -20,7 +20,7 @@ flyash
 GPR
 HRWR
 Hypermeter
-hyperparameter
+Hyperparameter
 hyperparameters
 interpretability
 interpretable
