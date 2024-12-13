@@ -24,8 +24,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-13" />
   <meta name="citation_publication_date" content="2024-12-13" />
   <meta property="article:published_time" content="2024-12-13" />
-  <meta name="dc.modified" content="2024-12-13T05:01:56+00:00" />
-  <meta property="article:modified_time" content="2024-12-13T05:01:56+00:00" />
+  <meta name="dc.modified" content="2024-12-13T05:02:40+00:00" />
+  <meta property="article:modified_time" content="2024-12-13T05:02:40+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-ads/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-ads/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/a455504148d10c11a06bb01e8e5baf7e585bad7d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/a455504148d10c11a06bb01e8e5baf7e585bad7d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/a455504148d10c11a06bb01e8e5baf7e585bad7d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-ads/v/9591ac676085f223b13049df3bed710f0a328bf7/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-ads/v/9591ac676085f223b13049df3bed710f0a328bf7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-ads/v/9591ac676085f223b13049df3bed710f0a328bf7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
